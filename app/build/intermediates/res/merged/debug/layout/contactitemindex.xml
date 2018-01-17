@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_contact_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:id="@+id/indexitem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ebeef2"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/x40"
+        >
+
+        <TextView
+            android:id="@+id/indexTv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y40"
+            android:textColor="#aaabad"
+            android:textSize="@dimen/x28"/>
+
+    </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/item"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y124" >
+
+            <LinearLayout
+                android:id="@+id/llitem"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/y124"
+                android:background="@drawable/contact_item_selector"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/x30" >
+
+                <ImageView
+                    android:id="@+id/headimage"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/y80"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/x26"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/default_head_image"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/itemTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#323233"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:maxEms="10"
+                    android:textSize="@dimen/x30" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_new_friends_count"
+                android:layout_width="@dimen/x34"
+                android:layout_height="@dimen/y34"
+                android:background="@drawable/chat_unread_count"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/x40"
+                android:gravity="center"
+                android:text="99+"
+                android:textSize="@dimen/x20"
+                android:textColor="#ffffff"
+                android:visibility="visible"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact_item_line">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x120"
+                android:background="#e3e4e5" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

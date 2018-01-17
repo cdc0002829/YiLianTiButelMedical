@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/memeber_Layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:paddingBottom="@dimen/reLayout_padding_left"
+        android:paddingTop="@dimen/reLayout_padding_left" >
+
+        <cn.redcdn.hvs.im.view.SharePressableImageView
+            android:id="@+id/member_contact"
+            android:layout_width="@dimen/contact_photo_size"
+            android:layout_height="@dimen/contact_photo_size"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/reLayout_padding_left"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/groupmember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/icon_margin_txt"
+            android:layout_toRightOf="@id/member_contact"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="啦啦lalala"
+            android:textColor="@color/color_threads_black_1"
+            android:textSize="@dimen/threads_word_1" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/share_list_line_color" />
+
+</LinearLayout>

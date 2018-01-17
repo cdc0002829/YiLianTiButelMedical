@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_appraise_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="cn.redcdn.hvs.udtroom.view.activity.AppraiseDialog">
+
+    <RelativeLayout
+        android:layout_width="@dimen/x620"
+        android:layout_height="@dimen/y538"
+        android:layout_centerInParent="true"
+        android:background="@drawable/jmeetingsdk_custom_dialog_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginTop="@dimen/y30"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/appraise_service_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appraise_response_service"
+                android:textColor="@color/img_choose_text_disable_color"
+                android:textSize="@dimen/x30" />
+
+            <com.example.xlhratingbar_lib.XLHRatingBar xmlns:xlhRatingBar="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/appraise_ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y24"
+                xlhRatingBar:canEdit="true"
+                xlhRatingBar:countSelected="0"
+                xlhRatingBar:differentSize="false"
+                xlhRatingBar:dividerWidth="@dimen/x10"
+                xlhRatingBar:starCount="5"
+                xlhRatingBar:stateResId="@drawable/appraise_dialog_star_select"
+                xlhRatingBar:widthAndHeight="@dimen/x42"></com.example.xlhratingbar_lib.XLHRatingBar>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y1"
+            android:layout_marginTop="@dimen/y150"
+            android:background="@color/color_butel_selfinfo_darkline_color" />
+
+
+        <EditText
+            android:id="@+id/evaluation_details_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginBottom="@dimen/y101"
+            android:layout_marginTop="@dimen/y175"
+            android:background="@null"
+            android:gravity="top|left"
+            android:hint="@string/evaluation_details"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textColorHint="@color/text_color_num"
+            android:textColor="@color/color_setting_text"
+            android:lineSpacingExtra="@dimen/x5"
+            android:textSize="@dimen/x30" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/y100"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/color_butel_selfinfo_darkline_color" />
+
+        <LinearLayout
+            android:id="@+id/button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y100"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:padding="0dp">
+
+            <Button
+                android:id="@+id/appraise_dialog_left_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/jmeetingsdk_custom_dialog_left_btn_selector"
+                android:gravity="center"
+                android:text="@string/wait_appraise"
+                android:textColor="#656a72"
+                android:textSize="@dimen/x36" />
+
+            <ImageView
+                android:id="@+id/custom_dialog_v_line"
+                android:layout_width="@dimen/x1"
+                android:layout_height="match_parent"
+                android:background="#d9d9d9" />
+
+            <Button
+                android:id="@+id/appraise_dialog_right_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/jmeetingsdk_custom_dialog_right_btn_selector"
+                android:gravity="center"
+                android:text="@string/submit_comments"
+                android:textColor="#4cb4ce"
+                android:textSize="@dimen/x36" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

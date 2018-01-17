@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/recorded_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/recorded_video_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:layout_alignParentTop="true"
+        android:background="#000000">
+
+        <TextView
+            android:id="@+id/xsp_cancel_recorded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="44px"
+            android:background="@null"
+            android:text="@string/btn_cancle"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x28" />
+
+        <TextView
+            android:id="@+id/xsp_title_middle_text_recorded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/recording_video_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x28" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/video_icon"
+        android:layout_width="@dimen/x71"
+        android:layout_height="@dimen/x71"
+        android:layout_centerInParent="true"
+        android:background="@drawable/notice_video_btn_selector"
+        android:scaleType="fitCenter" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y248"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/color_black" />
+
+    <TextView
+        android:id="@+id/re_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/re_record"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x28" />
+
+    <TextView
+        android:id="@+id/send_recorded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/btn_send"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x28" />
+    <!--
+        <Button
+            android:id="@+id/re_record"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_video_begin_record_seletor"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/size_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/re_record"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/gray_sharp_bg"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            />
+    -->
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout style="@style/layout_head">-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_back"-->
+    <!--style="@style/back_btn" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvtitle"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:ellipsize="end"-->
+    <!--android:maxLines="2"-->
+    <!--android:singleLine="true"-->
+    <!--android:text="编辑"-->
+    <!--android:textColor="@color/color_setting_text"-->
+    <!--android:textSize="@dimen/x39" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/finish"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_marginRight="@dimen/x28"-->
+    <!--android:textSize="@dimen/x30"-->
+    <!--android:textColor="#3aabcb"-->
+    <!--android:text="完成" />-->
+    <!--</RelativeLayout>-->
+    <include
+        android:id="@+id/title"
+        layout="@layout/titlebar" />
+
+    <ImageView
+        android:id="@+id/src_pic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:scaleType="centerInside" />
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom|right"
+    android:background="@android:color/transparent">
+
+    <Button
+        android:id="@+id/chat_btn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="26dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/chat_btn_selector" />
+
+    <!-- 存放圆点 -->
+    <LinearLayout
+        android:id="@+id/ll_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="25dp"
+        android:background="#00000000"
+        android:orientation="vertical"></LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_barrage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="73dp"
+        android:background="#00ffffff">
+
+        <master.flame.danmaku.ui.widget.DanmakuSurfaceView
+            android:id="@+id/sv_danmaku"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/main_view_btn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="26dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/meeting_room_mian_button_selector"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+
+    <RelativeLayout
+        android:id="@+id/ll_net_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/iv_net_status_text"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/iv_net_status"
+            android:background="#00000000"
+            android:text=""
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/iv_net_status"
+            android:layout_width="20dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/signal_good_icon" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/x10">
+
+    <RelativeLayout
+        android:id="@+id/item_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y430"
+        android:background="@drawable/shape_border_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/collection_operator"
+                layout="@layout/collection_operator_layout"></include>
+
+            <RelativeLayout
+                android:id="@+id/collection_single_image_rl"
+                android:layout_width="@dimen/x460"
+                android:layout_height="@dimen/y276"
+                android:layout_marginBottom="@dimen/x30"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginTop="@dimen/y30">
+
+                <ImageView
+                    android:id="@+id/collection_single_imageview"
+                    android:layout_width="@dimen/x460"
+                    android:layout_height="@dimen/y276"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hillbackground" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

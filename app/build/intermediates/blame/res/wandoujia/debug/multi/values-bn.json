@@ -1,0 +1,387 @@
+[
+    {
+        "outputFile": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\incremental\\mergeWandoujiaDebugResources\\merged.dir\\values-bn\\values-bn.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 45,
+                        "endOffset": 96
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 64,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 64,
+                        "endOffset": 161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 166,
+                    "endColumn": 243,
+                    "endOffset": 405
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 166,
+                        "endColumn": 243,
+                        "endOffset": 405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 410,
+                    "endColumn": 51,
+                    "endOffset": 457
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 410,
+                        "endColumn": 51,
+                        "endOffset": 457
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 462,
+                    "endColumn": 82,
+                    "endOffset": 540
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 462,
+                        "endColumn": 82,
+                        "endOffset": 540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 545,
+                    "endColumn": 100,
+                    "endOffset": 641
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 545,
+                        "endColumn": 100,
+                        "endOffset": 641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 646,
+                    "endColumn": 71,
+                    "endOffset": 713
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 646,
+                        "endColumn": 71,
+                        "endOffset": 713
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 718,
+                    "endColumn": 49,
+                    "endOffset": 763
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 718,
+                        "endColumn": 49,
+                        "endOffset": 763
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 768,
+                    "endColumn": 100,
+                    "endOffset": 864
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 768,
+                        "endColumn": 100,
+                        "endOffset": 864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 869,
+                    "endColumn": 108,
+                    "endOffset": 973
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 869,
+                        "endColumn": 108,
+                        "endOffset": 973
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 978,
+                    "endColumn": 87,
+                    "endOffset": 1061
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 978,
+                        "endColumn": 87,
+                        "endOffset": 1061
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1066,
+                    "endColumn": 96,
+                    "endOffset": 1158
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1066,
+                        "endColumn": 96,
+                        "endOffset": 1158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1163,
+                    "endColumn": 67,
+                    "endOffset": 1226
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1163,
+                        "endColumn": 67,
+                        "endOffset": 1226
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1231,
+                    "endColumn": 53,
+                    "endOffset": 1280
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1231,
+                        "endColumn": 53,
+                        "endOffset": 1280
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1285,
+                    "endColumn": 136,
+                    "endOffset": 1417
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1285,
+                        "endColumn": 136,
+                        "endOffset": 1417
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1422,
+                    "endColumn": 58,
+                    "endOffset": 1476
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1422,
+                        "endColumn": 58,
+                        "endOffset": 1476
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1481,
+                    "endColumn": 51,
+                    "endOffset": 1528
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1481,
+                        "endColumn": 51,
+                        "endOffset": 1528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1533,
+                    "endColumn": 149,
+                    "endOffset": 1678
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1533,
+                        "endColumn": 149,
+                        "endOffset": 1678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1683,
+                    "endColumn": 121,
+                    "endOffset": 1800
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1683,
+                        "endColumn": 121,
+                        "endOffset": 1800
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1805,
+                    "endColumn": 68,
+                    "endOffset": 1869
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.huawei.android.hms\\base\\2.5.2.300\\res\\values-bn\\values-bn.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1805,
+                        "endColumn": 68,
+                        "endOffset": 1869
+                    }
+                }
+            }
+        ]
+    }
+]

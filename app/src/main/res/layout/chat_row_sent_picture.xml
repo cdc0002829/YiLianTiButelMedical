@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/chat_text_date_style"
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y40"
+        android:layout_marginBottom="@dimen/y18"
+        android:layout_marginTop="@dimen/x6"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/x7"
+        android:paddingBottom="@dimen/chat_item_padding_bottom"
+        android:paddingLeft="@dimen/x10"
+        android:paddingRight="@dimen/chat_padding_left_right"
+        android:paddingTop="@dimen/chat_item_padding_top">
+
+        <RelativeLayout
+            android:id="@+id/select_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/chat_contact_icon_size"
+            android:layout_alignParentLeft="true">
+
+            <CheckBox
+                android:id="@+id/linkman_select"
+                android:layout_width="@dimen/select_linkman_checkbox_size"
+                android:layout_height="@dimen/select_linkman_checkbox_size"
+                android:layout_marginLeft="@dimen/chat_padding_left_right"
+                android:layout_centerVertical="true"
+                android:background="@drawable/checkbox_selected"
+                android:button="@null"
+                android:clickable="true"
+                android:visibility="visible"/>
+        </RelativeLayout>
+
+        <cn.redcdn.hvs.im.view.SharePressableImageView
+            android:id="@+id/contact_icon_notice"
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/x80"
+            android:layout_marginRight="@dimen/x8"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="centerCrop"/>
+
+        <FrameLayout
+            android:id="@+id/img_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/main_chat_bg"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_alignTop="@+id/contact_icon_notice"
+            android:layout_toLeftOf="@+id/contact_icon_notice">
+
+            <ImageView
+                android:id="@+id/img_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:contentDescription="@null"/>
+
+            <ImageView
+                android:id="@+id/img_iv_mask"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/img_bg_shadow"
+                android:contentDescription="@null"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/progress_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/progress_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"/>
+
+                <ProgressBar
+                    style="@style/chat_shaing_progressbar"
+                    android:id="@+id/loading_pb"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_frame_iv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/chat_img_right_bg"
+                android:contentDescription="@null"/>
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/retry_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/chat_item_margin_status"
+            android:padding="@dimen/chat_retry_padding"
+            android:layout_toLeftOf="@id/img_frame"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/chat_retry_btn_selector"/>
+    </RelativeLayout>
+
+</LinearLayout>

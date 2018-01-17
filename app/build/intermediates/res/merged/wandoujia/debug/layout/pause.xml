@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	    <ImageView
+            android:id="@+id/pause_logo"
+			android:layout_width="@dimen/x102"
+			android:layout_height="@dimen/x102"
+			android:layout_gravity="center"
+			android:layout_centerHorizontal="true"
+			android:layout_centerInParent="true"
+			android:src="@drawable/video_play"
+			android:contentDescription="@string/imageDesc">
+		</ImageView>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:textSize="@dimen/x26"
+			android:textColor="#5a5e64"
+			android:text="@string/videodelate"
+			android:visibility="gone"
+			android:id="@+id/tv_videoDelate"
+			android:layout_centerHorizontal="true"
+			android:layout_centerInParent="true"/>
+	    <ImageView
+            android:id="@+id/replay_logo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_centerHorizontal="true"
+			android:layout_centerInParent="true"
+			android:src="@drawable/replay_btn_selector"
+			android:contentDescription="@string/imageDesc"
+			android:visibility="gone">
+		</ImageView>
+		
+</RelativeLayout>

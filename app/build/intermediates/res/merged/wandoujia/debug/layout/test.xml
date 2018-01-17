@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#000000" 
+    android:id="@+id/rt_test">
+    
+   <SurfaceView
+        android:id="@+id/remote_surfaceview_test"
+        android:layout_width="480px"
+        android:layout_height="640px"
+        android:keepScreenOn="true"
+        android:visibility="invisible"
+        android:layout_centerInParent="true" />
+     <SurfaceView
+        android:id="@+id/local_surfaceview_test"
+        android:layout_width="250px"
+        android:layout_height="188px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:keepScreenOn="true"
+        android:visibility="invisible"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp" />   
+    <Button 
+        android:id="@+id/btn_init_test"
+        android:layout_width="wrap_content"
+        android:text="init"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    <Button 
+        android:id="@+id/btn_login_test"
+        android:layout_width="wrap_content"
+        android:text="login"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/btn_init_test"/>
+     <Button 
+        android:id="@+id/btn_makecall_test"
+        android:layout_width="wrap_content"
+        android:text="makecall"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/btn_login_test"/>
+    
+</RelativeLayout>

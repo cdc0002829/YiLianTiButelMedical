@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/y96"
+    android:paddingTop="@dimen/y20"
+    android:paddingBottom="@dimen/y20"
+    android:background="@drawable/contact_item_selector"
+    android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/x28"
+            android:text="@string/hospital"
+            android:textColor="#000000"
+            android:textSize="@dimen/x32" />
+
+
+
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x100"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_marginRight="@dimen/x30"
+            android:id="@+id/TV_hospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:hint="@string/choose_hospital"
+            android:background="@null"
+            android:focusable="true"
+            android:textColor="#666666"
+            android:textSize="@dimen/x28" />
+
+        <Button
+            android:id="@+id/btn_tohospital"
+            android:layout_width="@dimen/x26"
+            android:layout_height="@dimen/y26"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/x20"
+            android:background="@drawable/hospital_next" />
+    </RelativeLayout>
+
+</LinearLayout>

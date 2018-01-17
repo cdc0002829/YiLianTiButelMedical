@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_page_backgroud_color"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/titlebar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/name_pic_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginTop="@dimen/y30"
+                android:orientation="horizontal">
+
+                <cn.redcdn.hvs.im.view.RoundImageView
+                    android:id="@+id/collection_text_icon"
+                    android:layout_width="@dimen/x82"
+                    android:layout_height="@dimen/y82"
+                    android:layout_marginRight="@dimen/x20"
+                    android:background="@drawable/head"
+                    android:focusable="false"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/collection_text_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/collection_text_icon"
+                    android:text="@string/creater"
+                    android:textColor="#222625"
+                    android:textSize="@dimen/x32" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="@dimen/x660"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y30">
+
+                <TextView
+                    android:id="@+id/collection_text_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:text="@string/collectoin_time"
+                    android:textColor="@color/jmeetingsdk_qn_dialog_bottom_bg_press_color"
+                    android:textSize="@dimen/x24" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y1"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/collection_text_time"
+                    android:background="@color/color_butel_selfinfo_darkline_color" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y1"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/collection_text_time"
+                    android:background="@color/color_butel_selfinfo_darkline_color" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/collection_txt_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginRight="@dimen/x30"
+                android:layout_marginTop="@dimen/y30"
+                android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:background="@drawable/shape_border_white_bg"
+                        android:id="@+id/timeLayout"
+                        android:layout_width="@dimen/x660"
+                        android:layout_height="@dimen/y106"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/x106"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="left">
+
+                            <CheckBox
+                                android:layout_marginTop="@dimen/y3"
+                                android:layout_marginLeft="@dimen/x23"
+                                android:id="@+id/playPauseCb"
+                                android:layout_width="@dimen/x60"
+                                android:layout_height="@dimen/y65"
+                                android:background="@drawable/play_pause_selector"
+                                android:button="@null"
+                                android:checked="false" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="@dimen/x1"
+                            android:layout_height="match_parent"
+                            android:background="#dee0e8"></View>
+
+                        <TextView
+                            android:id="@+id/pastTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="@dimen/x20"
+                            android:text="00:00"
+                            android:textColor="@color/text_color_name"
+                            android:textSize="@dimen/x24" />
+
+
+                        <SeekBar
+                            android:progressDrawable="@drawable/po_seekbar"
+                            android:thumb="@color/transparent"
+                            android:id="@+id/seekBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:max="100"
+                            android:maxHeight="@dimen/y8"
+                            android:padding="0dp"
+                            android:progress="0"
+                            android:thumbOffset="@dimen/x20" />
+
+                    </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

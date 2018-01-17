@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/udt_current_problem_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y44"
+            android:background="@color/contact_catalog_txt_bg_color">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="目前待解决问题"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/current_problems"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y210"
+            android:text="目前有好多问题，一言难尽"/>
+
+    </LinearLayout>
+</LinearLayout>

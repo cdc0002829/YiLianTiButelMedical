@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LogFileUpdateConfig xsi:noNamespaceSchemaLocation="Untitled2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<HardwareID>N8</HardwareID>
+	<UpdateTime Hour="0" Minute="0" UpdateIntervalHour="12"/>
+	<ServerAddr IP ="210.51.12.46" PORT= "10010"/>
+</LogFileUpdateConfig>

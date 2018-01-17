@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black" >
+
+    <ImageView
+        android:id="@+id/recorded_video"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter" />
+
+    <ImageView
+        android:id="@+id/video_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/notice_video_btn_selector"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter" />
+
+    <include
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@id/recorded_video"
+        layout="@layout/titlebar" />
+
+    <Button
+        android:id="@+id/re_record"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_video_begin_record_seletor"/>
+
+    <TextView
+        android:id="@+id/size_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/re_record"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/gray_sharp_bg"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

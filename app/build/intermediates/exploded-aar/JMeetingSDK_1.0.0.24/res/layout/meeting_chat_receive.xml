@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x34">
+
+        <cn.redcdn.util.RoundImageView
+            android:layout_marginTop="@dimen/x10"
+            android:id="@+id/receive_imag"
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/x80"
+            android:layout_marginLeft="@dimen/x10" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_toRightOf="@id/receive_imag"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/account_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#525252"
+                android:textSize="@dimen/x32" />
+
+            <LinearLayout
+                android:layout_width="@dimen/y792"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x10"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/y700"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/ll"
+                        android:layout_width="@dimen/y600"
+                        android:layout_height="wrap_content">
+
+                        <cn.redcdn.util.smileUtil.EmojiconTextView
+                            android:id="@+id/receive_message"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ece6e6"
+                            android:textSize="@dimen/x28" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/msg_noSend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/x10"
+                        android:layout_toRightOf="@id/ll"
+                        android:src="@drawable/chat_retry_pressed"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/receive_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/x34"
+            android:text=""
+            android:textColor="#666666"
+            android:textSize="@dimen/x22" />
+    </RelativeLayout>
+</LinearLayout>

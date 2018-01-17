@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:clickable="true"
+    android:clipChildren="false" >
+
+    <RelativeLayout
+        android:id="@+id/recording_layout"
+        android:layout_width="240dp"
+        android:layout_height="203dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/jmeetingsdk_episode_dialog_bg"
+        android:clipChildren="false"
+        android:padding="0dp" >
+
+        <TextView
+            android:id="@+id/recording_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:clipChildren="false"
+            android:gravity="center"
+            android:text="@string/isCutin"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <FrameLayout
+            android:id="@+id/recording_img_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recording_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/jmeetingsdk_episode_mic_btn_bg"
+                android:clipChildren="false"
+                android:gravity="center" />
+
+            <ImageView
+                android:id="@+id/recording_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/jmeetingsdk_episode_record_btn_animation"
+                android:clipChildren="false"
+                android:gravity="center" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/close_layout"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:gravity="right" >
+
+            <ImageView
+                android:id="@+id/recording_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9dp"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/jmeetingsdk_episode_view_close_btn_selector"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="0dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

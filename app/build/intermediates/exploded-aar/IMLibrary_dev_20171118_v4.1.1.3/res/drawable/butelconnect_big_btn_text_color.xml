@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 按下 -->
+    <item android:state_enabled="true" android:state_pressed="true" android:color="@drawable/contact_btn_text_white"></item>
+    <!-- 默认 -->
+    <item android:state_enabled="true" android:state_pressed="false" android:color="@drawable/contact_btn_text_red"></item>
+    <!-- 禁用 -->
+    <item android:state_enabled="false" android:color="@drawable/contact_btn_text_gray"></item>
+
+</selector>

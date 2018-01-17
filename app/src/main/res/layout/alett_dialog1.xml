@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f9fb"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="#e3e4e5" />
+
+
+    <TextView
+        android:id="@+id/delete_zhuanfa_tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y200"
+        android:layout_margin="@dimen/x4"
+        android:gravity="center"
+        android:textColor="#737373"
+        android:textSize="@dimen/x32" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="#d9d9d9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100">
+
+        <TextView
+            android:id="@+id/cancle_zhuanfa_tv"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="@dimen/y100"
+
+            android:background="@drawable/custom_dialog1_selector"
+            android:gravity="center"
+            android:textColor="#656a72"
+            android:textSize="@dimen/x36" />
+
+        <View
+            android:layout_width="@dimen/x1"
+            android:layout_height="match_parent"
+            android:background="#d9d9d9" />
+
+        <TextView
+            android:id="@+id/cancle_cancel_tv"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="@dimen/y100"
+            android:background="@drawable/custom_dialog1_selector"
+            android:gravity="center"
+            android:textColor="#4cb4ce"
+            android:textSize="@dimen/x36" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="170dp"
+    android:orientation="horizontal" >
+
+    <ScrollView
+        android:id="@+id/scrollview01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical" >
+
+        <TextView
+            android:id="@+id/textview01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:textColor="#000000"
+            android:background="#e0e0e0" />
+        
+    </ScrollView>
+    
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:orientation="horizontal" >
+
+        <ScrollView
+            android:id="@+id/scrollview02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="输入账号"
+                        android:inputType="number" />
+
+                    <EditText
+                        android:id="@+id/editpsw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="输入密码"
+                        android:inputType="number" />
+
+                    <Button
+                        android:id="@+id/Buttonauth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="鉴权认证" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/Button01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="初始化" />
+
+                    <Button
+                        android:id="@+id/Button02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="重载初始化" />
+
+                    <Button
+                        android:id="@+id/Button04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="资源释放接口" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/Button05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="更新token接口" />
+
+                    <EditText
+                        android:id="@+id/editname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="输入用户昵称" />
+
+                    <Button
+                        android:id="@+id/Button06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="设置当前用户" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/Button07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="创建会议接口" />
+
+                    <Button
+                        android:id="@+id/Button08"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="创建会议取消接口" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editText1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="输入会议号"
+                        android:inputType="number" />
+
+                    <Button
+                        android:id="@+id/Button10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="加入会议" />
+
+                    <Button
+                        android:id="@+id/Button20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="取消加入会议" />
+
+                    <Button
+                        android:id="@+id/Button12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="退出会议" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/Button14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="获取会议列表" />
+
+                    <Button
+                        android:id="@+id/Button16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="获取会议列表取消接口" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/Button17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="外呼邀请" />
+
+                    <Button
+                        android:id="@+id/Button18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="延迟10S调用外呼邀请" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editTextMeetingId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="输入会议号"
+                        android:inputType="number" />
+
+                    <Button
+                        android:id="@+id/ButtonMeetingInvite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="会议邀请" />
+
+                    <Button
+                        android:id="@+id/ButtonShareString"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="获取分享内容" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

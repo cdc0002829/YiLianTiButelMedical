@@ -1,0 +1,1606 @@
+[
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_border.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_border.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_bg_for_meeting_room.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\custom_dialog_bg_for_meeting_room.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\group_meeting_delete.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\group_meeting_delete.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\above_shadow.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\above_shadow.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\udt_transfer_treatmeat_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\udt_transfer_treatmeat_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\checkbox_style.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\checkbox_style.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\close_video.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\close_video.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_mian_button_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_mian_button_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\rectangle_btn_shape_pressed.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\rectangle_btn_shape_pressed.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\m_left_keybord_btn.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\m_left_keybord_btn.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\dial_item_layout_bg_press.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\dial_item_layout_bg_press.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_more_view_top_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_more_view_top_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_button_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_button_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\color_radiobutton.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\color_radiobutton.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\public_cancle_btn_color.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\public_cancle_btn_color.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\reserve_treatment_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\reserve_treatment_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_change_mode_camera_open_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_change_mode_camera_open_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_text_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\custom_text_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_invite_left_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_invite_left_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\btn_back_selected.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\btn_back_selected.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\response_dt_item_round_blue.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\response_dt_item_round_blue.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\u749.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\u749.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_meeting_left_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_meeting_left_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_title_change_camera_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_title_change_camera_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\edit_backgroud.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\edit_backgroud.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_vcard_right_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_vcard_right_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\dingyue_shape.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\dingyue_shape.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\no_banner.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.youth.banner\\banner\\1.4.10\\res\\drawable\\no_banner.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_invite_person_btn_drawable_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_invite_person_btn_drawable_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_custom_dialog_bottom_bg_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\jmeetingsdk_custom_dialog_bottom_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_right_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\custom_dialog_right_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\reserve_dialog_item_text_color_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\reserve_dialog_item_text_color_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_episode_view_close_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_episode_view_close_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_left_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\custom_dialog_left_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\share_live_to_friend_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\share_live_to_friend_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\select_small_vedio_btn1.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\select_small_vedio_btn1.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\cnofig_add_group_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\cnofig_add_group_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\evaluation_order_star.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.xingliuhua\\xlhratingbar_lib\\1.0.1\\res\\drawable\\evaluation_order_star.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_change_mode_mic_open_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_change_mode_mic_open_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_change_mode_mic_close_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_change_mode_mic_close_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\group_delete_tag.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\group_delete_tag.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\message_button.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\message_button.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\notification_bg_low.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_left_btn_f_for_meeting_room.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\custom_dialog_left_btn_f_for_meeting_room.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\dingyue_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\dingyue_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\btn_blue.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\btn_blue.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\dingyue_titleback.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\dingyue_titleback.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\guide_login_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\guide_login_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog1_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\custom_dialog1_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\dialog_left_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\dialog_left_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_invite_right_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_invite_right_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\aa.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\aa.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\dingyue_head.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\dingyue_head.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_btn_left_bottom_radios.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_btn_left_bottom_radios.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_title_more_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_title_more_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\new_custom_dialog_right_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\new_custom_dialog_right_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\publicno_list_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\publicno_list_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\cirle_dot_gray5.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\cirle_dot_gray5.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_text_right_bg_new.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_text_right_bg_new.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\btn_right_bottom_radios.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\btn_right_bottom_radios.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\collection_audio_item_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\collection_audio_item_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\startmeetingbtn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\startmeetingbtn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_input_corners.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_input_corners.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\pingpp_back.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\pingpp-core-2.1.14\\res\\drawable\\pingpp_back.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meet_dele_btn_seletor.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\meet_dele_btn_seletor.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\rectangle_btn_shape_normal.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\rectangle_btn_shape_normal.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\pause_v.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\pause_v.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\design_password_eye.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_custom_tab_text_color.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_custom_tab_text_color.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_more_collection_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_more_collection_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_more_view_exit_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_more_view_exit_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\processbar_color.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\processbar_color.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_set_speak_drawable_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_set_speak_drawable_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_vector_test.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\record_btn_playing.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\record_btn_playing.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\share_live_to_copy_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\share_live_to_copy_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\arl_red_dot.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\arl_red_dot.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\seekbar_dot_item_p.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\seekbar_dot_item_p.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_pull_to_refresh_loading_rotate.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_pull_to_refresh_loading_rotate.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_splash_loading_bg.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_splash_loading_bg.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\guide_register_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\guide_register_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\dialog_right_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\dialog_right_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_ask_for_speak_empty_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_ask_for_speak_empty_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\vedio_camera_select.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\vedio_camera_select.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\circle.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\circle.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_bg.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\custom_dialog_bg.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_change_mode_moive_video_close_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_change_mode_moive_video_close_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meetinglist_refresh_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\meetinglist_refresh_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\send_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\send_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_text_left_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_text_left_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_send_file_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_send_file_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\home_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\home_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\progress_bar.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\progress_bar.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\share_live_to_weixin_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\share_live_to_weixin_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\defaultheadimage.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\defaultheadimage.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\emoji_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\emoji_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_ask_for_speak_btn_drawable_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_ask_for_speak_btn_drawable_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\welcome_1.jpg",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\welcome_1.jpg"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\recommendbtn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\recommendbtn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\back_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\back_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_more_forward_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_more_forward_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\contactrecommend_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\contactrecommend_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\response_dt_item_round_yellow.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\response_dt_item_round_yellow.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\main_button_view_dot_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\main_button_view_dot_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\shape_gray_square_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\shape_gray_square_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_ask_for_stop_speak_btn_drawable_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_ask_for_stop_speak_btn_drawable_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_bottom_menu_window_shape.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_bottom_menu_window_shape.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\poster_play_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\poster_play_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\btn_video_end_record_seletor.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\btn_video_end_record_seletor.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_minimum_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_minimum_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\response_dt_item_round_gray.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\response_dt_item_round_gray.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\select_notice_vedio_call.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\select_notice_vedio_call.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\m_record_left_btn.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\m_record_left_btn.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\play_video_bt.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\play_video_bt.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\notice_vcard_progressbar.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\notice_vcard_progressbar.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\guide_round.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\guide_round.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_media_view_account_name_bg.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_media_view_account_name_bg.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_change_mode_audio_speaker_open_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_change_mode_audio_speaker_open_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\notice_video_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\notice_video_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\select_vcard_btn2.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\select_vcard_btn2.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_more_view_top_btn_bg_f.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_more_view_top_btn_bg_f.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_invite_person_view_invite_person_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_invite_person_view_invite_person_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\white_radius.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.youth.banner\\banner\\1.4.10\\res\\drawable\\white_radius.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\pop_close_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\pop_close_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_vcard_left_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_vcard_left_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\black_background.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.youth.banner\\banner\\1.4.10\\res\\drawable\\black_background.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\nocontactrecommend_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\nocontactrecommend_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_contact_btn_text_color.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_contact_btn_text_color.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_more_view_lock_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_more_view_lock_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\videoplay_btn.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\videoplay_btn.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_choose_speak_view_speak_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_choose_speak_view_speak_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\gray_radius.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.youth.banner\\banner\\1.4.10\\res\\drawable\\gray_radius.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_btn_mingpian.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_btn_mingpian.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_custom_dialog_right_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\jmeetingsdk_custom_dialog_right_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\gray_sharp_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\gray_sharp_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_ask_for_stop_speak_view_speak_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_ask_for_stop_speak_view_speak_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\contactcardpress_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\contactcardpress_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\multi_send_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\multi_send_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\seekbar_dot_item_n.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\seekbar_dot_item_n.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\emoji_item_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\emoji_item_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\end_circle.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\end_circle.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_episode_button_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_episode_button_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\liveroom_normalscreen_bt_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\liveroom_normalscreen_bt_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\image_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\image_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_more_view_meeting_info_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_more_view_meeting_info_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\bottom.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\bottom.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_dialog_bg.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_dialog_bg.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_btn_login_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_btn_login_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\me_modify_userico_dialog_btn.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\me_modify_userico_dialog_btn.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_text_right_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_text_right_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\po_seekbar.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\po_seekbar.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\pop_dialog_item_select.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\pop_dialog_item_select.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\contact_item_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\contact_item_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\select_collection_item.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\select_collection_item.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\response_dt_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\response_dt_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_more_view_center_btn_bg_f.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_more_view_center_btn_bg_f.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_more_view_bottom_btn_bg_n.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_more_view_bottom_btn_bg_n.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\button_read.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\button_read.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_more_btn.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_more_btn.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\contactcarddelpress_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\contactcarddelpress_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_custom_dialog_right_btn_n.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_custom_dialog_right_btn_n.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\audio_right_playing.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\audio_right_playing.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\button_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\button_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_center_btn_selector_for_meeting_room.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\custom_dialog_center_btn_selector_for_meeting_room.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_contact_list_item_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_contact_list_item_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\shape_circle_textview.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\shape_circle_textview.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\close_dialog_img.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\close_dialog_img.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\btn_blue_press.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\btn_blue_press.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_x1_monitor_qw_textcolor.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_x1_monitor_qw_textcolor.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\select_pic_btn0.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\select_pic_btn0.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\grid_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\grid_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_custom_dialog_center_btn_f.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_custom_dialog_center_btn_f.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\temp_pop_dialog_icon.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\temp_pop_dialog_icon.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_custom_dialog_left_btn_n.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_custom_dialog_left_btn_n.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_switch_track_green.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_switch_track_green.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_toast_bg.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_toast_bg.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_invite_person_view_weixing_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_invite_person_view_weixing_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\m_chat_send_button_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\m_chat_send_button_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\evaluation_order_star_press.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.xingliuhua\\xlhratingbar_lib\\1.0.1\\res\\drawable\\evaluation_order_star_press.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\bg_item_shape_top.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\bg_item_shape_top.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_background_fenced.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_background_fenced.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meetingadd_cancel_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\meetingadd_cancel_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_vedio_camera_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_vedio_camera_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_switch_audio_bg_seletor.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_switch_audio_bg_seletor.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\item_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\item_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_more_view_bottom_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_more_view_bottom_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_menu_live_titile_cancle.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_menu_live_titile_cancle.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_video.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_video.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\contact_namecard_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\contact_namecard_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\design_fab_background.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\position_dialog_win_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\position_dialog_win_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_right_btn_n_for_meeting_room.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\custom_dialog_right_btn_n_for_meeting_room.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_custom_dialog_center_btn_n.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_custom_dialog_center_btn_n.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\edittext_boder_press.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\edittext_boder_press.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_common_btn_seletor.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_common_btn_seletor.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\collection_openfile_btn.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\collection_openfile_btn.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\bg_bottom_menu_cancel_btn.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\bg_bottom_menu_cancel_btn.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_custom_dialog_left_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\jmeetingsdk_custom_dialog_left_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\doctor_default.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\doctor_default.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\message_top_item.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\message_top_item.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\audio_left_playing.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\audio_left_playing.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\arl_dot_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\arl_dot_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_close_dialog_img.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_close_dialog_img.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_invite_person_view_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_invite_person_view_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\shape_border_white_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\shape_border_white_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_cancel_btn_text_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\custom_dialog_cancel_btn_text_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\scan_im.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\scan_im.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\img_select_cb_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\img_select_cb_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\title_btn_color.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\title_btn_color.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\response_dt_btn_drawable.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\response_dt_btn_drawable.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_change_mode_video_open_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_change_mode_video_open_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\rounded_rectangle_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\rounded_rectangle_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_invite_person_view_invite_person_btn_n.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_invite_person_view_invite_person_btn_n.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\arl_white_dot.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\arl_white_dot.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_custom_dialog_bg.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_custom_dialog_bg.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\btn_play_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\btn_play_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_invite_person_view_invite_person_btn_f.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_invite_person_view_invite_person_btn_f.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_retry_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_retry_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_me_item_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_me_item_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\collection_load_stop_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\collection_load_stop_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_video_effects_tab_icon.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_video_effects_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_invite_person_view_sms_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_invite_person_view_sms_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_bottom_bg_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\custom_dialog_bottom_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\shape_border_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\shape_border_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\udt_refresh_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\udt_refresh_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\m_chat_record_poupowindow_shape.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\m_chat_record_poupowindow_shape.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\udt_arrangement_dialog_right_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\udt_arrangement_dialog_right_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_big_btn_text_color.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_big_btn_text_color.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\bg_item_shape.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\bg_item_shape.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\textview_color.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\textview_color.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\select_multi_image_preview.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\select_multi_image_preview.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\link_pic_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\link_pic_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_invite_person_view_edittext_bg.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_invite_person_view_edittext_bg.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\bg_shape.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\bg_shape.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\contact_button.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\contact_button.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\comment_ratingbar_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.xingliuhua\\xlhratingbar_lib\\1.0.1\\res\\drawable\\comment_ratingbar_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\response_dt_item_select.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\response_dt_item_select.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\shape_oval_reserve_success.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\shape_oval_reserve_success.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\select_notice_audio_call.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\select_notice_audio_call.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\subscribe_button.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\subscribe_button.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_vpi__tab_indicator.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\tips_bg.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\pingpp-core-2.1.14\\res\\drawable\\tips_bg.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_bottom_text_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_bottom_text_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\password_shape.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\password_shape.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_change_mode_audio_speaker_close_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_change_mode_audio_speaker_close_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\below_shadow.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\below_shadow.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\play_big_icon.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\play_big_icon.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_bg_common_dialog_btn.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_bg_common_dialog_btn.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\drawable_color.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\drawable_color.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_center_btn_f_for_meeting_room.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\custom_dialog_center_btn_f_for_meeting_room.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\cardtype_medicalselect.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\cardtype_medicalselect.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\single_convst_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\single_convst_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\seekbar_2.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\seekbar_2.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\select_notice_meeting.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\select_notice_meeting.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_left_btn_n_for_meeting_room.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\custom_dialog_left_btn_n_for_meeting_room.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\response_dt_btn_normal.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\response_dt_btn_normal.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\replay_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\replay_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\select_linkman_select.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\select_linkman_select.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\udt_pic_galary_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\udt_pic_galary_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\btn_meetingfragment_addmeet.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\btn_meetingfragment_addmeet.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\select_multi_image_sendbtn.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\select_multi_image_sendbtn.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\bg_dialog_out_shape.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\bg_dialog_out_shape.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_more_view_center_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_more_view_center_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\chat_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\btn_video_begin_record_seletor.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\btn_video_begin_record_seletor.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\bg_first_item_shap.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\bg_first_item_shap.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\corner.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\corner.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_right_btn_selector_for_meeting_room.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\custom_dialog_right_btn_selector_for_meeting_room.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\checkbox_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\checkbox_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\response_dt_btn_press.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\response_dt_btn_press.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butel_video_view_btn_left_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\butel_video_view_btn_left_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_x1_monitor_close_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_x1_monitor_close_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_left_btn_selector_for_meeting_room.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\custom_dialog_left_btn_selector_for_meeting_room.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\checkbox_selected.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\checkbox_selected.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_btn_login_text_color.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_btn_login_text_color.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_center_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\custom_dialog_center_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\addcontactbtn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\addcontactbtn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\cmbkb_btn_keyboard_key.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.pingxx\\pingpp-cmbwallet\\2.1.12\\res\\drawable\\cmbkb_btn_keyboard_key.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\incoming_dt_call_left_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\incoming_dt_call_left_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\progressloading.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\xrecyclerview-release\\res\\drawable\\progressloading.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_custom_dialog_center_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\jmeetingsdk_custom_dialog_center_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_more_view_unlock_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_more_view_unlock_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\dingyue_moretitle.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\dingyue_moretitle.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_center_btn_n_for_meeting_room.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\custom_dialog_center_btn_n_for_meeting_room.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\color_cursor.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\color_cursor.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\cardtype_docterselect.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\cardtype_docterselect.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\select_vedio_btn1.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\select_vedio_btn1.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\btn_left_bottom_radios.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\btn_left_bottom_radios.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\response_shape.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\response_shape.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_more_share_screen_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_more_share_screen_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\new_custom_dialog_left_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\new_custom_dialog_left_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\pull_to_refresh_loading_rotate.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\pull_to_refresh_loading_rotate.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\incoming_dt_call_right_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\incoming_dt_call_right_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_change_mode_moive_video_open_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_change_mode_moive_video_open_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\contact_list_item_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\contact_list_item_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_more_view_center_btn_bg_n.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_more_view_center_btn_bg_n.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\edittext_boder.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\edittext_boder.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\show_btn.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\show_btn.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\djshd.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\djshd.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_hang_up_drawable_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_hang_up_drawable_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\bg_common_dialog_btn.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\bg_common_dialog_btn.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_switch_audio_thumb_seletor.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_switch_audio_thumb_seletor.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\arrangement_dot_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\arrangement_dot_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\response_dt_item_round_red.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\response_dt_item_round_red.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\play_pause_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\play_pause_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_timestampe_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_timestampe_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\me_button.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\me_button.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\zhuxiao_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\zhuxiao_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\appraise_dialog_star_select.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\appraise_dialog_star_select.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\btn_radio_selected.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\btn_radio_selected.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\bottom_menu_window_shape.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\bottom_menu_window_shape.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_more_view_top_btn_bg_n.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_more_view_top_btn_bg_n.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_bg_dialog_out_shape.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_bg_dialog_out_shape.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_img_left_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_img_left_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_btn_right_bottom_radios.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_btn_right_bottom_radios.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\revolution_dt_room_activity_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\revolution_dt_room_activity_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\liveroom_fullscreen_bt_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\liveroom_fullscreen_bt_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_more_del_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_more_del_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\liveroom_pause_bt_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\liveroom_pause_bt_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\notification_icon_background.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_dialog_corner_layout.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_dialog_corner_layout.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\seekbar_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\seekbar_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\bg_item_shape_bottom.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\bg_item_shape_bottom.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_change_scale_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_change_scale_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_custom_text_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_custom_text_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_custom_dialog_right_btn_n_for_meeting_room.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_custom_dialog_right_btn_n_for_meeting_room.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\collection_text_detail_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\collection_text_detail_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_more_view_bottom_btn_bg_f.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_more_view_bottom_btn_bg_f.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\common_btn_seletor.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\common_btn_seletor.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\waiting_circle.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\waiting_circle.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_live_btn_drawable_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_live_btn_drawable_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\recording_video_littlevideo_text.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\recording_video_littlevideo_text.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_input_speak_edit.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_input_speak_edit.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\custom_dialog_right_btn_f_for_meeting_room.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\custom_dialog_right_btn_f_for_meeting_room.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_change_mode_video_close_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_change_mode_video_close_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_episode_record_btn_animation.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_episode_record_btn_animation.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\pop_list_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\pop_list_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_img_right_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_img_right_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\liveroom_start_bt_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\liveroom_start_bt_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\voice.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\voice.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\came2.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\came2.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_custom_dialog_right_btn_f.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_custom_dialog_right_btn_f.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\chat_meeting_right.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\chat_meeting_right.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\butelconnect_video_effect_hide_btn.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\drawable\\butelconnect_video_effect_hide_btn.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_custom_dialog_left_btn_f.9.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\jmeetingsdk_custom_dialog_left_btn_f.9.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\btn_black_white_selected.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\btn_black_white_selected.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\share_screen_view_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\share_screen_view_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\shape_gray_square_bg1.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\shape_gray_square_bg1.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\refresh_ico.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\refresh_ico.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\about_app_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\about_app_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\udt_online_recipe_selecor.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\udt_online_recipe_selecor.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\collection_audio_item_caht_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\collection_audio_item_caht_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\notification_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\bg_bottom_menu_common_btn.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\bg_bottom_menu_common_btn.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\progress_bg.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\progress_bg.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jmeetingsdk_custom_dialog_right_btn_selector_for_meeting_room.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\jmeetingsdk_custom_dialog_right_btn_selector_for_meeting_room.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\scan_light.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\zxing-library-2.2\\res\\drawable\\scan_light.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\share_live_to_sms_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\share_live_to_sms_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_main_view_participator_btn_drawable_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_main_view_participator_btn_drawable_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_room_menu_ask_for_stop_speak_view_stop_speak_btn_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\drawable\\meeting_room_menu_ask_for_stop_speak_view_stop_speak_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\jumppage_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\jumppage_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\meeting_button.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\meeting_button.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\xlh_rating_bar_selector.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\xlh_rating_bar_selector.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\drawable\\circle_dot_gray4.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable\\circle_dot_gray4.xml"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\xml\\cmbkb_number_with_x.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.pingxx\\pingpp-cmbwallet\\2.1.12\\res\\xml\\cmbkb_number_with_x.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\xml\\cmbkb_number_with_dot.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.pingxx\\pingpp-cmbwallet\\2.1.12\\res\\xml\\cmbkb_number_with_dot.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\xml\\cmbkb_symbols.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.pingxx\\pingpp-cmbwallet\\2.1.12\\res\\xml\\cmbkb_symbols.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\xml\\cmbkb_number.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.pingxx\\pingpp-cmbwallet\\2.1.12\\res\\xml\\cmbkb_number.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\xml\\file_paths.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\xml\\device_filter.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\JMeetingSDK_1.0.0.31\\res\\xml\\device_filter.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\xml\\cmbkb_number_symbols.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.pingxx\\pingpp-cmbwallet\\2.1.12\\res\\xml\\cmbkb_number_symbols.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\xml\\cmbkb_number_with_change.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.pingxx\\pingpp-cmbwallet\\2.1.12\\res\\xml\\cmbkb_number_with_change.xml"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\wandoujia\\debug\\xml\\cmbkb_qwerty.xml",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\com.pingxx\\pingpp-cmbwallet\\2.1.12\\res\\xml\\cmbkb_qwerty.xml"
+    }
+]

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar"></include>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <cn.redcdn.hvs.profiles.view.RoundImageView
+            android:id="@+id/group_head_image"
+            android:layout_width="@dimen/x128"
+            android:layout_height="@dimen/y128"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/y188"
+            android:layout_toLeftOf="@id/image_btn"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/group_icon"
+            android:visibility="visible"
+            />
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_group_name"
+        android:textSize="@dimen/x32"
+        android:layout_marginTop="@dimen/y88"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/text_color_name"
+        android:text="@string/group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/x20"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tv_group_member"
+        android:textSize="@dimen/x24"
+        android:layout_marginTop="@dimen/y20"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/text_color_num"
+        android:text="@string/group_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/add_group_bt"
+        android:layout_width="@dimen/x670"
+        android:layout_height="@dimen/y94"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/y150"
+        android:background="@drawable/cnofig_add_group_selector"
+        android:focusable="true"
+        android:onClick="onButton"
+        android:text="@string/group_config_add"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/x32" />
+
+</LinearLayout>

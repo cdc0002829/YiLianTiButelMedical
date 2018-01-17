@@ -1,0 +1,132 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/page_bg_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar"/>
+
+    <cn.redcdn.hvs.im.view.CustomHorizontalScrollView
+        android:id="@+id/id_horizontalScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y144"
+        android:background="@color/select_linkman_scrollview_bg_color"
+        android:scrollbars="none"
+        android:visibility="gone">
+        <!-- LinearLayout 中不能设置layout_marginLeft属性，否则会导致bug:0019931-左右滑动联系人，右边最后一个联系人名称显示不全 -->
+        <LinearLayout
+            android:id="@+id/id_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/y18"
+            android:background="@color/white"
+            android:layout_marginLeft="@dimen/x8"
+            android:orientation="horizontal"></LinearLayout>
+    </cn.redcdn.hvs.im.view.CustomHorizontalScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="#f2f3f4"/>
+
+    <RelativeLayout
+        android:id="@+id/choose_group_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y110"
+        android:background="@drawable/select_linkman_select"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pickAGroup"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x28"
+            android:textSize="@dimen/x32"
+            android:textColor="#2d2d2d"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x28"
+            android:drawableRight="@drawable/nextlittle"
+            android:drawablePadding="11dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/vcard_head_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ListView
+            style="@style/common_list_style"
+            android:id="@+id/lv_linkman"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"/>
+
+        <RelativeLayout
+            android:id="@+id/top"
+            android:layout_width="@dimen/x40"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true">
+
+            <cn.redcdn.hvs.im.common.SideBar
+                android:id="@+id/linkman_sideBar"
+                android:layout_marginLeft="@dimen/x12"
+                android:layout_width="@dimen/x28"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y110"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/contact_nofriend"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/y30"
+                android:text="@string/noFriendsRecommended"
+                android:textColor="@color/text_color_num"
+                android:textSize="@dimen/x28"/>
+
+            <Button
+                android:id="@+id/contacts__addfriend_btn"
+                android:layout_width="@dimen/x672"
+                android:layout_height="@dimen/y100"
+                android:background="@drawable/startmeetingbtn_selector"
+                android:layout_gravity="center"
+                android:text="@string/addFriend"
+                android:textSize="@dimen/login_lgoin_textsize"
+                android:textColor="#ffffff"
+                android:layout_marginTop="@dimen/y120"
+                >
+
+            </Button>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

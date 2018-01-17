@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/x20"
+    android:background="@color/select_linkman_scrollview_bg_color" >
+
+    <cn.redcdn.hvs.im.view.RoundCornerImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/id_index_gallery_item_image"
+        android:layout_width="@dimen/x72"
+        android:layout_height="@dimen/y72"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        app:type="round" />
+
+    <TextView
+        android:id="@+id/id_index_gallery_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_index_gallery_item_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/y12"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#8d8d8d"
+        android:textSize="@dimen/x22" />
+
+</RelativeLayout>

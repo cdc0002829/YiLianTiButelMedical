@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_head_bg">
+
+    <include layout="@layout/titlebar"/>
+
+    <TextView
+        android:id="@+id/tv_reserve_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/y76"
+        android:gravity="center"
+        android:text="@string/reserve_treatment_success_number"
+        android:textColor="@color/btn_color_black"
+        android:textSize="@dimen/x36"/>
+
+    <TextView
+        android:id="@+id/riv_reserve_number"
+        android:layout_width="@dimen/x200"
+        android:layout_height="@dimen/y200"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/y90"
+        android:background="@drawable/shape_oval_reserve_success"
+        android:text="5"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x72"/>
+
+    <TextView
+        android:id="@+id/tv_reserve_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/y70"
+        android:gravity="center"
+        android:text="8月20日  9:00-10:00"
+        android:textColor="@color/reserve_dt_content_hint_color"
+        android:textSize="@dimen/x30"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/y100">
+
+        <TextView
+            android:id="@+id/tv_complete"
+            android:layout_width="@dimen/x320"
+            android:layout_height="@dimen/y94"
+            android:layout_marginLeft="@dimen/x28"
+            android:text="@string/reserve_treatment_success_to_meetingroom"
+            android:textSize="@dimen/x30"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@drawable/reserve_success_blue_btn"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/tv_close"
+            android:layout_width="@dimen/x320"
+            android:layout_height="@dimen/y94"
+            android:layout_marginRight="@dimen/x28"
+            android:text="@string/reserve_treatment_success_close"
+            android:textSize="@dimen/x30"
+            android:gravity="center"
+            android:background="@drawable/reserve_success_gray_btn"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

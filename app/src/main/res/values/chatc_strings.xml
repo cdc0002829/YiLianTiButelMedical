@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="noticerecordtip">按住说话 松手发送</string>
+    <string name="title_vedio">视频</string>
+    <string name="vedio_take">拍摄视频</string>
+    <string name="takevedio_fale">拍摄视频失败</string>
+    <string name="vedio_continue" formatted="false">还可以拍摄%d秒</string>
+    <string name="create_vedio_false">视频文件目录创建失败</string>
+    <string name="switch_false">切换摄像头失败</string>
+    <string name="open_camera_fail">打开摄像头失败</string>
+    <string name="unuse_camera">无法使用摄像头</string>
+    <string name="title_picture">图片</string>
+    <string name="noticerecord_toast">录音时间太短</string>
+    <string name="title_audio">语音</string>
+    <string name="title_card">名片</string>
+    <string name="noticerecordtip_cancle">向上滑动取消</string>
+    <string name="multiimagechooser_tip" formatted="false">最多只能选择%d个照片和视频</string>
+    <string name="preview_picture">预览图片</string>
+    <string name="preview_vedio">预览视频</string>
+    <string name="playvideo_tip">找不到相关应用，打开文件失败</string>
+    <string name="selectlinkman_toast">加载数据出错</string>
+    <string name="selectlinkman_waitdialog">请稍等...</string>
+    <string name="select_tip">请选择</string>
+    <string name="none_linkman">未获得联系人号码</string>
+    <string name="no_nubenumber">该联系人无视讯号</string>
+    <string name="scan_vedio">浏览视频</string>
+    <string name="photos">/红云医疗相册</string>
+    <string name="scan_photo">浏览图片</string>
+    <string name="browse_vedio">浏览视频</string>
+    <string name="share_information">转发</string>
+    <string name="save_mobile">保存图片</string>
+    <string name="load_fail">原图加载失败</string>
+    <string name="load_tip">当前网络连接不是wifi，确定继续下载？</string>
+    <string name="load_tips">当前网络连接不是wifi，将使用您的手机流量进行下载</string>
+    <string name="try_again">网络不给力，请重新尝试</string>
+    <string name="copy_fail">复制图片失败</string>
+    <string name="picture_exist" formatted="false">该图片已存在%s目录下</string>
+    <string name="save_picture_tip" formatted="false">图片已经保存到"%s"目录</string>
+    <string name="comment">回复/评论</string>
+    <string name="information">有一条好友邀请消息</string>
+    <string name="invit_friend">通过了您的好友添加请求</string>
+    <string name="del_onekeyfriend">解除可视盒子账号绑定</string>
+    <string name="notice_information">新消息通知</string>
+    <string name="title_notice" formatted="false">您有%d条动态视信</string>
+    <string name="title_invitfriend" formatted="false">您有%d条好友邀请视信</string>
+    <string name="title_invit_notice" formatted="false">您有%d条好友邀请视信、%d条动态视信</string>
+    <string-array name="title_name">
+        <item>照片</item>
+        <item>拍摄</item>
+        <item>小视频</item>
+        <item>名片</item>
+        <item>视频会诊</item>
+        <item>我的收藏</item>
+    </string-array>
+    <string-array name="title_name_mutil">
+        <item>照片</item>
+        <item>拍摄</item>
+        <item>小视频</item>
+        <item>名片</item>
+        <item>视频会诊</item>
+        <item>我的收藏</item>
+    </string-array>
+    <string-array name="my_date_array">
+    <item>1|星期日</item>
+    <item>2|星期一</item>
+    <item>3|星期二</item>
+    <item>4|星期三</item>
+    <item>5|星期四</item>
+    <item>6|星期五</item>
+    <item>7|星期六</item>
+    </string-array>
+    <string name="sunday">星期日</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="foaword_yes">确定</string>
+    
+    <string name="alarm_notification_title">可视</string>
+    <string name="del_tip">确定删除？</string>
+</resources>

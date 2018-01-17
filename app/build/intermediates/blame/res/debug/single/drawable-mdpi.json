@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\job_name_image1.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-mdpi\\job_name_image1.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cardtypeactivity_image2.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-mdpi\\cardtypeactivity_image2.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\reserve_sharelogo.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-mdpi\\reserve_sharelogo.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\nonvideo.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-mdpi\\nonvideo.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\reserve_message_logo.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-mdpi\\reserve_message_logo.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\medical_image1.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-mdpi\\medical_image1.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cardtypeactivity_image1.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-mdpi\\cardtypeactivity_image1.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\reserve_copy_logo.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-mdpi\\reserve_copy_logo.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\play_vector.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\play_vector.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\reserve_friend_logo.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-mdpi\\reserve_friend_logo.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\recommend_phone_image1.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-mdpi\\recommend_phone_image1.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\doctorapprove_image1.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-mdpi\\doctorapprove_image1.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\pause_vector.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\pause_vector.png"
+    }
+]

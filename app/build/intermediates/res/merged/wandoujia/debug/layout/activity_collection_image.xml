@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_page_backgroud_color"
+    android:orientation="vertical">
+
+            <include layout="@layout/titlebar"></include>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/name_pic_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginTop="@dimen/y30"
+                android:orientation="horizontal">
+
+                <cn.redcdn.hvs.im.view.RoundImageView
+                    android:id="@+id/collection_text_icon"
+                    android:layout_width="@dimen/x82"
+                    android:layout_height="@dimen/y82"
+                    android:layout_marginRight="@dimen/x20"
+                    android:background="@drawable/head"
+                    android:focusable="false"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/collection_text_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/collection_text_icon"
+                    android:text="@string/creater"
+                    android:textColor="#222625"
+                    android:textSize="@dimen/x32" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="@dimen/x660"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y30">
+
+                <TextView
+                    android:id="@+id/collection_text_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:layout_marginRight="@dimen/x30"
+                    android:text="@string/collectoin_time"
+                    android:textColor="@color/jmeetingsdk_qn_dialog_bottom_bg_press_color"
+                    android:textSize="@dimen/x24" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y1"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/collection_text_time"
+                    android:background="@color/color_butel_selfinfo_darkline_color" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y1"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/collection_text_time"
+                    android:background="@color/color_butel_selfinfo_darkline_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/image_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginRight="@dimen/x30"
+                android:layout_marginTop="@dimen/y40">
+
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/image_collection_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y100"
+                android:background="@color/color_page_backgroud_color"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+

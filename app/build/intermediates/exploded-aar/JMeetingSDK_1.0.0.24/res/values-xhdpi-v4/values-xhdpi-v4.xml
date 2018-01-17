@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="dimension" name="jmeetingsdkborderRadius"/>
+    <attr name="jmeetingsdktype">
+
+        <enum name="circle" value="0"/>
+
+        <enum name="round" value="1"/>
+
+    </attr>
+    <declare-styleable name="jmeetingsdkCircleImageView">
+
+        <attr format="dimension" name="border_width"/>
+
+        <attr format="color" name="border_color"/>
+
+    </declare-styleable>
+    <declare-styleable name="jmeetingsdkRoundImageView">
+
+        <attr name="jmeetingsdkborderRadius"/>
+
+        <attr name="jmeetingsdktype"/>
+
+    </declare-styleable>
+    <dimen name="jmeetingsdk_about_app_version_txt_size">15sp</dimen>
+    <dimen name="jmeetingsdk_forced_install_txt_margin">20dp</dimen>
+    <dimen name="jmeetingsdk_forced_install_view_margin">16dp</dimen>
+    <dimen name="jmeetingsdk_meetingadd_btn_size">14sp</dimen>
+    <dimen name="jmeetingsdk_meetingadd_dialog_height">184dp</dimen>
+    <dimen name="jmeetingsdk_meetingadd_dialog_width">261dp</dimen>
+    <dimen name="jmeetingsdk_operate_dialog_body_parent_margin_top">136dp</dimen>
+    <dimen name="jmeetingsdk_operate_dialog_content_margin_top">35dp</dimen>
+    <dimen name="jmeetingsdk_operate_dialog_nube_size">13sp</dimen>
+    <dimen name="jmeetingsdk_operate_dialog_nube_size_margin_top">22dp</dimen>
+    <dimen name="jmeetingsdk_operate_dialog_pic_bg_height">173dp</dimen>
+    <dimen name="jmeetingsdk_operate_dialog_pic_bg_width">189dp</dimen>
+    <dimen name="jmeetingsdk_operate_dialog_pic_size">121dp</dimen>
+    <dimen name="jmeetingsdk_operate_dialog_title_size">18sp</dimen>
+    <dimen name="jmeetingsdk_operate_dialog_two_button_layout_margin_top">89dp</dimen>
+    <dimen name="jmeetingsdk_operate_dialog_two_button_margin">103dp</dimen>
+    <dimen name="jmeetingsdk_register_dialog_textheight">133dp</dimen>
+    <dimen name="main_count_size">10sp</dimen>
+    <dimen name="meeting_room_bg_tip_textview_margin_top">20dp</dimen>
+    <dimen name="meeting_room_bg_tip_textview_text_size">14sp</dimen>
+    <dimen name="meeting_room_cameradialog_height">220dp</dimen>
+    <dimen name="meeting_room_cameradialog_item_height">70dp</dimen>
+    <dimen name="meeting_room_custom_dialog_select_btn_height">39dp</dimen>
+    <dimen name="meeting_room_custom_toast_text_size">15sp</dimen>
+    <dimen name="meeting_room_dialog_body_height">117dp</dimen>
+    <dimen name="meeting_room_dialog_body_text_size">15sp</dimen>
+    <dimen name="meeting_room_dialog_btn_text_size">13sp</dimen>
+    <dimen name="meeting_room_dialog_height">184dp</dimen>
+    <dimen name="meeting_room_dialog_width">261dp</dimen>
+    <dimen name="meeting_room_loading_dialog_bg_height">112dp</dimen>
+    <dimen name="meeting_room_loading_dialog_bg_width">112dp</dimen>
+    <dimen name="meeting_room_loading_dialog_img_margin_top">15dp</dimen>
+    <dimen name="meeting_room_loading_dialog_tip_margin_left">5dp</dimen>
+    <dimen name="meeting_room_loading_dialog_tip_margin_right">5dp</dimen>
+    <dimen name="meeting_room_loading_dialog_tip_margin_top">16dp</dimen>
+    <dimen name="meeting_room_loading_dialog_tip_text_size">15sp</dimen>
+    <dimen name="meeting_room_media_view_account_name_bg_height">25dp</dimen>
+    <dimen name="meeting_room_media_view_account_name_bg_min_width">50dp</dimen>
+    <dimen name="meeting_room_media_view_account_name_text_size">13sp</dimen>
+    <dimen name="meeting_room_menu_ask_for_speak_view_textview_text_size">14sp</dimen>
+    <dimen name="meeting_room_menu_ask_for_stop_speak_view_button_and_textview_bg_width">300dp</dimen>
+    <dimen name="meeting_room_menu_ask_for_stop_speak_view_button_margin_top">30dp</dimen>
+    <dimen name="meeting_room_menu_ask_for_stop_speak_view_height">220dp</dimen>
+    <dimen name="meeting_room_menu_ask_for_stop_speak_view_textview_margin_top">12dp</dimen>
+    <dimen name="meeting_room_menu_ask_for_stop_speak_view_title_textview_margin_top">15dp</dimen>
+    <dimen name="meeting_room_menu_ask_for_stop_speak_view_title_textview_text_size">15sp</dimen>
+    <dimen name="meeting_room_menu_ask_for_stop_speak_view_width">365dp</dimen>
+    <dimen name="meeting_room_menu_h_line_height">1dp</dimen>
+    <dimen name="meeting_room_menu_h_line_margin_left">40dp</dimen>
+    <dimen name="meeting_room_menu_invite_person_edittext_height">36dp</dimen>
+    <dimen name="meeting_room_menu_invite_person_edittext_margin_left">15dp</dimen>
+    <dimen name="meeting_room_menu_invite_person_edittext_text_size">14sp</dimen>
+    <dimen name="meeting_room_menu_invite_person_edittext_width">247dp</dimen>
+    <dimen name="meeting_room_menu_invite_person_invite_person_btn_height">36dp</dimen>
+    <dimen name="meeting_room_menu_invite_person_invite_person_btn_margin_left">9dp</dimen>
+    <dimen name="meeting_room_menu_invite_person_invite_person_btn_width">57dp</dimen>
+    <dimen name="meeting_room_menu_main_view_account_id_textview_margin_left">20dp</dimen>
+    <dimen name="meeting_room_menu_main_view_account_id_textview_text_size">13sp</dimen>
+    <dimen name="meeting_room_menu_main_view_bottom_button_padding">5dp</dimen>
+    <dimen name="meeting_room_menu_main_view_bottom_height">57dp</dimen>
+    <dimen name="meeting_room_menu_main_view_bottom_margin_bottom">0dp</dimen>
+    <dimen name="meeting_room_menu_main_view_bottom_textview_text_size">15dp</dimen>
+    <dimen name="meeting_room_menu_main_view_invite_person_btn_margin_right">17dp</dimen>
+    <dimen name="meeting_room_menu_main_view_lock_icon_imageview_margin_left">10dp</dimen>
+    <dimen name="meeting_room_menu_main_view_meeting_id_textview_text_size">18sp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_imageview_margin_left">20dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_imageview_margin_right">20dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_view_bg_height">150dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_view_bg_margin_right">15dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_view_bg_width">125dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_view_btn_icon_padding_left">20dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_view_text_size">15dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_view_triangle_icon_margin_right">15dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_view_triangle_icon_margin_top">5dp</dimen>
+    <dimen name="meeting_room_menu_main_view_participator_btn_margin_left">17dp</dimen>
+    <dimen name="meeting_room_menu_main_view_title_height">50dp</dimen>
+    <dimen name="meeting_room_menu_participators_margin_height_10">10dp</dimen>
+    <dimen name="meeting_room_menu_participators_margin_height_15">15dp</dimen>
+    <dimen name="meeting_room_menu_participators_margin_height_20">20dp</dimen>
+    <dimen name="meeting_room_menu_participators_margin_height_25">25dp</dimen>
+    <dimen name="meeting_room_menu_participators_margin_height_5">5dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_bg_width">350dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_button_height">40dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_list_item_account_img_width">30dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_list_item_account_name_textview_text_size">13sp</dimen>
+    <dimen name="meeting_room_menu_participators_view_list_item_add_to_txl_btn_margin_left">20dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_list_item_add_to_txl_image_view_text_size">13dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_list_item_height">59dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_list_item_imageview_width">33dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_title_height">50dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_title_icon_margin_left">20dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_title_textview_margin_left">12dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_title_total_height">180dp</dimen>
+    <dimen name="meeting_room_menu_qos_view_text_view_padding_left">24dp</dimen>
+    <dimen name="meeting_room_menu_qos_view_text_view_text_size">12sp</dimen>
+    <dimen name="meeting_room_menu_title_textview_text_size">17dp</dimen>
+    <dimen name="meeting_room_menu_v_line_width">1dp</dimen>
+    <dimen name="meeting_room_msg_height">53dp</dimen>
+    <dimen name="meeting_room_msg_textview_text_size">14sp</dimen>
+</resources>

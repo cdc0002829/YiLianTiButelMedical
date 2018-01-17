@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout style="@style/layout_head" >
+
+        <Button
+            android:id="@+id/new_friends_back"
+            style="@style/back_btn" />
+
+        <TextView
+            android:id="@+id/new_friends_title"
+            style="@style/middle_text"
+            android:text="@string/new_friends_title_string" />
+
+        <Button
+            android:id="@+id/new_friends_add"
+            android:layout_width="@dimen/x50"
+            android:layout_height="@dimen/y40"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x1"
+            android:background="@drawable/btn_new_friend_more"
+            android:textColor="@color/select_linkman_btn_disable_color"
+            android:textSize="@dimen/x30"
+            android:layout_marginEnd="@dimen/x30"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#f1f0f6" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y1"
+            android:background="#e3e4e5"
+            />
+
+    <ListView
+        android:id="@+id/new_friends_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="#00000000" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/no_newfriend_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y210"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/contact_nofriend" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/y30"
+            android:text="暂无新的朋友，快去通过其他方式添加好友吧"
+            android:textColor="#aaabad"
+            android:textSize="@dimen/x32" />
+
+        <Button
+            android:id="@+id/newfriend_addfriend_btn"
+            android:background="@drawable/startmeetingbtn_selector"
+            android:layout_width="@dimen/x672"
+            android:layout_height="@dimen/y100"
+            android:layout_gravity="center"
+            android:text="添加好友"
+            android:textSize="@dimen/x36"
+            android:textColor="#ffffff"
+            android:layout_marginTop="@dimen/y120"
+            />
+
+    </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

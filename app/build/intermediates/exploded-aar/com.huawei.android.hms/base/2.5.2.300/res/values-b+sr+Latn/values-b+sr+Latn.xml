@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hms_abort">"Zaustavi"</string>
+    <string name="hms_abort_message">"Zaustaviti preuzimanje?"</string>
+    <string name="hms_bindfaildlg_message">"%1$s ne može da koristi opciju Huawei Mobile Services. Pokrenite Menadžer telefona ili idite na opciju Podešavanja, omogućite sve dozvole za opciju %2$s (uključujući automatsko pokretanje i sekundarno pokretanje) i pokušajte ponovo."</string>
+    <string name="hms_cancel">"Otkaži"</string>
+    <string name="hms_check_failure">"Proveravanje ažuriranja nije uspelo."</string>
+    <string name="hms_check_no_update">"Već koristite najnoviju verziju."</string>
+    <string name="hms_checking">"Proveravaju se ažuriranja…"</string>
+    <string name="hms_confirm">"U redu"</string>
+    <string name="hms_download_failure">"Preuzimanje paketa Huawei Mobile Services nije uspelo."</string>
+    <string name="hms_download_no_space">"Nedovoljno slobodnog prostora. Preuzimanje ne može da se dovrši."</string>
+    <string name="hms_download_retry">"Preuzimanje nije uspelo. Pokušati ponovo?"</string>
+    <string name="hms_downloading">"Preuzimanje aplikacije Huawei okvir za usluge | napredak: %d%%"</string>
+    <string name="hms_downloading_new">"Preuzimanje HMS"</string>
+    <string name="hms_install">"Instaliraj"</string>
+    <string name="hms_install_message">"Aplikacija Huawei mobilne usluge mora da se instalira da bi se koristila ova funkcija. Instalirati?"</string>
+    <string name="hms_retry">"Pokuš. pon."</string>
+    <string name="hms_update">"Ažuriraj"</string>
+    <string name="hms_update_message">"Da biste koristili ovu funkciju, ažurirajte na najnoviju verziju aplikacije Huawei Mobile Services. Ažurirati odmah?"</string>
+    <string name="hms_update_message_new">"Ova usluga zahteva najnoviju verziju sledeće aplikacije:\n\n%1$s"</string>
+    <string name="hms_update_title">"Huawei Mobile Services"</string>
+</resources>

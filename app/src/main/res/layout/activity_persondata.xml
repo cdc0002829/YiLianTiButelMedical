@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/layout_head" >
+
+        <Button
+            android:id="@+id/persondata_back"
+            style="@style/back_btn" />
+
+        <TextView
+            style="@style/middle_text"
+            android:text="@string/my_account" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y112"
+        android:background="#ffffff" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x40"
+            android:text="@string/my_account_id"
+            android:textColor="#4b4c4c"
+            android:textSize="@dimen/x30" />
+
+        <TextView
+            android:layout_marginRight="@dimen/x74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="11111111"
+            android:textColor="#8c8d8f"
+            android:textSize="@dimen/x30"
+            android:id="@+id/data_num" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_marginLeft="@dimen/x32"
+        android:background="#e0e0e0" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y112"
+        android:background="#ffffff" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x40"
+            android:text="@string/account_type"
+            android:textColor="#4b4c4c"
+            android:textSize="@dimen/x30" />
+
+        <TextView
+            android:layout_marginRight="@dimen/x74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/free_type"
+            android:textColor="#8c8d8f"
+            android:textSize="@dimen/x30"
+            android:id="@+id/data_permissen" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_marginLeft="@dimen/x32"
+        android:background="#e0e0e0" />
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/y40"-->
+        <!--android:background="#ffffff"-->
+        <!--android:id="@+id/rldateline">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="@dimen/x32"-->
+            <!--android:text="VIP服务截止日期"-->
+            <!--android:textColor="#4b4c4c"-->
+            <!--android:textSize="@dimen/x30" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="@dimen/x300"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:text="2016-01-02"-->
+            <!--android:textColor="#8c8d8f"-->
+            <!--android:textSize="@dimen/x30"-->
+            <!--android:id="@+id/data_time" />-->
+    <!--</RelativeLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_marginLeft="@dimen/x32"
+        android:background="#e0e0e0"
+        android:id="@+id/view_data_time"/>
+
+
+</LinearLayout>

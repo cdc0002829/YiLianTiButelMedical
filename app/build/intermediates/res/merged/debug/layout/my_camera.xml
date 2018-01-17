@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/capture_containter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <SurfaceView
+            android:id="@+id/preview_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <com.uuzuche.lib_zxing.view.ViewfinderView
+            android:id="@+id/viewfinder_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:inner_width="@dimen/x516"
+            app:inner_height="@dimen/x516"
+            app:inner_margintop="150dp"
+            app:inner_corner_color="@color/scan_corner_color"
+            app:inner_corner_length="16dp"
+            app:inner_corner_width="2dp"
+            app:inner_scan_bitmap="@drawable/scan_im"
+            app:inner_scan_speed="35"
+            app:inner_scan_iscircle="false"/>
+
+        <TextView
+            android:id="@+id/scan_message_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scan_message"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:layout_marginBottom="177dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

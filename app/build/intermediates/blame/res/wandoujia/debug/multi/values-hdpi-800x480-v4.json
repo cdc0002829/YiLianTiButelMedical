@@ -1,0 +1,311 @@
+[
+    {
+        "outputFile": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\incremental\\mergeWandoujiaDebugResources\\merged.dir\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 64,
+                    "endOffset": 115
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 64,
+                        "endOffset": 115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 120,
+                    "endColumn": 67,
+                    "endOffset": 183
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 120,
+                        "endColumn": 67,
+                        "endOffset": 183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 188,
+                    "endColumn": 58,
+                    "endOffset": 242
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 188,
+                        "endColumn": 58,
+                        "endOffset": 242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 247,
+                    "endColumn": 58,
+                    "endOffset": 301
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 247,
+                        "endColumn": 58,
+                        "endOffset": 301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 306,
+                    "endColumn": 58,
+                    "endOffset": 360
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 306,
+                        "endColumn": 58,
+                        "endOffset": 360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 365,
+                    "endColumn": 60,
+                    "endOffset": 421
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 365,
+                        "endColumn": 60,
+                        "endOffset": 421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 426,
+                    "endColumn": 63,
+                    "endOffset": 485
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 426,
+                        "endColumn": 63,
+                        "endOffset": 485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 490,
+                    "endColumn": 62,
+                    "endOffset": 548
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 490,
+                        "endColumn": 62,
+                        "endOffset": 548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 553,
+                    "endColumn": 59,
+                    "endOffset": 608
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 553,
+                        "endColumn": 59,
+                        "endOffset": 608
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 613,
+                    "endColumn": 61,
+                    "endOffset": 670
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 613,
+                        "endColumn": 61,
+                        "endOffset": 670
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 675,
+                    "endColumn": 58,
+                    "endOffset": 729
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 675,
+                        "endColumn": 58,
+                        "endOffset": 729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 734,
+                    "endColumn": 59,
+                    "endOffset": 789
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 734,
+                        "endColumn": 59,
+                        "endOffset": 789
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 794,
+                    "endColumn": 46,
+                    "endOffset": 836
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 794,
+                        "endColumn": 46,
+                        "endOffset": 836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 841,
+                    "endColumn": 45,
+                    "endOffset": 882
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 841,
+                        "endColumn": 45,
+                        "endOffset": 882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 887,
+                    "endColumn": 43,
+                    "endOffset": 926
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 887,
+                        "endColumn": 43,
+                        "endOffset": 926
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 931,
+                    "endColumn": 48,
+                    "endOffset": 975
+                },
+                "from": {
+                    "file": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\exploded-aar\\IMLibrary_dev_20171118_v4.1.1.3\\res\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 931,
+                        "endColumn": 48,
+                        "endOffset": 975
+                    }
+                }
+            }
+        ]
+    }
+]

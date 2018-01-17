@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+      <Button
+                        android:id="@+id/speak_mic_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/meeting_room_menu_ask_for_stop_speak_view_button_margin_top"
+                        android:background="@drawable/meeting_room_menu_choose_speak_view_speak_btn_selector" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/meeting_room_menu_ask_for_stop_speak_view_textview_margin_top" >
+                        <ImageView
+                            android:id="@+id/speak_mic_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"  
+                            android:background="@drawable/meeting_room_menu_ask_for_speak_textview_pre_icon" />
+                        <TextView
+                            android:id="@+id/speak_mic_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/unnamed"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/meeting_room_menu_ask_for_speak_view_textview_text_size" />
+                           
+                    </LinearLayout>
+
+</LinearLayout>
+</FrameLayout>

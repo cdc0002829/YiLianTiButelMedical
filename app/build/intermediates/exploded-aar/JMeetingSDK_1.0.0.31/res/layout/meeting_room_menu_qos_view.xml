@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="cn.redcdn.menuview.view.ParticipatorsView" >
+
+    <Button
+        android:id="@+id/hide_view_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+    <FrameLayout
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@drawable/meeting_room_menu_main_view_title_bg" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/meeting_room_menu_participators_view_title_height" >
+
+                <ImageView
+                    android:id="@+id/qos_info_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/meeting_room_menu_participators_view_title_icon_margin_left"
+                    android:background="@drawable/meeting_room_menu_qos_view_title_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/meeting_room_menu_participators_view_title_textview_margin_left"
+                    android:layout_toRightOf="@+id/qos_info_img"
+                    android:text="@string/meeting_room_menu_main_view_meeting_information"
+                    android:textSize="@dimen/meeting_room_menu_title_textview_text_size" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/meeting_room_menu_participators_view_title_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" 
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/meeting_room_menu_qos_upload" />
+
+                    <TextView
+                        android:id="@+id/qos_info_upload_speed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="7dp"
+                        android:text="2MB/S"
+                        android:textColor="#999999"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/meeting_room_menu_qos_dowload" />
+
+                    <TextView
+                        android:id="@+id/qos_info_download_speed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="25dp"
+                        android:text="4MB/S"
+                        android:textColor="#999999"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/meeting_room_menu_h_line_height"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                android:background="#33FFFFFF" />
+
+            <ListView
+                android:transcriptMode="normal"
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:listSelector="@android:color/transparent"
+                android:background="@android:color/transparent"
+                android:divider="@null"
+                >
+            </ListView>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/meeting_room_menu_v_line_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="#2a2a2a" />
+    </FrameLayout>
+
+</FrameLayout>

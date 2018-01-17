@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y96">
+
+        <Button
+            android:id="@+id/setting_resolution_back"
+            style="@style/back_btn" />
+
+        <TextView
+            android:id="@+id/middle_text"
+            style="@style/middle_text" />
+
+        <Button
+            android:id="@+id/right_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:gravity="center_vertical|right"
+            android:minWidth="55dp"
+            android:textColor="@color/title_bar_txt_colot"
+            android:textSize="@dimen/x34"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/collection_text_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/x12"
+                android:layout_marginRight="@dimen/x12"
+                android:text="@string/collectoin_time"
+                android:textColor="@color/jmeetingsdk_qn_dialog_bottom_bg_press_color"
+                android:textSize="@dimen/x22" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="@dimen/x300"
+                android:layout_height="@dimen/y1"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/collection_text_time"
+                android:background="@color/color_butel_selfinfo_darkline_color" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="@dimen/x300"
+                android:layout_height="@dimen/y1"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/collection_text_time"
+                android:background="@color/color_butel_selfinfo_darkline_color" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/collection_chat_image_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="@dimen/y20"
+        android:fastScrollEnabled="true"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"></com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f0f6"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/layout_head" >
+
+        <Button
+            android:id="@+id/btnaddcontactback"
+            style="@style/back_btn" />
+
+        <TextView
+            style="@style/middle_text"
+            android:text="添加联系人" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y2"
+        android:layout_alignParentBottom="true"
+        android:background="@color/main_head_divide_line"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/y20"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/ll_contact_search"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="@dimen/y90"
+            android:background="#ffffff"
+            android:layout_marginLeft="@dimen/x10">
+
+            <EditText
+                android:id="@+id/contactadd_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:hint="手机号/视讯号/邮箱"
+                android:paddingLeft="@dimen/x16"
+                android:textColor="#c9ccd1"
+                android:textColorHint="#c8cacc"
+                android:textSize="@dimen/x30" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_contact_addcontact"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x14"
+            android:layout_marginRight="@dimen/y14"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/addcontact_btn"
+                android:layout_width="@dimen/x40"
+                android:layout_height="@dimen/y40"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/x80"
+                android:background="@drawable/contact_search_btn" />
+
+            <LinearLayout
+                android:layout_width="@dimen/x138"
+                android:layout_height="@dimen/y90"
+                android:layout_gravity="center"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/meetingadd_btn_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/meetingadd_btn" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="添加"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/x34"
+                    android:id="@+id/textView2" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_add_contact"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y130"
+        android:layout_marginTop="@dimen/y20"
+        android:background="@drawable/contact_item_selector"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/y130"
+            android:layout_height="@dimen/x130"
+            android:layout_marginLeft="@dimen/x8"
+            android:clipChildren="false"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iamgedisplay"
+                android:layout_width="@dimen/x80"
+                android:layout_height="@dimen/y80"
+                android:background="@drawable/contact_recommond_btn"
+                android:paddingLeft="@dimen/x20" />
+
+            <TextView
+                android:id="@+id/tvrighttop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/addcontact_recommend_topfont_margin"
+                android:layout_marginTop="@dimen/addcontact_recommend_topfont_margin"
+                android:layout_toRightOf="@id/iamgedisplay"
+                android:background="@drawable/recommendcpunt"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/x16" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rladdrecommend"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clipChildren="false"
+            android:orientation="vertical" >
+            
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                >
+                
+              <TextView
+                android:id="@+id/tvrecommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="0dp"
+                android:text="手机通讯录推荐"
+                android:textColor="#323233"
+                android:textSize="@dimen/x34"
+                 />
+
+            <TextView
+                android:id="@+id/tvaddfriend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvrecommend"
+                android:text="添加手机通讯录中的好友"
+                android:textColor="#c8cacc"
+                android:textSize="@dimen/x26" />
+                
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/add_contact_next"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x28"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_scan_contact"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y130"
+        android:layout_marginTop="@dimen/y20"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/x130"
+            android:layout_height="@dimen/y130"
+            android:layout_marginLeft="@dimen/x2"
+            android:background="#ffffff"
+            android:clipChildren="false"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iamgedisplay_scan"
+                android:layout_width="@dimen/x80"
+                android:layout_height="@dimen/y80"
+                android:background="@drawable/contact_scan_btn"
+                android:paddingLeft="@dimen/x20" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_scan"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:clipChildren="false"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                >
+
+                <TextView
+                    android:id="@+id/tv_scan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="0dp"
+                    android:text="扫一扫"
+                    android:textColor="#323233"
+                    android:textSize="@dimen/x34"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_scan_note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_scan"
+                    android:text="扫描二维码名片"
+                    android:textColor="#c8cacc"
+                    android:textSize="@dimen/x26" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/add_contact_next"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x28"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

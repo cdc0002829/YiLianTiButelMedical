@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/y80"
+        >
+        <cn.redcdn.util.RoundImageView
+            android:id="@+id/verify_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tranfer_verifing"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:id="@+id/verify_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/y36"
+            android:text= "@string/is_verifing"
+            android:textColor="#2d2d2d"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/y98"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/y38"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8a8f96"
+                android:textSize="@dimen/y28"
+                android:text="@string/tf_confirm_desc1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/y18"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8a8f96"
+                android:textSize="@dimen/y28"
+                android:text="@string/tf_confirm_desc2"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y148"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/verify_btn"
+                android:layout_width="@dimen/x670"
+                android:layout_height="@dimen/y94"
+                android:background="@drawable/button_selector"
+                android:text="完成"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:textSize="@dimen/x34"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

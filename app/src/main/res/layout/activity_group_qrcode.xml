@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/bar_code_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/titlebar" />
+
+    <LinearLayout
+        android:id="@+id/qr_download"
+        android:layout_marginTop="@dimen/y105"
+        android:orientation="vertical"
+        android:background="@drawable/bg_dingyue"
+        android:layout_width="@dimen/x668"
+        android:layout_gravity="center"
+        android:layout_height="@dimen/y876">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image_group"
+                android:layout_marginTop="@dimen/y43"
+                android:layout_width="@dimen/x128"
+                android:layout_marginLeft="@dimen/x40"
+                android:layout_height="@dimen/y128" />
+            <TextView
+                android:id="@+id/group_name"
+                android:layout_gravity="center_vertical"
+                android:textColor="#2d2d2d"
+                android:textSize="@dimen/x32"
+                android:text="@string/groupName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x28"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/Image_qrcode"
+            android:layout_marginTop="@dimen/y40"
+            android:layout_width="@dimen/x584"
+            android:layout_marginLeft="@dimen/x43"
+            android:layout_marginRight="@dimen/x45"
+            android:layout_height="@dimen/y584" />
+        <TextView
+            android:id="@+id/valid_time"
+            android:layout_marginTop="@dimen/y23"
+            android:layout_width="@dimen/x584"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bar_code_txt"
+            android:textSize="@dimen/x24"
+            android:text="@string/qrcode_time"/>
+    </LinearLayout>
+
+</LinearLayout>

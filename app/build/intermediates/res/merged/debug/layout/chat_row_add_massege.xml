@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/timestamp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/chat_time_margin_top"
+        android:layout_marginBottom="@dimen/chat_time_margin_bottom" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/chat_item_padding_top"
+        android:paddingBottom="@dimen/chat_item_padding_bottom" >
+
+        <TextView
+            android:id="@+id/tv_addcontent"
+            style="@style/chat_text_add_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:autoLink="web"
+            android:background="@drawable/m_timestampe_bg"
+            android:gravity="center_vertical|left"
+            android:paddingBottom="5dp"
+            android:paddingTop="6dp" />
+
+    </LinearLayout>
+    
+    <ImageButton
+            android:id="@+id/retry_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/chat_item_margin_status"
+            android:padding="@dimen/chat_retry_padding"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/chat_retry_btn_selector"
+            android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <cn.redcdn.hvs.im.view.RoundImageView
+        android:id="@+id/head_iv"
+        android:layout_width="@dimen/x50"
+        android:layout_height="@dimen/y50"
+        android:layout_marginLeft="@dimen/x30"
+        android:layout_marginTop="@dimen/y30"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+      />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginTop="@dimen/y30">
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxEms="14"
+            android:text="@string/my_name"
+            android:textColor="@color/color_threads_black_1"
+            android:textSize="@dimen/x28" />
+
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/x30"
+            android:text="@string/talking_time"
+            android:textColor="@color/color_butel_selfinfo_darkline_color"
+            android:textSize="@dimen/x24" />
+
+        <RelativeLayout
+            android:id="@+id/video_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y120"
+            android:layout_below="@id/name_tv"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginRight="@dimen/y30"
+            android:layout_marginTop="@dimen/y20"
+            android:background="@drawable/collection_audio_item_caht_bg">
+
+            <RelativeLayout
+                android:id="@+id/collection_video_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginTop="@dimen/y30">
+
+                <ImageView
+                    android:id="@+id/image_chat_icon"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/y80"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gongzhonghao" />
+
+                <ImageView
+                    android:layout_width="@dimen/x70"
+                    android:layout_height="@dimen/y70"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x6"
+                    android:background="@null"
+                    android:src="@drawable/chat_video" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/collection_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginTop="@dimen/y20"
+                android:layout_toRightOf="@id/collection_video_bg"
+                android:text="@string/video"
+                android:textColor="@color/add_to_contacts"
+                android:textSize="@dimen/x32" />
+
+            <TextView
+                android:id="@+id/collection_video_length"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/y20"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_toRightOf="@id/collection_video_bg"
+                android:textColor="@color/group_chat_item_right_color"
+                android:textSize="@dimen/x26" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="@dimen/x620"
+            android:layout_height="@dimen/y1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/video_rl"
+            android:layout_marginTop="@dimen/y30"
+            android:background="@color/color_butel_selfinfo_darkline_color" />
+
+    </RelativeLayout>
+
+</LinearLayout>

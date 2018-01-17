@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootframeview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/mediaWeb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/mediaView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <FrameLayout
+                    android:id="@+id/VideoFrame1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/live_room_player_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/dingyue_titleback"
+                    android:onClick="onButton" />
+
+
+                <RelativeLayout
+                    android:id="@+id/info_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <include
+                        android:id="@+id/pause_view"
+                        layout="@layout/pause"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone" />
+
+                    <include
+                        android:id="@+id/seekBar_view"
+                        layout="@layout/seekview"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y60"
+                        android:layout_alignParentBottom="true"
+                        android:visibility="gone" />
+
+                    <include
+                        android:id="@+id/video_loading_dialog"
+                        layout="@layout/video_loading_view" />
+
+                    <include
+                        android:id="@+id/loading_dialog"
+                        layout="@layout/mloadview" />
+
+                    <include
+                        android:id="@+id/loadingText_dialog"
+                        layout="@layout/loadtext" />
+
+                    <include
+                        android:id="@+id/live_room_poster"
+                        layout="@layout/poster" />
+
+                </RelativeLayout>
+
+
+            </FrameLayout>
+               <!--webview页面-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <WebView
+                    android:id="@+id/webview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible" />
+
+                <RelativeLayout
+                    android:id="@+id/live_room_playvideo_netquestion_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF">
+
+                    <ImageView
+                        android:id="@+id/webLoading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/loading" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+         <!--文章删除页面-->
+        <LinearLayout
+            android:id="@+id/delate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <Button
+                android:id="@+id/btn_back"
+                style="@style/back_btn" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/x75"
+                    android:layout_height="@dimen/x75"
+                    android:layout_marginBottom="@dimen/y30"
+                    android:src="@drawable/article_delate" />
+
+                <TextView
+                    android:id="@+id/article_delate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/artical_delate"
+                    android:textColor="#8d8d8d"
+                    android:textSize="@dimen/x28" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

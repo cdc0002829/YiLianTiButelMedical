@@ -1,0 +1,24 @@
+/*
+  style css by  2017-3-20
+*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+    margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;  font-family: inherit;}
+body{clear: both; padding: 10px}
+body p{padding-top:8px;}
+body p{text-align: left;word-wrap: break-word}
+body .img{text-indent: 0px; text-align: center;padding-top:10px;}
+body img{max-width:95%!important; text-align: center}
+body *{max-width:100%!important;}
+/*系统默认菜单被禁用*/
+*{
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+*{word-wrap:break-word;  word-break:break-all; }
+input,textarea{
+    -webkit-user-select:auto;
+}

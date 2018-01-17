@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/reLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/publicno_list_selector"
+        android:focusable="false"
+        android:paddingBottom="@dimen/reLayout_padding_left"
+        android:paddingTop="@dimen/reLayout_padding_left" >
+
+        <cn.redcdn.hvs.im.view.SharePressableImageView
+            android:id="@+id/contact"
+            android:layout_width="@dimen/contact_icon_width"
+            android:layout_height="@dimen/contact_icon_width"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/receiver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/icon_margin_txt"
+            android:layout_toRightOf="@id/contact"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="啦啦lalala"
+            android:textColor="@color/contact_name_color"
+            android:textSize="@dimen/contact_name_size" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_line_size"
+        android:layout_marginLeft="@dimen/contact_line_common_margin"
+        android:background="@color/common_line_color"
+        android:visibility="gone" />
+
+    <!-- 最后一条线顶头 -->
+
+    <View
+        android:id="@+id/line_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_line_size"
+        android:background="@color/common_line_color"
+        android:visibility="gone" />
+
+</LinearLayout>

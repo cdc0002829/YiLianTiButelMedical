@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/titlebar" />
+
+
+    <LinearLayout
+        android:id="@+id/group_leader_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y190"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/group_announcement_headimage"
+            android:layout_width="@dimen/x128"
+            android:layout_height="@dimen/y128"
+            android:layout_marginLeft="@dimen/x28"
+            android:layout_marginTop="@dimen/y30" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x40">
+
+            <TextView
+                android:id="@+id/group_announcement_leaderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y42"
+                android:maxLines="2"
+                android:textColor="#2d2d2d"
+                android:textSize="@dimen/x32" />
+
+            <TextView
+                android:id="@+id/group_accouncement_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y15"
+                android:layout_below="@id/group_announcement_leaderName"
+                android:textColor="#8d8d8d"
+                android:textSize="@dimen/x28" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/sep_line_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="#d9d9d9"
+        android:paddingLeft="@dimen/x28"
+        android:paddingRight="@dimen/x28" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/group_announcement_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:layout_marginBottom="@dimen/y180">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/group_announcement_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/y40"
+                    android:background="@null"
+                    android:gravity="top|left"
+                    android:paddingLeft="@dimen/x28"
+                    android:paddingRight="@dimen/x28"
+                    android:textColor="#8d8d8d"
+                    android:textSize="@dimen/x32" />
+            </RelativeLayout>
+        </ScrollView>
+        <TextView
+            android:id="@+id/group_announcement_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/y100"
+            android:gravity="center"
+            android:text="@string/only_groupMaster"
+            android:textColor="#b5b5b5"
+            android:textSize="@dimen/x24"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+</LinearLayout>

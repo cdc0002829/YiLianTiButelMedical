@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_date_array">
+        <item>1|Sunday</item>
+        <item>2|Monday</item>
+        <item>3|Tuesday</item>
+        <item>4|Wednesday</item>
+        <item>5|Thursday</item>
+        <item>6|Friday</item>
+        <item>7|Saturday</item>
+    </string-array>
+    <string-array name="title_name">
+        <item>照片</item>
+        <item>拍摄</item>
+        <item>小视频</item>
+        <item>名片</item>
+        <item>视频会诊</item>
+        <item>我的收藏</item>
+    </string-array>
+    <string-array name="title_name_mutil">
+        <item>照片</item>
+        <item>拍摄</item>
+        <item>小视频</item>
+        <item>名片</item>
+        <item>视频会诊</item>
+        <item>我的收藏</item>
+    </string-array>
+    <string name="alarm_notification_title">可视</string>
+    <string name="browse_vedio">Browse the video</string>
+    <string name="comment">reply/comment</string>
+    <string name="copy_fail">Copy picture failed</string>
+    <string name="create_vedio_false">Video file directory creation failed</string>
+    <string name="del_onekeyfriend">解除可视盒子账号绑定</string>
+    <string name="del_tip">确定删除？</string>
+    <string name="foaword_yes">确定</string>
+    <string name="friday">星期五</string>
+    <string name="information">there is a friend inviting message</string>
+    <string name="invit_friend">通过了您的好友添加请求</string>
+    <string name="load_fail">原图加载失败</string>
+    <string name="load_tip">当前网络连接不是wifi，确定继续下载？</string>
+    <string name="load_tips">当前网络连接不是wifi，将使用您的手机流量进行下载</string>
+    <string name="monday">星期一</string>
+    <string name="more">More</string>
+    <string formatted="false" name="multiimagechooser_tip">Can only choose at most%dPhotos and videos</string>
+    <string name="no_nubenumber">该联系人无视讯号</string>
+    <string name="none_linkman">No contact number found</string>
+    <string name="notice_information">New message notification</string>
+    <string name="noticerecord_toast">Recording time too short</string>
+    <string name="noticerecordtip">Hold down the speaker and let go</string>
+    <string name="noticerecordtip_cancle">Slide up to cancel</string>
+    <string name="open_camera">Open camera failed</string>
+    <string name="photos">/红云医疗相册</string>
+    <string formatted="false" name="picture_exist">The picture already exists%s目录下</string>
+    <string name="playvideo_tip">找不到相关应用，打开文件失败</string>
+    <string name="preview_picture">preview picture</string>
+    <string name="preview_vedio">Preview video</string>
+    <string name="saturday">星期六</string>
+    <string name="save_mobile">Save the picture</string>
+    <string formatted="false" name="save_picture_tip">图片已经保存到"%s"目录</string>
+    <string name="scan_photo">Browse the picture</string>
+    <string name="scan_vedio">Browse the video</string>
+    <string name="select_tip">please choose</string>
+    <string name="selectlinkman_toast">Error loading data</string>
+    <string name="selectlinkman_waitdialog">Please wait...</string>
+    <string name="share_information">Forwarding</string>
+    <string name="sunday">星期日</string>
+    <string name="switch_false">Switch camera failed</string>
+    <string name="takevedio_fale">Shooting video failed</string>
+    <string name="thursday">星期四</string>
+    <string name="title_audio">voice</string>
+    <string name="title_card">Business card</string>
+    <string formatted="false" name="title_invit_notice">您有%d条好友邀请视信、%d条动态视信</string>
+    <string formatted="false" name="title_invitfriend">您有%d条好友邀请视信</string>
+    <string formatted="false" name="title_notice">您有%d条动态视信</string>
+    <string name="title_picture">picture</string>
+    <string name="title_vedio">video</string>
+    <string name="try_again">网络不给力，请重新尝试</string>
+    <string name="tuesday">星期二</string>
+    <string name="unuse_camera">Can not use camera</string>
+    <string formatted="false" name="vedio_continue">You can also shoot %d seconds</string>
+    <string name="vedio_take">Shoot video</string>
+    <string name="wednesday">星期三</string>
+</resources>

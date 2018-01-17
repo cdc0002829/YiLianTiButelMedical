@@ -1,0 +1,17 @@
+{
+	"VideoBitrate" : 300000,
+	"EnableAGC" : 0,
+	"Volume" : 80,
+	"AudioBufferSize" : 1600,
+	"AGCLevelDB" : 6,
+	"AGCGainDB" : 20,
+	"EnableVideoAdjust" : 1,
+	"AdjustCPUValue" : 65,
+	"CPUContinuousHighCount" : 4,
+	"QVGAVideoBitrate" : 200000,
+	"DocDecUseHard" : 2,
+	"AudioCodec" : 0,
+	"AudioDiscardThreshHold" : 3000,
+	"VideoEncUseHard" : 2,
+	"VideoEncUseSkip" : 0
+}

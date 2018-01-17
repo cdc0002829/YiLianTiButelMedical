@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\u1307.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\u1307.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\u1346.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\u1346.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_end_record_pressed.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\video_end_record_pressed.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\abc.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pause_vector.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\pause_vector.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\play_vector.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\play_vector.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\img_select_cb_unselected.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\img_select_cb_unselected.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_end_record_normal.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\video_end_record_normal.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\play_v.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\play_v.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\co_non_video.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\co_non_video.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\u1344.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\u1344.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\thum.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\thum.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\default_music.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\default_music.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_head.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\search_head.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\u1339.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\u1339.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nonvideo.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\nonvideo.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\close.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\close.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\empty_photo.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\empty_photo.png"
+    },
+    {
+        "merged": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_non_item.png",
+        "source": "E:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\src\\main\\res\\drawable-hdpi\\video_non_item.png"
+    }
+]

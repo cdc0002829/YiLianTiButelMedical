@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="cn.redcdn.menuview.view.InvitePersonView" >
+
+    <Button
+        android:id="@+id/hide_view_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+    <FrameLayout
+        android:layout_width="@dimen/meeting_room_menu_participators_view_bg_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@drawable/meeting_room_menu_main_view_title_bg" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_participators_view_title_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/meeting_room_menu_participators_view_title_height" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/meeting_room_menu_participators_view_title_icon_margin_left"
+                        android:background="@drawable/meeting_room_menu_invite_person_view_title_icon" />
+                        
+                       <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/meeting_room_menu_participators_view_title_textview_margin_left"
+                        android:text="@string/invitedtoattend"
+                        android:textSize="@dimen/meeting_room_menu_title_textview_text_size"
+                        android:textColor="#FFFFFF" />
+                    
+                </LinearLayout>
+                
+                <ImageView
+                    android:id="@+id/iv_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/meeting_room_menu_h_line_height"
+                    android:background="#33FFFFFF" />
+                
+                <LinearLayout
+                    android:id="@+id/ll_participators_view_title_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/meeting_room_menu_participators_view_title_height"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/meeting_room_menu_participators_margin_height_5"
+                    android:layout_marginBottom="@dimen/meeting_room_menu_participators_margin_height_5" >
+                
+                 <LinearLayout
+                     android:id="@+id/meeting_room_menu_invite_person_view_sms_btn"
+                     android:layout_width="0dp"
+                     android:layout_height="@dimen/meeting_room_menu_participators_view_button_height"
+                     android:layout_weight="1"
+                     android:background="@drawable/meeting_room_menu_invite_person_view_btn_selector"
+                     android:orientation="horizontal"
+                     android:layout_marginLeft="@dimen/meeting_room_menu_participators_margin_height_20"
+                     android:layout_marginRight="@dimen/meeting_room_menu_participators_margin_height_10"
+                     android:layout_marginTop="@dimen/meeting_room_menu_participators_margin_height_5"
+                     android:layout_marginBottom="@dimen/meeting_room_menu_participators_margin_height_5"
+                     >
+                     
+                     <ImageView 
+                         android:id="@+id/iv_eeting_room_menu_invite_person_view_sms"
+                         android:layout_width="@dimen/meeting_room_menu_participators_margin_height_20"
+                         android:layout_height="@dimen/meeting_room_menu_participators_margin_height_20"
+                         android:layout_marginLeft="@dimen/meeting_room_menu_participators_margin_height_25"
+                         android:layout_marginTop="@dimen/meeting_room_menu_participators_margin_height_10"
+                         android:layout_marginBottom="@dimen/meeting_room_menu_participators_margin_height_15"
+                         android:src="@drawable/meeting_room_menu_invite_person_view_sms_icon"
+                         />
+                     
+                     <TextView
+                         android:id="@+id/tv_eeting_room_menu_invite_person_view_sms"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/smsinvitation"
+                         android:textSize="@dimen/meeting_room_menu_title_textview_text_size"
+                         android:textColor="#FFFFFF"
+                         android:layout_gravity="center"
+                         android:layout_marginLeft="@dimen/meeting_room_menu_participators_margin_height_10"
+                          />
+                     
+                 </LinearLayout>    
+                 
+                 <LinearLayout
+                     android:id="@+id/meeting_room_menu_invite_person_view_weixing_btn"
+                     android:layout_width="0dp"
+                     android:layout_height="@dimen/meeting_room_menu_participators_view_button_height"
+                     android:layout_weight="1"
+                     android:background="@drawable/meeting_room_menu_invite_person_view_btn_selector"
+                     android:orientation="horizontal"
+                     android:layout_marginLeft="@dimen/meeting_room_menu_participators_margin_height_20"
+                     android:layout_marginRight="@dimen/meeting_room_menu_participators_margin_height_20"
+                     android:layout_marginTop="@dimen/meeting_room_menu_participators_margin_height_5"
+                     android:layout_marginBottom="@dimen/meeting_room_menu_participators_margin_height_5"
+                     >
+                     
+                     <ImageView 
+                         android:id="@+id/iv_eeting_room_menu_invite_person_view_weixin"
+                         android:layout_width="@dimen/meeting_room_menu_participators_margin_height_20"
+                         android:layout_height="@dimen/meeting_room_menu_participators_margin_height_20"
+                         android:layout_marginLeft="@dimen/meeting_room_menu_participators_margin_height_25"
+                         android:layout_marginTop="@dimen/meeting_room_menu_participators_margin_height_10"
+                         android:layout_marginBottom="@dimen/meeting_room_menu_participators_margin_height_15"
+                         android:src="@drawable/meeting_room_menu_invite_person_view_weixin_icon"
+                         />
+                     
+                     <TextView
+                         android:id="@+id/tv_eeting_room_menu_invite_person_view_weixin"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/wechatinvited"
+                         android:textSize="@dimen/meeting_room_menu_title_textview_text_size"
+                         android:textColor="#FFFFFF"
+                         android:layout_gravity="center"
+                         android:layout_marginLeft="@dimen/meeting_room_menu_participators_margin_height_10"
+                          />
+                     
+                 </LinearLayout>  
+                    
+                </LinearLayout> 
+     
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/meeting_room_menu_participators_view_list_item_height"
+                android:orientation="vertical"
+                    android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/meeting_room_menu_h_line_height"
+                    android:background="#33FFFFFF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/meeting_room_menu_participators_view_title_height"
+                    android:orientation="horizontal"
+                    >
+
+                    <EditText
+                        android:id="@+id/meeting_room_menu_invite_person_view_edittext"
+                        android:layout_width="@dimen/meeting_room_menu_invite_person_edittext_width"
+                        android:layout_height="@dimen/meeting_room_menu_invite_person_edittext_height"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/meeting_room_menu_invite_person_edittext_margin_left"
+                        android:background="@drawable/meeting_room_menu_invite_person_view_edittext_bg"
+                        android:hint=""
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="number"
+                        android:maxLength="8"
+                        android:singleLine="true"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/meeting_room_menu_invite_person_edittext_text_size"
+                        android:visibility="visible" />
+                    
+                        <Button
+                        android:id="@+id/meeting_room_menu_invite_person_view_invite_person_btn"
+                        android:layout_width="@dimen/meeting_room_menu_invite_person_invite_person_btn_width"
+                        android:layout_height="@dimen/meeting_room_menu_invite_person_invite_person_btn_height"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/meeting_room_menu_participators_margin_height_10"
+                        android:background="#00000000"
+                        android:enabled="false"
+                        android:text="@string/invitation"
+                        android:textColor="@color/meeting_room_invite_text_color"
+                        android:textSize="@dimen/meeting_room_menu_title_textview_text_size"
+                         />
+                        
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/meeting_room_menu_h_line_height"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#33FFFFFF" />
+            </LinearLayout>
+                
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/meeting_room_menu_invite_person_view_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:divider="@android:color/transparent"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" >
+            </ListView>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/meeting_room_menu_v_line_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="#2a2a2a" />
+    </FrameLayout>
+
+</FrameLayout>

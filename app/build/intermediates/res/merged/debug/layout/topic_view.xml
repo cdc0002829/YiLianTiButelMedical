@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_topic"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主题uid" />
+
+        <AutoCompleteTextView
+            android:id="@+id/edt_topicuid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </AutoCompleteTextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主题appkey" />
+
+        <AutoCompleteTextView
+            android:id="@+id/edt_topicappkey"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </AutoCompleteTextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nube" />
+
+        <AutoCompleteTextView
+            android:id="@+id/edt_topicnube"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </AutoCompleteTextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称" />
+
+        <AutoCompleteTextView
+            android:id="@+id/edt_topicnickname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </AutoCompleteTextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="token" />
+
+        <AutoCompleteTextView
+            android:id="@+id/edt_topictoken"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </AutoCompleteTextView>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_topiclogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="主题登陆" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_topiclogout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="主题登出" >
+    </Button>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主题ID" />
+
+        <AutoCompleteTextView
+            android:id="@+id/edt_topicid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </AutoCompleteTextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主题标题" />
+
+        <EditText
+            android:id="@+id/edt_topictitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主题内容" />
+
+        <EditText
+            android:id="@+id/edt_topiccontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:text="hello 我是一个弹幕  我在想你开炮">
+        </EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="附件信息" />
+
+        <EditText
+            android:id="@+id/edt_topicfile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_topicfollow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="关注" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_topicunfollow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="取消关注" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_topicsendmsg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="发送消息" >
+    </Button>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edt_topicbegintime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="begintime">
+        </EditText>
+
+        <EditText
+            android:id="@+id/edt_topictendtime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="endtime">
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_topicgethistorymsg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="获取历史消息" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_topicgetusernum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="获取用户列表" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_topicgettopn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="获取topn用户" >
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下 -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#dfdfe1"/>
+            <corners android:radius="3dp"/>
+            <size android:width="@dimen/emoji_item_size" android:height="@dimen/emoji_item_size"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+</selector>

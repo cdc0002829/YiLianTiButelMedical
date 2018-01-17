@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_picture_title">头像</string>
+    <string name="modified_user_info_fail">修改用户信息失败</string>
+    <string name="change_password_success">密码修改成功</string>
+</resources>

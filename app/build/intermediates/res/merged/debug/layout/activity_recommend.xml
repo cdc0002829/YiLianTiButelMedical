@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f0f6"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/layout_head" >
+
+        <Button
+            android:id="@+id/btnrecommendback"
+            style="@style/back_btn" />
+
+        <TextView
+            style="@style/middle_text"
+            android:text="@string/recommendedPhoneContacts" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y2"
+        android:layout_alignParentBottom="true"
+        android:background="@color/main_head_divide_line"/>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#f1f0f6" >
+
+        <ListView
+            android:id="@+id/lvrecommend"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:listSelector="#00000000" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/norecommend_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y210"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/contact_nofriend" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/y30"
+                android:text="@string/nofriendsRecommended"
+                android:textColor="#aaabad"
+                android:textSize="@dimen/x32" />
+
+            <Button
+                android:id="@+id/recommand_addfriend_btn"
+                android:background="@drawable/startmeetingbtn_selector"
+                android:layout_width="@dimen/x672"
+                android:layout_height="@dimen/y100"
+                android:layout_gravity="center"
+                android:text="@string/contact_addFriend"
+                android:textSize="@dimen/x36"
+                android:textColor="#ffffff"
+                android:layout_marginTop="@dimen/y120"
+                />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

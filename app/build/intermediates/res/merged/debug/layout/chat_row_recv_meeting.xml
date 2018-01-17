@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/chat_text_date_style"
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y40"
+        android:layout_marginBottom="@dimen/y18"
+        android:layout_marginTop="@dimen/y16"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/y7"
+        android:paddingLeft="@dimen/x10"
+        android:paddingRight="@dimen/chat_padding_left_right"
+        android:paddingTop="@dimen/chat_item_padding_top">
+
+        <RelativeLayout
+            android:id="@+id/select_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/chat_contact_icon_size"
+            android:layout_alignParentLeft="true">
+
+            <CheckBox
+                android:id="@+id/linkman_select"
+                android:layout_width="@dimen/select_linkman_checkbox_size"
+                android:layout_height="@dimen/select_linkman_checkbox_size"
+                android:layout_marginLeft="@dimen/chat_padding_left_right"
+                android:layout_centerVertical="true"
+                android:background="@drawable/checkbox_selected"
+                android:button="@null"
+                android:clickable="true"
+                android:visibility="visible"/>
+        </RelativeLayout>
+
+        <cn.redcdn.hvs.im.view.SharePressableImageView
+            android:id="@+id/contact_icon_notice"
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/x80"
+            android:background="@null"
+            android:layout_marginLeft="@dimen/x28"
+            android:layout_toRightOf="@id/select_layout"
+            android:layout_alignWithParentIfMissing="true"
+            android:focusable="false"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/contact_icon_notice"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="9dp"
+            android:layout_toRightOf="@+id/contact_icon_notice"
+            android:textSize="12sp"/>
+
+        <RelativeLayout
+            android:id="@+id/vcard_bg"
+            android:layout_width="@dimen/x482"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_name"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/contact_icon_notice"
+            android:background="@drawable/chat_meeting_left_bg"
+            android:descendantFocusability="blocksDescendants"
+            android:paddingLeft="13dp"
+            android:paddingRight="10dp"
+            android:paddingTop="11dp">
+
+            <RelativeLayout
+                android:id="@+id/meeting_ex_rl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="55dp">
+
+                <ImageView
+                    android:id="@+id/vcard_head_iv"
+                    android:layout_width="@dimen/chat_vcard_head_size"
+                    android:layout_height="@dimen/chat_vcard_head_size"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="@dimen/x16"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:focusable="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/m_chat_meet_icon"/>
+
+                <TextView
+                    android:id="@+id/vcard_name_txt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/vcard_head_iv"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/vcard_head_iv"
+                    android:textColor="@color/text_color_name"
+                    android:textSize="@dimen/x28"/>
+
+                <TextView
+                    android:id="@+id/meeting_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="@dimen/x24"
+                    android:paddingBottom="@dimen/y20"
+                    android:textColor="@color/text_color_num"
+                    android:layout_below="@id/vcard_name_txt"
+                    android:layout_toRightOf="@id/vcard_head_iv"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/vcard_nube_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/meeting_ex_rl"
+                android:layout_marginLeft="@dimen/x14"
+                android:paddingBottom="@dimen/y6"
+                android:singleLine="true"
+                android:textColor="@color/qn_dialog_bottom_bg_press_color"
+                android:textSize="@dimen/x24"/>
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/retry_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_toRightOf="@id/vcard_bg"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:padding="@dimen/chat_retry_padding"
+            android:src="@drawable/chat_retry_btn_selector"/>
+
+        <ProgressBar
+            style="@style/chat_shaing_progressbar"
+            android:id="@+id/msg_running_pb"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_toRightOf="@id/vcard_bg"/>
+    </RelativeLayout>
+
+</LinearLayout>

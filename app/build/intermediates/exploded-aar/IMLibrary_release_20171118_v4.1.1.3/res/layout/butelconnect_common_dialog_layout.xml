@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/butelconnect_bg_dialog_out_shape"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/lt_close"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/commondialog_higth"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="tishi"
+            android:textColor="@color/commomdialog_color"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/tv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/butelconnect_close_dialog_img"
+            android:visibility="gone" >
+        </ImageView>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line"
+        android:background="#cdccd1" />
+
+    <LinearLayout
+        android:id="@+id/lt_difine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/commondialog_minihigth"
+        android:orientation="vertical"
+        android:paddingBottom="1dp" >
+
+        <EditText
+            android:id="@+id/tv_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="11dp"
+            android:maxLines="10"
+            android:textColor="@color/color_black"
+            android:textSize="19sp" />
+
+        <RelativeLayout
+            android:id="@+id/et_verify_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/modified_et_nickname_height"
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/contact_bg_color"
+            android:duplicateParentState="false"
+            android:gravity="center_vertical"
+            android:visibility="gone" >
+
+            <EditText
+                android:id="@+id/et_verify"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_toLeftOf="@+id/iv_delete3"
+                android:background="@color/contact_bg_color"
+                android:inputType="textMultiLine"
+                android:maxLines="3"
+                android:paddingLeft="@dimen/modified_name_dialog_padding"
+                android:textColor="@color/color_userinfo"
+                android:textColorHint="@color/common_text_hint_color"
+                android:textSize="@dimen/word_size_16sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_delete3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@null"
+                android:paddingRight="@dimen/modified_et_nickname_paddingLeft"
+                android:src="@drawable/butelconnect_ic_et_clear"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line"
+        android:background="#cdccd1" />
+
+    <LinearLayout
+        android:id="@+id/operation_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/commondialog_operation_layout"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:splitMotionEvents="false" >
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/butelconnect_btn_left_bottom_radios"
+            android:gravity="center"
+            android:text="@string/cancel_message"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/word_size_18sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="@dimen/line"
+            android:layout_height="fill_parent"
+            android:background="#cdccd1" />
+
+        <Button
+            android:id="@+id/confirm_btn"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/butelconnect_btn_right_bottom_radios"
+            android:gravity="center"
+            android:text="@string/confirm_message"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/word_size_18sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- android:textColor="#2181f7" -->
+
+</LinearLayout>

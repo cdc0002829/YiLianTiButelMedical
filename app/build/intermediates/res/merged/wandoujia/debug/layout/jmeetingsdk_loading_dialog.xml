@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="@dimen/x220"
+            android:layout_height="@dimen/y250"
+            android:layout_centerInParent="true"
+            android:background="@drawable/jmeetingsdk_splash_loading_bg"
+            >
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="@dimen/x68"
+                android:layout_height="@dimen/y68"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/loading" />
+
+            <TextView
+                android:id="@+id/tipTextView"
+                android:layout_width="@dimen/x200"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/y25"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/x32"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

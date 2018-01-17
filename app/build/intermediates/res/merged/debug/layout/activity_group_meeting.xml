@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_group_meeting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f6"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/titlebar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y96"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:text="@string/startVideoMeeting"
+            android:textColor="@color/btn_color_black"
+            android:textSize="@dimen/x32" />
+
+        <cn.redcdn.hvs.profiles.view.SlideSwitch
+            android:id="@+id/set_group_meeting"
+            android:layout_width="@dimen/x130"
+            android:layout_height="@dimen/y62"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x28"
+            android:onClick="onButton" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/chat_name_line_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/diver_line_dark" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y96"
+        android:layout_marginTop="@dimen/y40"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:text="@string/meeting_nube"
+            android:textColor="@color/btn_color_black"
+            android:textSize="@dimen/x32" />
+        <ImageView
+            android:layout_width="@dimen/x1"
+            android:layout_height="@dimen/y36"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x170"
+            android:background="#c7c7cd" />
+
+        <EditText
+            android:id="@+id/group_meeting_number_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x186"
+            android:background="@null"
+            android:hint="@string/group_meeting_warning"
+            android:inputType="number"
+            android:maxLength="8"
+            android:textColorHint="#c7c7cd"
+            android:textSize="@dimen/x32" />
+        <Button
+            android:id="@+id/group_meeting_meetingid_delete"
+            android:layout_width="@dimen/x42"
+            android:layout_height="@dimen/y42"
+            android:layout_marginRight="@dimen/x30"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/group_meeting_delete"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_marginLeft="@dimen/x30"
+        android:background="#c7c7cd" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y96"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:text="@string/meeting_password"
+            android:textColor="@color/btn_color_black"
+            android:textSize="@dimen/x32" />
+
+        <ImageView
+            android:layout_width="@dimen/x1"
+            android:layout_height="@dimen/y36"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x170"
+            android:background="#c7c7cd" />
+
+        <EditText
+            android:id="@+id/group_meeting_password_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x186"
+            android:hint="@string/group_meeting_password_edittext"
+            android:background="@null"
+            android:inputType="number"
+            android:maxLength="6"
+            android:textColor="#2d2d2d"
+            android:textColorHint="#c7c7cd"
+            android:textSize="@dimen/x32" />
+        <Button
+            android:id="@+id/group_meeting_password_delete"
+            android:layout_width="@dimen/x42"
+            android:layout_height="@dimen/y42"
+            android:layout_marginRight="@dimen/x30"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/group_meeting_delete"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_marginLeft="@dimen/x30"
+        android:background="#c7c7cd" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y96"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:text="@string/meeting_title"
+            android:textColor="@color/btn_color_black"
+            android:textSize="@dimen/x32" />
+
+        <ImageView
+            android:layout_width="@dimen/x1"
+            android:layout_height="@dimen/y36"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x170"
+            android:background="#c7c7cd" />
+        <Button
+            android:id="@+id/group_meeting_theme_delete"
+            android:layout_width="@dimen/x42"
+            android:layout_height="@dimen/y42"
+            android:layout_marginRight="@dimen/x30"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/group_meeting_delete"
+            android:visibility="gone"/>
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/group_meeting_theme_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/group_meeting_theme_delete"
+            android:layout_marginLeft="@dimen/x186"
+            android:hint="@string/group_meeting_theme_edittext"
+            android:maxLength="20"
+            android:background="@null"
+            android:textColor="#2d2d2d"
+            android:textColorHint="#c7c7cd"
+            android:textSize="@dimen/x32" />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_marginLeft="@dimen/x30"
+        android:background="#c7c7cd" />
+</LinearLayout>

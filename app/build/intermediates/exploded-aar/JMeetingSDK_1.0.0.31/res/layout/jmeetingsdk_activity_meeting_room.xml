@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/meeting_room_bg_color" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/meeting_room_no_speaker_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/meeting_room_bg_icon" />
+
+        <TextView
+            android:id="@+id/meeting_room_no_speaker_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/meeting_room_bg_tip_textview_margin_top"
+            android:text="@string/meeting_room_bg_tip"
+            android:textSize="@dimen/meeting_room_bg_tip_textview_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/meeting_room_media_view_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <cn.redcdn.menuview.MenuView
+        android:id="@+id/meeting_room_menu_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <cn.redcdn.messagereminder.MessageReminderView
+        android:id="@+id/meeting_room_message_reminder_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="cn.redcdn.menuview.view.ParticipatorsView" >
+
+    <Button
+        android:id="@+id/hide_view_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+    <FrameLayout
+        android:layout_width="@dimen/meeting_room_menu_participators_view_bg_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@drawable/meeting_room_menu_main_view_title_bg" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/meeting_room_menu_participators_view_title_height" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/meeting_room_menu_participators_view_title_icon_margin_left"
+                    android:background="@drawable/meeting_room_menu_give_mic_view_give_mic_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/meeting_room_menu_participators_view_title_textview_margin_left"
+                    android:text="@string/initiatethewheat"
+                    android:textSize="@dimen/meeting_room_menu_title_textview_text_size" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/meeting_room_menu_h_line_height"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                android:background="#33FFFFFF" />
+
+            <ListView
+                android:id="@+id/meeting_room_menu_give_mic_view_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:divider="@android:color/transparent"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" >
+            </ListView>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/meeting_room_menu_v_line_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="#2a2a2a" />
+    </FrameLayout>
+
+</FrameLayout>

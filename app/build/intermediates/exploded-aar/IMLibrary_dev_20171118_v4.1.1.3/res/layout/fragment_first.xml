@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:orientation="vertical"
+    android:background="#00ff00" >  
+  
+    <TextView  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:gravity="center"  
+        android:text="fragment1"  
+        android:textSize="20sp"  
+        android:textStyle="bold" />
+    <EditText 
+        android:id="@+id/edt_dest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="50025186"/> 
+         <Button
+             android:id="@+id/btn_makecall_fragment"
+             android:text="makecall"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             />
+  
+</LinearLayout>

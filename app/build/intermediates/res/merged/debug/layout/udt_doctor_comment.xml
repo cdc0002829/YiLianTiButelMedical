@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xlhRatingBar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_doctorComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y44"
+            android:background="@color/contact_catalog_txt_bg_color">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x28"
+                android:text="@string/udt_comment"
+                android:textColor="#8e8e93"
+                android:textSize="@dimen/x24" />
+        </RelativeLayout>
+        <!--评价-->
+        <RelativeLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/x230">
+
+            <TextView
+                android:id="@+id/need"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x28"
+                android:layout_marginTop="@dimen/x30"
+                android:text="@string/udt_request_help"
+                android:textColor="#8d8d8d"
+                android:textSize="@dimen/x32" />
+
+            <TextView
+                android:id="@+id/tv_needComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/need"
+                android:layout_marginLeft="@dimen/x28"
+                android:layout_marginTop="@dimen/x14"
+                android:text="@string/udt_no_comment"
+                android:layout_marginRight="@dimen/x28"
+                android:layout_marginBottom="@dimen/x30"
+                android:textColor="#8d8d8d"
+                android:textSize="@dimen/x30" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x28">
+
+                <Button
+                    android:id="@+id/btn_response"
+                    android:layout_width="@dimen/x144"
+                    android:layout_height="@dimen/x60"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="@dimen/x18"
+                    android:background="@drawable/button_selector"
+                    android:text="@string/udt_comment_btn"
+                    android:textColor="#fff" />
+
+                <com.example.xlhratingbar_lib.XLHRatingBar
+                    android:id="@+id/need_RatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/x28"
+                    android:layout_marginTop="@dimen/x30"
+                    android:numStars="5"
+                    android:visibility="invisible"
+                    xlhRatingBar:dividerWidth="@dimen/x8"
+                    xlhRatingBar:stateResId="@drawable/appraise_dialog_star_select"
+                    xlhRatingBar:widthAndHeight="@dimen/x32" />
+            </FrameLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#E8E8E8" />
+
+        <RelativeLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/x230">
+
+            <TextView
+                android:id="@+id/help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x28"
+                android:layout_marginTop="@dimen/x30"
+                android:text="@string/udt_response_service"
+                android:textColor="#8d8d8d"
+                android:textSize="@dimen/x30" />
+
+            <TextView
+                android:id="@+id/tv_helpComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/help"
+                android:layout_marginLeft="@dimen/x28"
+                android:layout_marginTop="@dimen/x14"
+                android:text="@string/udt_no_comment"
+                android:layout_marginRight="@dimen/x28"
+                android:layout_marginBottom="@dimen/x30"
+                android:textColor="#8d8d8d"
+                android:textSize="@dimen/x30" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x28">
+
+                <Button
+                    android:id="@+id/btn_request"
+                    android:layout_width="@dimen/x144"
+                    android:layout_height="@dimen/x60"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="@dimen/x18"
+                    android:background="@drawable/button_selector"
+                    android:text="评价"
+                    android:textColor="#fff" />
+
+                <com.example.xlhratingbar_lib.XLHRatingBar
+                    android:id="@+id/help_RatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/x28"
+                    android:layout_marginTop="@dimen/x30"
+                    android:numStars="5"
+                    android:visibility="invisible"
+                    xlhRatingBar:dividerWidth="@dimen/x8"
+                    xlhRatingBar:stateResId="@drawable/appraise_dialog_star_select"
+                    xlhRatingBar:widthAndHeight="@dimen/x32" />
+            </FrameLayout>
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="#E8E8E8" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x100"
+        android:background="#f0f0f6"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/btn_udt_online_recipe"
+            android:layout_width="@dimen/x28"
+            android:layout_height="@dimen/x28"
+            android:layout_marginLeft="@dimen/x28"
+            android:layout_marginTop="@dimen/x14"
+            android:background="@drawable/udt_online_recipe_selecor"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginTop="@dimen/x10"
+            android:text="@string/udt_online_recipe"
+            android:textColor="#3aabcb"
+            android:textSize="@dimen/x24"
+            android:visibility="gone" />
+
+        <Button
+            android:layout_gravity="center_vertical"
+            android:id="@+id/btn_udt_transfer_treatmeat"
+            android:layout_width="@dimen/x46"
+            android:layout_height="@dimen/x46"
+            android:layout_marginLeft="@dimen/x28"
+            android:background="@drawable/udt_transfer_treatmeat" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x10"
+            android:text="@string/udt_look_transfer_ding"
+            android:textColor="#3aabcb"
+            android:textSize="@dimen/x24" />
+    </LinearLayout>
+</LinearLayout>

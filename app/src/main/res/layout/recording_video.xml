@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black">
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true" />
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/titlebar"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/recording_video_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@color/recording_video_title_color"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/y40"
+            android:text="@string/recording_video_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x28" />
+        <Button
+            android:id="@+id/change_camera"
+            android:layout_width="@dimen/x52"
+            android:layout_height="@dimen/y41"
+            android:layout_marginLeft="@dimen/x640"
+            android:layout_marginTop="@dimen/y40"
+            android:background="@drawable/vedio_camera_select" />
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/recorded_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gray_sharp_bg"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y248"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/color_black" />
+
+    <Button
+        android:id="@+id/record_btn"
+        android:layout_width="@dimen/x132"
+        android:layout_height="@dimen/y132"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/y31"
+        android:background="@drawable/btn_video_begin_record_seletor" />
+
+    <TextView
+        android:id="@+id/rest_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/record_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/y26"
+        android:layout_marginTop="@dimen/y1064"
+        android:background="@null"
+        android:text="@string/recording_video_littleVedio"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x28"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/y80"
+        android:layout_marginLeft="@dimen/x28"
+        android:text="@string/cancel"
+        android:textColor="@color/recording_video_cancelColor"
+        android:textSize="@dimen/x32"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/y80"
+        android:layout_marginRight="@dimen/x28"
+        android:text="@string/send_message"
+        android:textColor="@color/recording_video_title_presscolor"
+        android:textSize="@dimen/x32"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

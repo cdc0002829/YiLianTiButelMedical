@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/systembg"
+    >
+
+    <RelativeLayout style="@style/layout_head" >
+
+        <Button
+            android:id="@+id/registercheckcode_back"
+            style="@style/back_btn" />
+
+        <TextView
+            style="@style/middle_text"
+            android:text="@string/input_code" />
+    </RelativeLayout>
+  <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_marginTop="@dimen/login_usermargin"
+        android:background="#e3e4e5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/register_item_height"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="0.8"
+            android:id="@+id/left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/register_item_leftmargin"
+                android:text="@string/verification_code"
+                android:textColor="#4b4c4c"
+                android:textSize="@dimen/register_text_size" />
+        </LinearLayout>
+ <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="1.2" >
+        <View
+            android:layout_width="@dimen/line_height"
+            android:layout_height="@dimen/register_verticalline_height"
+            android:layout_gravity="center"
+            android:background="#e3e4e5" />
+         
+            <EditText
+                android:layout_marginLeft="@dimen/login_usermargin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:hint="@string/input_verification_code"
+                android:textColor="#4b4c4c"
+                android:textSize="@dimen/register_text_size"
+                android:id="@+id/checkcode_edit" 
+                android:maxLength="6"
+                android:digits="0123456789"
+                android:inputType="number"
+                android:textColorHint="#c8cacc"/>
+        </LinearLayout>
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+            android:layout_weight="1.2"
+            >
+        <View
+            android:layout_width="@dimen/line_height"
+            android:layout_height="@dimen/register_verticalline_height"
+            android:layout_gravity="center"
+            android:background="#e3e4e5" />
+         <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/login_usermargin"
+                android:text="@string/get_code"
+                android:textColor="#c8cacc"
+                android:textSize="@dimen/checkcode_size"
+                android:id="@+id/checkcode_btn"
+                android:background="@null"/>
+         <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="（20）"
+                android:textColor="#c8cacc"
+                android:id="@+id/checkcodetime_tv"
+                android:textSize="@dimen/checkcode_size" />
+         </LinearLayout>
+    </LinearLayout>
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="#e3e4e5" />
+         <Button
+        android:id="@+id/register_finish_btn"
+        android:layout_width="@dimen/login_edit_width"
+        android:layout_height="@dimen/login_head_height"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/register_btn_margin"
+        android:background="@drawable/button_selector"
+        android:text="@string/complete"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/login_lgoin_textsize" />
+</LinearLayout>

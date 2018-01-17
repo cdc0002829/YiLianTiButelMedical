@@ -1,0 +1,1265 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/event"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!-- 显示result -->
+
+    <com.butel.connectevent.test.utils.MyEditText
+        android:id="@+id/edit_result"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:background="#e0e0e0"
+        android:editable="false"
+        android:gravity="left"
+        android:hint="EventConnect-Show"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="testFragment" 
+        android:visibility="gone"/>
+          <Button
+                android:id="@+id/btn_im_clear1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment"
+                android:layout_alignParentRight="true"
+                android:text="Clear"></Button>
+    <SurfaceView
+        android:id="@+id/local_video_surfaceview"
+        android:layout_width="fill_parent"
+        android:layout_height="160sp"
+        android:layout_centerInParent="true"
+        android:keepScreenOn="true"
+        android:visibility="gone" />
+
+    <SurfaceView
+        android:id="@+id/remote_video_surfaceview"
+        android:layout_width="32dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="4sp"
+        android:layout_marginTop="5sp"
+        android:keepScreenOn="true"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/sv_ui"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_result">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            
+                 <Button
+                android:id="@+id/btn_auth"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="鉴权"></Button>
+
+            <!-- 清屏 两次清缓存 -->
+
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_auth"
+                android:text="Clear"></Button>
+
+            <LinearLayout
+                android:id="@+id/ll_butel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_clear"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/check_isstress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:clickable="false"
+                        android:text="压力测试" />
+
+                    <CheckBox
+                        android:id="@+id/check_iscaller"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="被叫" />
+
+                    <Button
+                        android:id="@+id/stress_property_setting"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="压力测试设置" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/stress_call"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="开始压力外呼"
+                   android:clickable="false"
+                    android:visibility="visible"></Button>
+
+                <EditText
+                    android:id="@+id/edt_init_json"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="init_json" />
+
+                <Button
+                    android:id="@+id/btn_init"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="init初始化"></Button>
+
+                <Button
+                    android:id="@+id/btn_uninit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="uninit反初始化"></Button>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="appkey : " />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/et_appkey"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="appkey" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_pass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="password : " />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/et_password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="password" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="register注册" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_nube"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="nube : " />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/et_nubenumber"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="nubenumber" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_unregister"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="unregister注销" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="nikename : " />
+
+                    <EditText
+                        android:id="@+id/edt_nikename"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="昵    称"></EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="用户业务id : " />
+
+                    <EditText
+                        android:id="@+id/edt_userid"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="用户业务id"></EditText>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="login   登陆" />
+
+                <Button
+                    android:id="@+id/btn_login2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LoginWithToken   登陆" />
+
+                <Button
+                    android:id="@+id/btn_getstatus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="获取状态" />
+
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="logout   登出" />
+                <!-- 高级话路相关 -->
+
+                <Button
+                    android:id="@+id/btn_adv"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="高级话路相关open"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <LinearLayout
+                    android:id="@+id/ll_senior"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/btn_createAdvCall"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="createADVCall"
+                        android:visibility="gone" />
+
+                    <EditText
+                        android:id="@+id/edt_ADVCallUser"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint=" ADVCallUser多条逗号分割"
+                        android:visibility="gone" />
+
+                    <EditText
+                        android:id="@+id/edt_ADVCallUserInfo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="extendInfo"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/btn_addMember"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="addMember" />
+
+                    <EditText
+                        android:id="@+id/edt_adv_dest"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="adv_dest_nube" />
+
+                    <Button
+                        android:id="@+id/btn_hold"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="hold" />
+
+                    <Button
+                        android:id="@+id/btn_resume"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="resume" />
+
+                    <EditText
+                        android:id="@+id/edt_dest_monitor_key"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="dest_monitor_key" />
+
+                    <Button
+                        android:id="@+id/btn_adv_monitor"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="monitor" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ch_upaudio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="上行音频" />
+
+                        <CheckBox
+                            android:id="@+id/ch_upvideo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="上行视频" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ch_downaudio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="下行音频" />
+
+                        <CheckBox
+                            android:id="@+id/ch_downvideo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="下行视频" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_EnableMedia"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="EnableMedia" />
+
+                    <Button
+                        android:id="@+id/btn_advRedirectCall"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="AdvRedirectCall" />
+
+                    <Button
+                        android:id="@+id/btn_RemoveMember"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RemoveMember" />
+
+                    <Button
+                        android:id="@+id/btn_GetCallInfo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GetCallInfo" />
+
+                    <CheckBox
+                        android:id="@+id/ch_isforce"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="是否指定号码" />
+
+                    <EditText
+                        android:id="@+id/edt_videoSrcNumber"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="视频/音频源用户号码" />
+
+                    <Button
+                        android:id="@+id/btn_SetRemoteVideo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SetRemoteVideo" />
+
+                    <Button
+                        android:id="@+id/btn_SetRemoteAudio"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SetRemoteAudio" />
+
+                    <Button
+                        android:id="@+id/btn_SetDefaultVideo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SetDefaultVideo" />
+                    <!--
+                        <EditText
+                        android:id="@+id/edt_videoSrcNumber"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="视频/音频源用户号码" />
+                    -->
+
+                    <TextView
+                        android:id="@+id/txt_ismonitor"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="是否使用monitor" />
+
+                    <EditText
+                        android:id="@+id/edt_ismonitor"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <TextView
+                        android:id="@+id/txt_ismonitorcode"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="monitorCode" />
+
+                    <EditText
+                        android:id="@+id/edt_monitorCode"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btn_ButelSetMonitorCode"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ButelSetMonitorCode" />
+
+                    <Button
+                        android:id="@+id/btn_makecallS"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="makecallS" />
+
+                    <Button
+                        android:id="@+id/btn_makecalld"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="makecallDetect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="destnube : " />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/edt_destnube"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="目标号码"></AutoCompleteTextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="calltype : " />
+
+                    <Spinner
+                        android:id="@+id/spinner_calltype"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="呼叫类型"></Spinner>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="cad : " />
+
+                    <EditText
+                        android:id="@+id/edt_cad"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="随路信令json"></EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="acdTimeOut : " />
+
+                    <EditText
+                        android:id="@+id/edt_acd_timeout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="ACD排队超时"></EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="priority : " />
+
+                    <EditText
+                        android:id="@+id/edt_priority"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="1"
+                        android:numeric="integer"></EditText>
+
+                    <EditText
+                        android:id="@+id/edt_is_adv_call"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="1"
+                        android:numeric="integer"></EditText>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_makecall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="make  外呼" />
+
+                <Button
+                    android:id="@+id/btn_monitorcall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="monitorcall  外呼" />
+
+                <Button
+                    android:id="@+id/btn_answercall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="answer  音频接通" />
+
+                <Button
+                    android:id="@+id/btn_answercall_audio"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="answer  视频接通" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/ch_type_demo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="本"
+                        android:textColor="@android:color/holo_red_dark" />
+
+                    <CheckBox
+                        android:id="@+id/ch_type_demo_remote"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="远"
+                        android:textColor="@android:color/holo_red_dark" />
+
+                    <CheckBox
+                        android:id="@+id/ch_hasaudio_demo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="有声音"
+                        android:textColor="@android:color/holo_red_dark" />
+
+                    <Button
+                        android:id="@+id/btn_startrecord_demo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="录制" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_hungupcall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="hungup  挂断" />
+
+                <Button
+                    android:id="@+id/cbtn_ring"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="允许响铃" />
+
+                <Button
+                    android:id="@+id/speakerbtn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="开免提" />
+
+                <CheckBox
+                    android:id="@+id/cbtn_camera"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:checked="true"
+                    android:text="允   许   摄   像   头" />
+
+                <Button
+                    android:id="@+id/btn_switch"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="switch  更换摄像头" />
+
+                <Button
+                    android:id="@+id/btn_mute"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="mute" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="enabled : " />
+
+                    <Spinner
+                        android:id="@+id/spinner_enableForceMedia"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="开启或关闭"></Spinner>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="encFormat : " />
+
+                    <Spinner
+                        android:id="@+id/spinner_encFormat"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="视频格式"></Spinner>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_setforcemedia"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="setforcemedia" />
+                <!-- 隐藏 gone -->
+
+
+                <!--
+                     <LinearLayout
+                    android:id="@+id/ll_for_baidu_hide_zone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+                -->
+
+
+                <!-- changed by dingjianwei -->
+
+                <LinearLayout
+                    android:id="@+id/ll_for_baidu_hide_zone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- 坐席 -->
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="接入号  : " />
+
+                        <EditText
+                            android:id="@+id/edt_accessnube"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="接入号accessnube"></EditText>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="抢占排队超时 : " />
+
+                        <EditText
+                            android:id="@+id/edt_queue_timeout"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="抢占超时edt_queue_timeout"></EditText>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="抢占坐席随路信令cad : " />
+
+                        <EditText
+                            android:id="@+id/edt_queue_cad"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="排队随路信令edt_queue_cad"></EditText>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_occupy"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="occupy抢占坐席" />
+
+                    <Button
+                        android:id="@+id/btn_get_agent"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="报警抢占坐席" />
+                    <!-- 释放坐席 -->
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="接入号  : " />
+
+                        <EditText
+                            android:id="@+id/edt_accessnube_release"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="接入号accessnuberelease"></EditText>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="真实号码 : " />
+
+                        <EditText
+                            android:id="@+id/edt_realnube"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="真实edt_realnube"></EditText>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="guid  : " />
+
+                        <EditText
+                            android:id="@+id/edt_accessnube_guid"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="释放事务id   guid"></EditText>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_release"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="release释放坐席" />
+
+                    <!-- 在线消息 -->
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="目标nube : " />
+
+                        <EditText
+                            android:id="@+id/edt_online_destnube"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="目标destnube"
+                            android:inputType="number"></EditText>
+                    </LinearLayout>
+
+                    <!-- 创建群组 -->
+                    <Button
+                        android:id="@+id/btn_message"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="消息功能"
+                        android:textColor="@android:color/holo_blue_dark"></Button>
+
+                    <include
+                        android:id="@+id/include"
+                        layout="@layout/message" />
+
+                    <Button
+                        android:id="@+id/btn_im_clear"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Clear"></Button>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="set taken picture path : " />
+
+                        <EditText
+                            android:id="@+id/edt_taken_pic_path"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="set taken pic path"></EditText>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_taken_pic_path"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="set take pic path"></Button>
+
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="2px"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="#d71345"
+                        android:text="-" />
+
+                    <!-- 群组操作 -->
+                    <!-- 群组操作 -->
+                    <!-- 群组操作 -->
+                    <!-- 群组操作 -->
+                    <!-- 群组操作 -->
+                    <!-- 群组操作 -->
+                    <!-- 群组操作 -->
+
+
+                    <!-- 创建群组 -->
+                    <Button
+                        android:id="@+id/btn_group"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="群组功能"
+                        android:textColor="@android:color/holo_blue_dark"></Button>
+
+                    <include
+                        android:id="@+id/include"
+                        layout="@layout/group" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="2px"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="#d71345"
+                        android:text="-" />
+
+                    <Button
+                        android:id="@+id/btn_LogUpload"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="日志上传"></Button>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="2px"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="#d71345"
+                        android:text="-" />
+
+                    <RadioGroup
+                        android:id="@+id/radio_group_set_vedio_ability"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <!-- 选项2 -->
+
+                        <RadioButton
+                            android:id="@+id/radio_btn_qvga"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" 4：QVGA"></RadioButton>
+                        <!-- 选项3 -->
+
+                        <RadioButton
+                            android:id="@+id/radio_btn_vga"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="16:VGA"></RadioButton>
+
+                        <!-- 选项4 -->
+
+                        <RadioButton
+                            android:id="@+id/radio_btn_720p"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="32:720P"></RadioButton>
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/btn_setvedioability"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="视频能力"></Button>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="2px"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="#d71345"
+                        android:text="-" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="上下行带宽设置" />
+
+                        <EditText
+                            android:id="@+id/edt_setbandwidth_upbw"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"></EditText>
+
+                        <EditText
+                            android:id="@+id/edt_setbandwidth_downbw"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"></EditText>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_setbandwidth"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="设置上下行带宽"></Button>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="2px"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="#d71345"
+                        android:text="-" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="切换nps" />
+
+                        <EditText
+                            android:id="@+id/edt_npschange"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"></EditText>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_npschange"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="nps地址切换"></Button>
+
+                    <Button
+                        android:id="@+id/btn_recoverdefaultsetting"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="恢复秘籍默认配置"></Button>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="2px"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="#d71345"
+                        android:text="-" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="坐席" />
+
+                        <EditText
+                            android:id="@+id/edt_setexclusive_num"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"></EditText>
+                    </LinearLayout>
+                    <!--
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="队列" />
+
+                        <EditText
+                            android:id="@+id/edt_setexclusive_queue"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" >
+                        </EditText>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_setexclusivequeue"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="设置专属队列" >
+                    </Button>                   -->
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="2px"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="#d71345"
+                        android:text="-" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="转接目标" />
+
+                        <EditText
+                            android:id="@+id/edt_redirect_num"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"></EditText>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="呼叫类型" />
+
+                        <EditText
+                            android:id="@+id/edt_redirect_type"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:numeric="integer"></EditText>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_redirect"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="呼叫转接"></Button>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="2px"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="#d71345"
+                        android:text="-" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="带宽" />
+
+                        <EditText
+                            android:id="@+id/edt_forcedetect_band"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:numeric="integer"></EditText>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_forcedetect_band"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="探测上行带宽"></Button>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="2px"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="#d71345"
+                        android:text="-" />
+
+                    <Button
+                        android:id="@+id/btn_device_detect"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="开启设备探测"></Button>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_topic"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="主题功能"
+                    android:textColor="@android:color/holo_blue_dark"></Button>
+
+                <com.butel.connectevent.test.view.TopicView
+                    android:id="@+id/v_topicview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                </com.butel.connectevent.test.view.TopicView>
+
+            </LinearLayout>
+            <!-- 隐藏 -->
+
+            <LinearLayout
+                android:id="@+id/ll_liubai"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/ll_butel"
+                android:orientation="vertical"></LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

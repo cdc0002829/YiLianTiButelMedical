@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Log>
+<SubTypes>
+	<SubType>
+		<SubTypeCount>1</SubTypeCount>
+		<SubTypeName>媒体服务媒体基础库</SubTypeName>
+		<SubTypeData>1</SubTypeData> 
+		<Description>1左移0</Description>
+	</SubType>
+
+	<SubType>
+		<SubTypeCount>1</SubTypeCount>
+		<SubTypeName>会议控制</SubTypeName>
+		<SubTypeData>1048576</SubTypeData>
+		<Description>1左移20</Description>
+	</SubType>
+
+	<SubType>
+		<SubTypeCount>1</SubTypeCount>
+		<SubTypeName>异步模型</SubTypeName>
+		<SubTypeData>140737488355328</SubTypeData>
+		<Description>1左移47</Description>
+	</SubType>
+	<SubType>
+		<SubTypeCount>1</SubTypeCount>
+		<SubTypeName>主机代理</SubTypeName>
+		<SubTypeData>9007199254740992</SubTypeData>
+		<Description>1左移53</Description>
+	</SubType>
+	<SubType>
+		<SubTypeCount>1</SubTypeCount>
+		<SubTypeName>主机进程</SubTypeName>
+		<SubTypeData>18014398509481984</SubTypeData>
+		<Description>1左移54</Description>
+	</SubType>
+	<SubType>
+		<SubTypeCount>1</SubTypeCount>
+		<SubTypeName>路由服务器</SubTypeName>
+		<SubTypeData>36028797018963968</SubTypeData>
+		<Description>1左移55</Description>
+	</SubType>
+</SubTypes>
+<Components>
+	<component>
+		<desc>file</desc>
+		<pathname>Filelog.dll</pathname>
+		<enable>1</enable>
+	</component>
+	<component>
+		<desc>console</desc>
+		<pathname>Console.dll</pathname>
+		<enable>1</enable>
+	</component>
+	<component>
+		<desc>net</desc>
+		<pathname>log2network.dll</pathname>
+		<enable>0</enable>
+	</component>
+</Components>
+<Filter>
+	<LogSubType>
+		<SubTypeCount1>1</SubTypeCount1>
+		<MsgLogSubType1>0</MsgLogSubType1>
+		<ErrorLogSubType1>-1</ErrorLogSubType1>
+		<DebugLogSubType1>0</DebugLogSubType1>
+		<WarningLogSubType1>-1</WarningLogSubType1>
+	
+		<SubTypeCount2>2</SubTypeCount2>
+		<MsgLogSubType2>0</MsgLogSubType2>
+		<ErrorLogSubType2>-1</ErrorLogSubType2>
+		<DebugLogSubType2>0</DebugLogSubType2>
+		<WarningLogSubType2>-1</WarningLogSubType2>
+	
+		<SubTypeCount3>3</SubTypeCount3>
+		<MsgLogSubType3>0</MsgLogSubType3>
+		<ErrorLogSubType3>-1</ErrorLogSubType3>
+		<DebugLogSubType3>0</DebugLogSubType3>
+		<WarningLogSubType3>-1</WarningLogSubType3>
+	
+		<SubTypeCount4>4</SubTypeCount4>
+		<MsgLogSubType4>0</MsgLogSubType4>
+		<ErrorLogSubType4>-1</ErrorLogSubType4>
+		<DebugLogSubType4>0</DebugLogSubType4>
+		<WarningLogSubType4>-1</WarningLogSubType4>
+	</LogSubType>
+</Filter>
+
+<LocalAddr>
+	<LocalIp>127.0.0.1</LocalIp>
+	<LocalPort>63333</LocalPort>
+</LocalAddr>
+<LogWriterConfig>
+	<SaveLogToFile>true</SaveLogToFile>
+</LogWriterConfig>
+<LogFileInfo>
+        <LogNumber>20</LogNumber>
+	<LogMaxCache>10</LogMaxCache>
+</LogFileInfo>
+</Log>								

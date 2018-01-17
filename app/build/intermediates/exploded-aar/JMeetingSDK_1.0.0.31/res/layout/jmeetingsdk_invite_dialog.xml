@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/qn_operate_dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@drawable/jmeetingsdk_custom_oprate_dialog_bg"
+    android:orientation="vertical"
+    android:padding="0dp" >
+
+    <RelativeLayout
+        android:id="@+id/qn_operate_dialog_body_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y173"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/operate_dialog_pic_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/jmeetingsdk_custom_oprate_dialog_pic_bg_first" />
+
+        <ImageView
+            android:id="@+id/operate_dialog_pic_bg_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/jmeetingsdk_custom_oprate_dialog_pic_bg_second" />
+        <ImageView
+            android:id="@+id/operate_dialog_pic_bg_round"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/jmeetingsdk_custom_oprate_dialog_normal_pic_round" />
+
+        <cn.redcdn.util.RoundImageView
+            android:id="@+id/operate_dialog_pic"
+            android:layout_width="@dimen/jmeetingsdk_operate_dialog_pic_size"
+            android:layout_height="@dimen/jmeetingsdk_operate_dialog_pic_size"
+            android:layout_centerInParent="true"
+            android:background="@drawable/jmeetingsdk_custom_oprate_dialog_normal_pic" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/operate_dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_below="@+id/qn_operate_dialog_body_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/operate_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ddd"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/jmeetingsdk_operate_dialog_title_size" />
+
+        <TextView
+            android:id="@+id/operate_dialog_nube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y40"
+            android:text="ddd"
+            android:textColor="#f5f4f7"
+            android:textSize="@dimen/jmeetingsdk_operate_dialog_nube_size" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/two_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/y118"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/qn_operae_dialog_left_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/jmeetingsdk_invite_left_btn_selector"
+            android:gravity="left" />
+
+        <Button
+            android:id="@+id/qn_operae_dialog_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/jmeetingsdk_operate_dialog_two_button_margin"
+            android:background="@drawable/jmeetingsdk_invite_right_btn_selector"
+            android:gravity="right" />
+    </LinearLayout>
+
+</RelativeLayout>

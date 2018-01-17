@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notice_lay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/titlebar" />
+
+    <include
+        android:id="@+id/no_notice_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title"
+        layout="@layout/no_notice"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/notice_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        style="@style/common_list_style"
+        android:scrollbars="vertical"
+        android:splitMotionEvents="false" />
+
+</RelativeLayout>

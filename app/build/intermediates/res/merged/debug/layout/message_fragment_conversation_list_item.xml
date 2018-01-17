@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/reLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y126"
+            android:background="@drawable/dial_item_layout_bg_press"
+            android:focusable="false"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/head_ray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/y10"
+                android:layout_marginLeft="@dimen/x24" >
+
+                <ImageView
+                    android:id="@+id/contact_icon"
+                    android:layout_width="@dimen/x100"
+                    android:layout_height="@dimen/y100"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:focusable="false"
+                     />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal|" >
+
+                    <ImageView
+                        android:id="@+id/new_msg_flag"
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="@dimen/y20"
+                        android:layout_marginBottom="@dimen/y88"
+                        android:layout_marginLeft="@dimen/x86"
+                        android:src="@drawable/chat_unread_count_flag"
+                        android:visibility="invisible" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/new_notice_num"
+                    android:layout_width="@dimen/x36"
+                    android:layout_height="@dimen/y36"
+                    android:layout_marginLeft="@dimen/x78"
+                    android:layout_marginBottom="@dimen/y78"
+                    android:background="@drawable/chat_unread_count_bar"
+                    android:gravity="center"
+                    android:visibility="invisible"
+                    android:text="5"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/x16" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/diver_line_space"
+                android:layout_marginLeft="@dimen/x4"
+                android:layout_toRightOf="@id/head_ray"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/x28"
+                    android:gravity="center_vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/time_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="right"
+                        android:text="2012-12-12 12:12"
+                        android:textColor="#b5b5b5"
+                        android:textSize="@dimen/x22" />
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/failed_flag_margin_left"
+                        android:layout_toLeftOf="@id/time_txt"
+                        android:gravity="center_vertical" >
+
+                        <TextView
+                            android:id="@+id/name_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/name_time_gap"
+                            android:ellipsize="end"
+                            android:text="123"
+                            android:singleLine="true"
+                            android:textColor="#2d2d2d"
+                            android:textSize="@dimen/x32" />
+
+                        <TextView
+                            android:id="@+id/recv_num_field"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@id/name_txt"
+                            android:singleLine="true"
+                            android:textColor="@color/color_threads_black_1"
+                            android:textSize="@dimen/threads_word_1" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/failed_flag_margin_left"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="@dimen/y3"
+                    android:orientation="horizontal"
+                    >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/failed_flag_margin_left"
+                        android:gravity="center_vertical" >
+
+                        <ImageView
+                            android:id="@+id/chat_send_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/failed_flag_margin_left"
+                            android:src="@drawable/chat_send_flag_btn"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/failed_flag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@id/chat_send_btn"
+                            android:layout_marginRight="@dimen/failed_flag_margin_left"
+                            android:src="@drawable/msg_failed_flag"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/draft_field"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@id/failed_flag"
+                            android:text="@string/str_draft_thread"
+                            android:textColor="#f32b15"
+                            android:textSize="@dimen/x28"
+                            android:visibility="visible" />
+
+                        <cn.redcdn.hvs.im.util.smileUtil.EmojiconTextView
+                            xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/msg_txt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@id/draft_field"
+                            android:singleLine="true"
+                            android:ellipsize="end"
+                            android:textColor="#8d8d8d"
+                            android:textSize="@dimen/x28"
+                            android_custom:emojiconSize="18dp"
+                           />
+                    </RelativeLayout>
+                        <ImageView
+                            android:id="@+id/no_disturb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="@dimen/failed_flag_margin_left"
+                            android:layout_marginRight="@dimen/x15"
+                            android:src="@drawable/m_notice_no_disturb_icon"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/item_divider_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_marginLeft="77dp"
+        android:background="#e9e9e9" />
+
+    <View
+        android:id="@+id/item_divider_bottom_1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y1"
+        android:visibility="gone"
+        android:background="#d9d9d9" />
+
+</LinearLayout>

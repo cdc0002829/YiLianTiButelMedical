@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y380"
+    android:layout_gravity="center"
+    android:background="@null"
+    android:orientation="vertical"
+    >
+
+    <!-- 提示界面 -->
+
+    <RelativeLayout
+        android:id="@+id/confirme_container"
+        android:layout_width="@dimen/x540"
+        android:layout_height="@dimen/y380"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_dialog_bg"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:visibility="gone">
+
+            <TextView
+                android:id="@+id/confirme_titile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pleaseUpdate"
+                android:layout_marginLeft="@dimen/x40"
+                android:layout_marginTop="@dimen/y46"
+                android:textColor="@color/dialog_forced_title"
+                android:textSize="@dimen/x32" />
+
+
+
+            <TextView
+                android:id="@+id/confirme_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="4"
+                android:layout_marginTop="@dimen/y100"
+                android:layout_marginLeft="@dimen/x40"
+                android:layout_marginRight="@dimen/x40"
+                android:singleLine="false"
+                android:text="a\na"
+                android:gravity="left"
+                android:textColor="@color/dialog_forced_txt"
+                android:textSize="@dimen/x32" />
+
+
+        <ImageView
+            android:id="@+id/install_dialog_h_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginTop="@dimen/y280"
+            android:layout_marginLeft="@dimen/x2"
+            android:layout_marginRight="@dimen/x2"
+            android:background="#d9d9d9" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y100"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:padding="0dp" >
+
+            <TextView
+                android:id="@+id/install_cancel_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/custom_dialog_left_btn_selector"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="@string/quit"
+                android:textColor="#6a6572"
+                android:textSize="@dimen/x36" />
+
+            <ImageView
+                android:id="@+id/custom_dialog_v_line"
+                android:layout_width="@dimen/x1"
+                android:layout_height="match_parent"
+                android:background="#d9d9d9"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/install_sure_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_dialog_right_btn_selector"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="@string/updateNow"
+                android:textColor="#4cb4ce"
+                android:textSize="@dimen/x36" />
+        </LinearLayout>
+    </RelativeLayout>
+    <!-- 下载界面 -->
+
+    <RelativeLayout
+        android:id="@+id/download_container"
+        android:layout_width="@dimen/x540"
+        android:layout_height="@dimen/y380"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_dialog_bg"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:visibility="visible" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/updating"
+                android:layout_marginTop="@dimen/y46"
+                android:layout_marginLeft="@dimen/x40"
+                android:textColor="@color/dialog_forced_title"
+                android:textSize="@dimen/x30" />
+
+
+        <RelativeLayout
+            android:id="@+id/download_RelativeLayout_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y140"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/x40"
+                android:text="@string/downloadTheUpgradeFile"
+                android:textColor="@color/dialog_forced_txt"
+                android:textSize="@dimen/x32" />
+
+            <TextView
+                android:id="@+id/download_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="0%"
+                android:layout_marginRight="@dimen/y20"
+                android:textColor="#000000"
+                android:textSize="@dimen/x32" />
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y30"
+            android:layout_below="@+id/download_RelativeLayout_view"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/y20"
+            android:layout_marginRight="@dimen/y20"
+            android:layout_marginTop="@dimen/y80"
+            android:background="@drawable/progress_down_bg"
+            android:gravity="center"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress_bg" />
+    </RelativeLayout>
+
+</FrameLayout>

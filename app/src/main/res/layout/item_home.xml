@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+   
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y110"
+        android:background="@drawable/contact_item_selector">
+
+
+        <TextView
+            android:id="@+id/meetinglist_item_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x60"
+            android:layout_toEndOf="@+id/meetinglist_item_time"
+            android:layout_toRightOf="@+id/meetinglist_item_time"
+            android:text="马总会议室"
+            android:maxEms="6"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#2d2d2d"
+            android:textSize="@dimen/x32"/>
+
+        <TextView
+            android:id="@+id/meetinglist_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/meetinglist_item_topic"
+            android:layout_alignBottom="@+id/meetinglist_item_topic"
+android:textColor="#2d2d2d"
+            android:text="15:30"
+            android:layout_marginLeft="@dimen/x31"
+            android:layout_marginStart="@dimen/x31"
+            android:textSize="@dimen/x32"/>
+
+        <TextView
+            android:id="@+id/meetinglist_item_meetingId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60011000"
+            android:textSize="@dimen/x26"
+            android:layout_alignBaseline="@+id/meetinglist_item_topic"
+            android:layout_alignBottom="@+id/meetinglist_item_topic"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/x28"
+            android:layout_marginEnd="@dimen/x28"/>
+        <ImageView
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/meeting_haspassword_icon"
+            android:layout_marginRight="@dimen/x14"
+            android:id="@+id/meetinghaspasswordicon"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/meeting_type_icon"
+            android:layout_toStartOf="@+id/meeting_type_icon"/>
+        <ImageView
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/meeting_consult_meeting"
+            android:layout_marginRight="@dimen/x14"
+            android:id="@+id/meeting_type_icon"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/meetinglist_item_meetingId"
+            android:layout_toStartOf="@+id/meetinglist_item_meetingId"/>
+
+        <TextView
+            android:text="TextView"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meeting_item_creator_from"
+            android:textColor="#c7c7cd"
+            android:textSize="@dimen/x18"
+            android:layout_alignBaseline="@+id/item_from"
+            android:layout_alignBottom="@+id/item_from"
+            android:layout_toRightOf="@+id/item_from"
+            android:layout_toEndOf="@+id/item_from"/>
+
+        <TextView
+            android:text="@string/meeting_list_item_from"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_from"
+            android:textColor="#c7c7cd"
+            android:textSize="@dimen/x18"
+            android:layout_below="@+id/meetinglist_item_topic"
+            android:layout_alignLeft="@+id/meeting_type_icon"
+            android:layout_alignStart="@+id/meeting_type_icon"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/color_butel_selfinfo_darkline_color"
+        />
+</LinearLayout>

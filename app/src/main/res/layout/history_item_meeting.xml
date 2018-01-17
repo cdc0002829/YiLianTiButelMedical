@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/meetinglist_add_height"
+        android:background="@color/color_page_backgroud_color"
+        >
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:id="@+id/line1"
+            android:background="#e3e4e5" />
+
+        <TextView
+            android:id="@+id/meetingid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12345678"
+            android:textColor="#313233"
+           android:layout_centerVertical="true"
+            android:textSize="@dimen/login_user_size"
+            android:layout_marginLeft="@dimen/addcontact_et_paddingleft"
+            android:layout_toRightOf="@+id/line1"/>
+            <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#e3e4e5"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+         
+            android:background="#e3e4e5" />
+</LinearLayout>

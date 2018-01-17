@@ -1,0 +1,165 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/input_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line"
+        android:background="#dddbe0"/>
+
+    <LinearLayout
+        android:id="@+id/notice_txt_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/y96"
+        android:background="#f4f4f6"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/notice_record_leftbtn"
+            android:layout_width="@dimen/x56"
+            android:layout_height="@dimen/x56"
+            android:layout_marginLeft="@dimen/x24"
+            android:background="@drawable/m_record_left_btn"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"/>
+
+        <TextView
+            android:id="@+id/notice_record_btncenter"
+            android:layout_width="@dimen/x512"
+            android:layout_height="@dimen/y72"
+            android:layout_marginLeft="@dimen/x24"
+            android:background="@drawable/chat_input_speak_edit"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/holdToTalk"
+            android:textColor="#2d2d2d"
+            android:textSize="@dimen/x32"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/edit_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/y12"
+            android:layout_marginBottom="@dimen/y12"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <cn.redcdn.hvs.im.util.smileUtil.EmojiconEditText
+                    android:id="@+id/notice_comment_text"
+                    android:layout_width="@dimen/x438"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/y72"
+                    android:layout_marginLeft="@dimen/x24"
+                    android:background="@drawable/chat_input_corners"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:imeOptions="actionSend|flagNoEnterAction"
+                    android:inputType="textCapSentences|textAutoCorrect|textMultiLine|textShortMessage"
+                    android:maxLines="4"
+                    android:paddingLeft="@dimen/x18"
+                    android:lineSpacingExtra="@dimen/x6"
+                    android:textColor="#2d2d2d"
+                    android:textSize="@dimen/x32"
+                    android:windowSoftInputMode="stateVisible"
+
+                    android_custom:emojiconSize="@dimen/notice_input_emoji_size"
+                    android:visibility="visible"/>
+
+                <!-- 琛ㄦ儏閫夋嫨鎸夐挳 -->
+                <CheckBox
+                    android:id="@+id/emoji_cb"
+                    android:layout_width="@dimen/x56"
+                    android:layout_height="@dimen/x56"
+                    android:layout_marginLeft="@dimen/x18"
+                    android:background="@drawable/emoji_btn_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:focusable="false"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/notice_send_btn"
+            android:layout_width="@dimen/x78"
+            android:layout_height="@dimen/y60"
+            android:layout_marginLeft="@dimen/x14"
+            android:background="@drawable/m_chat_send_button_bg"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/btn_send"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/x26"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/notice_more_select_btn"
+            android:layout_width="@dimen/x56"
+            android:layout_height="@dimen/x56"
+            android:layout_marginLeft="@dimen/x18"
+            android:background="@drawable/chat_more_btn"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/focus_tv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line"
+        android:background="#dddbe0"/>
+
+    <LinearLayout
+        android:id="@+id/ll_attachment_panel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y460"
+        android:background="#f4f4f6"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <GridView
+            android:id="@+id/attachment_gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_marginLeft="@dimen/x36"
+            android:layout_marginRight="@dimen/x36"
+            android:layout_marginTop="@dimen/y54"
+            android:gravity="center"
+            android:horizontalSpacing="@dimen/x40"
+            android:listSelector="@color/gridview_background"
+            android:numColumns="4"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="@dimen/y40"/>
+
+        <!-- 表情面板 -->
+        <cn.redcdn.hvs.im.util.smileUtil.SmileLayout
+            android:id="@+id/write_smile_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/x40"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>

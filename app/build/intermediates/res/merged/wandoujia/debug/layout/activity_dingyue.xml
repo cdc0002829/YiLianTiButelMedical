@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_page_backgroud_color"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/titlebar"
+        layout="@layout/titlebar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/color_butel_selfinfo_darkline_color" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/gotomyfilecard_rl"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y170"
+                android:background="@color/gongzhonghao_background">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/y160"
+                    android:gravity="center_vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <cn.redcdn.hvs.profiles.activity.XCRoundImageView
+                        android:id="@+id/imageone_iv"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/x36"
+                        android:contentDescription="@null"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gongzhonghaomingpian"
+                        android:visibility="visible"
+                        />
+
+                        <View
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/x36"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:background="@drawable/shape_gray_square_bg1" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/x40"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/name_titile_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/x30"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:textColor="@color/color_setting_text"
+                                android:textSize="@dimen/x32" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="@color/color_butel_selfinfo_darkline_color" />
+
+
+            <RelativeLayout
+                android:id="@+id/function_rl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="@dimen/x28">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/features"
+                    android:textColor="@color/color_setting_text"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/function"
+                    android:layout_width="@dimen/x500"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/text_color_num"
+                    android:textSize="@dimen/x26" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="@color/color_butel_selfinfo_darkline_color" />
+
+
+            <RelativeLayout
+                android:id="@+id/account_rl"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/y96"
+                    android:gravity="center_vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/x28"
+                        android:text="@string/account_subject"
+                        android:textColor="@color/color_setting_text"
+                        android:textSize="@dimen/x32" />
+
+                    <TextView
+                        android:id="@+id/account_main_tv"
+                        android:layout_width="@dimen/x500"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/x40"
+                        android:ellipsize="end"
+                        android:maxEms="20"
+                        android:singleLine="true"
+                        android:textColor="@color/text_color_num"
+                        android:textSize="@dimen/x26" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="@color/color_butel_selfinfo_darkline_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="@string/consumer_hotline"
+                    android:textColor="@color/color_setting_text"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/telephone_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x40"
+                    android:layout_marginStart="@dimen/x40"
+                    android:autoLink="phone"
+                    android:text="111"
+                    android:textColor="@color/text_color_num"
+                    android:textSize="@dimen/x26" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="@color/color_butel_selfinfo_darkline_color" />
+
+
+            <!--<RelativeLayout-->
+            <!--android:id="@+id/gotosetting_rl"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/white"-->
+            <!--android:padding="@dimen/x28">-->
+
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="经营范围"-->
+            <!--android:textColor="@color/color_setting_text"-->
+            <!--android:textSize="@dimen/x32" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/content_tv"-->
+            <!--android:layout_width="@dimen/x500"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="经营范围"-->
+            <!--android:textColor="@color/text_color_num"-->
+            <!--android:textSize="@dimen/x26" />-->
+
+
+            <!--</RelativeLayout>-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="@color/color_butel_selfinfo_darkline_color" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:layout_marginTop="@dimen/y40"
+                android:background="@color/color_butel_selfinfo_darkline_color" />
+
+            <RelativeLayout
+                android:id="@+id/gongzhonghao_rl"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y122"
+                android:background="@drawable/contact_item_selector">
+
+
+                <TextView
+                    android:id="@+id/gongzhonghao_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:layout_marginTop="@dimen/y30"
+                    android:text="@string/public_homepage"
+                    android:textColor="@color/color_setting_text"
+                    android:textSize="@dimen/x32" />
+
+
+                <ImageView
+                    android:id="@+id/imagetwo_iv"
+                    android:layout_width="@dimen/x62"
+                    android:layout_height="@dimen/y62"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/y30"
+                    android:layout_marginLeft="@dimen/x206"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gongzhonghao" />
+
+                <TextView
+                    android:id="@+id/jianjie_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/y70"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:layout_marginRight="@dimen/x30"
+                    android:layout_marginTop="@dimen/y30"
+                    android:layout_toRightOf="@id/imagetwo_iv"
+                    android:maxLines="2"
+                    android:textColor="@color/text_color_num"
+                    android:textSize="@dimen/x26" />
+
+
+                <Button
+                    android:id="@+id/dingyue_btn"
+                    android:layout_width="@dimen/x26"
+                    android:layout_height="@dimen/y26"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/x30"
+                    android:background="@drawable/nextlittle" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="@color/color_butel_selfinfo_darkline_color" />
+
+            <Button
+                android:id="@+id/dingyuejia_btn"
+                android:layout_width="@dimen/x670"
+                android:layout_height="@dimen/y94"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/y40"
+                android:background="@drawable/dingyue_selector"
+                android:focusable="true"
+                android:onClick="onButton"
+                android:text="+订阅"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/x32"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/auxiliary_exam_layout"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="wrap_content"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:scrollbars="none"
+        android:id="@+id/ll_examHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="#999999"
+            android:textSize="@dimen/x30"
+            android:id="@+id/tv_exam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x28"
+            android:text="@string/udt_helpExam" />
+
+
+        <LinearLayout
+            android:scrollbars="none"
+            android:background="@color/white"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y210">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:padding="0dp"
+                android:layout_marginLeft="@dimen/x28"
+                android:layout_marginRight="@dimen/x28"
+                android:background="@color/transparent"
+                android:layout_gravity="center"
+                android:overScrollMode="never"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+            </android.support.v4.view.ViewPager>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d9d9d9" />
+    </LinearLayout>
+</LinearLayout>

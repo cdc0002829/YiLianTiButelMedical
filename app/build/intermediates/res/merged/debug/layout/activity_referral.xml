@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/referral_titlebar"
+        layout="@layout/titlebar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/jiuzhenqingkuang_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/y170"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/jiuzheniqngkaung_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:drawablePadding="@dimen/y10"
+                    android:gravity="center"
+                    android:textColor="#2D2D2D"
+                    android:textSize="@dimen/x20" />
+
+                <ImageView
+                    android:layout_width="@dimen/x1"
+                    android:layout_height="@dimen/y100"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/x36"
+                    android:background="@color/diver_line_dark" />
+
+                <TextView
+                    android:id="@+id/jiuzhenqingkaung_riqi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/y20"
+                    android:layout_marginLeft="@dimen/x50"
+                    android:layout_marginRight="@dimen/x28"
+                    android:layout_marginTop="@dimen/y20"
+                    android:textColor="#2D2D2D"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/re_tijiao"
+                android:layout_width="@dimen/x600"
+                android:layout_height="@dimen/y80"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/y28"
+                android:layout_marginTop="@dimen/y10"
+                android:background="@drawable/reserve_treatment_btn_selector"
+                android:gravity="center"
+                android:text="重新提交"
+                android:textColor="@color/white"
+                android:textSize="@dimen/x32" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="@color/color_butel_selfinfo_darkline_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y44"
+                android:background="@color/main_head_bg"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:text="@string/patient_info"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x24" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="@color/color_butel_selfinfo_darkline_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:text="@string/patient_name"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/patient_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iphone_view"
+                android:layout_width="@dimen/x692"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:id="@+id/phone_ll"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/zhemhjianleixing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="@string/my_treatment_phone"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/chusheng_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y44"
+                android:background="@color/main_head_bg"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:text="@string/patient_infos"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x24" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:id="@+id/huanzheshengao"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="患者信息"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/y90"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:gravity="left|center_vertical"
+                    android:text="32"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x20"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x20"
+                    android:gravity="right"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x20"
+                    android:layout_marginRight="@dimen/x28"
+                    android:gravity="right"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/huanzheshengao_view"
+                android:layout_width="@dimen/x692"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:background="#d9d9d9"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/jianhuren_ll"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="@string/reserve_treatment_guardian"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x30" />
+
+                <TextView
+                    android:id="@+id/jianhuren"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x85"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/jianhuren_view"
+                android:layout_width="@dimen/x674"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:layout_marginRight="@dimen/x28"
+                android:background="#d9d9d9"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/jianhuren_card_ll"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="@string/reserve_treatment_id"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x30" />
+
+                <TextView
+                    android:id="@+id/shenfenzheng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x85"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/jianhurencard_view"
+                android:layout_width="@dimen/x674"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:layout_marginRight="@dimen/x28"
+                android:background="#d9d9d9"
+                android:visibility="gone" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/y90"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:layout_marginTop="@dimen/y24"
+                    android:text="@string/zhusu"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/zhusu_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y30"
+                    android:layout_marginLeft="@dimen/x92"
+                    android:layout_marginRight="@dimen/x30"
+                    android:layout_marginTop="@dimen/y25"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/x692"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:background="#d9d9d9"
+             />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/y90"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:layout_marginTop="@dimen/y24"
+                    android:text="@string/patient_condition_inspection"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/chati_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y30"
+                    android:layout_marginLeft="@dimen/x92"
+                    android:layout_marginRight="@dimen/x30"
+                    android:layout_marginTop="@dimen/y25"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y1"
+                    android:background="#d9d9d9" />
+
+                <LinearLayout
+                    android:id="@+id/lianhe_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y44"
+                    android:background="@color/main_head_bg"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/x24"
+                        android:text="@string/lianhe"
+                        android:textColor="@color/my_text_color"
+                        android:textSize="@dimen/x24" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                   android:id="@+id/lla"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y1"
+                        android:background="#d9d9d9" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y96"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x28"
+                            android:text="@string/see_doctor_doc"
+                            android:textColor="@color/my_text_color"
+                            android:textSize="@dimen/x30" />
+
+                        <TextView
+                            android:id="@+id/qiuzhenyisheng"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x60"
+                            android:textColor="@color/add_to_contacts"
+                            android:textSize="@dimen/x32" />
+
+                        <TextView
+                            android:id="@+id/qiuzhenyishengkesh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x20"
+                            android:textColor="@color/add_to_contacts"
+                            android:textSize="@dimen/x32" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/x692"
+                        android:layout_height="@dimen/y1"
+                        android:layout_marginLeft="@dimen/x28"
+                        android:background="#d9d9d9" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y96"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x28"
+                            android:text="@string/see_doctor_hos"
+                            android:textColor="@color/my_text_color"
+                            android:textSize="@dimen/x30" />
+
+                        <TextView
+                            android:id="@+id/qiuzhenyiyuan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x60"
+                            android:textColor="@color/add_to_contacts"
+                            android:textSize="@dimen/x32" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/x692"
+                        android:layout_height="@dimen/y1"
+                        android:layout_marginLeft="@dimen/x28"
+                        android:background="#d9d9d9" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y96"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x28"
+                            android:text="@string/see_doctor_dep"
+                            android:textColor="@color/my_text_color"
+                            android:textSize="@dimen/x30" />
+
+                        <TextView
+                            android:id="@+id/qiuzhenyishengkeshi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x60"
+                            android:textColor="@color/add_to_contacts"
+                            android:textSize="@dimen/x32" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/x692"
+                        android:layout_height="@dimen/y1"
+                        android:layout_marginLeft="@dimen/x28"
+                        android:background="#d9d9d9" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y96"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x28"
+                            android:text="@string/get_doctor_doc"
+                            android:textColor="@color/my_text_color"
+                            android:textSize="@dimen/x30" />
+
+                        <TextView
+                            android:id="@+id/jiezhenyisheng"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x60"
+                            android:textColor="@color/add_to_contacts"
+                            android:textSize="@dimen/x32" />
+
+                        <TextView
+                            android:id="@+id/jiezhenyishengkesh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x20"
+                            android:textColor="@color/add_to_contacts"
+                            android:textSize="@dimen/x32" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/x692"
+                        android:layout_height="@dimen/y1"
+                        android:layout_marginLeft="@dimen/x28"
+                        android:background="#d9d9d9" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y96"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x28"
+                            android:text="@string/receive_doctor_hos"
+                            android:textColor="@color/my_text_color"
+                            android:textSize="@dimen/x30" />
+
+                        <TextView
+                            android:id="@+id/jiezhenyiyuan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x60"
+                            android:textColor="@color/add_to_contacts"
+                            android:textSize="@dimen/x32" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/x692"
+                        android:layout_height="@dimen/y1"
+                        android:layout_marginLeft="@dimen/x28"
+                        android:background="#d9d9d9" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y96"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x28"
+                            android:text="@string/jiezhen_doctor_dep"
+                            android:textColor="@color/my_text_color"
+                            android:textSize="@dimen/x30" />
+
+                        <TextView
+                            android:id="@+id/jiezhenyishengkeshi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x60"
+                            android:textColor="@color/add_to_contacts"
+                            android:textSize="@dimen/x32" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/x692"
+                        android:layout_height="@dimen/y1"
+                        android:layout_marginLeft="@dimen/x28"
+                        android:background="#d9d9d9" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y96"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x28"
+                            android:text="@string/jianyi"
+                            android:textColor="@color/my_text_color"
+                            android:textSize="@dimen/x30" />
+
+                        <TextView
+                            android:id="@+id/zhenliaojianyi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x60"
+                            android:textColor="@color/add_to_contacts"
+                            android:textSize="@dimen/x32" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/x692"
+                        android:layout_height="@dimen/y1"
+                        android:layout_marginLeft="@dimen/x28"
+                        android:background="#d9d9d9" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y96"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x28"
+                            android:text="@string/zhenliaoshiduan"
+                            android:textColor="@color/my_text_color"
+                            android:textSize="@dimen/x30" />
+
+                        <TextView
+                            android:id="@+id/jiezhenriqi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x60"
+                            android:textColor="@color/add_to_contacts"
+                            android:textSize="@dimen/x32" />
+
+                        <TextView
+                            android:id="@+id/jiezhenshiduan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/x60"
+                            android:textColor="@color/add_to_contacts"
+                            android:textSize="@dimen/x32" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="@dimen/x692"
+                        android:layout_height="@dimen/y1"
+                        android:layout_marginLeft="@dimen/x28"
+                        android:background="#d9d9d9" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="@dimen/y90"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/x28"
+                            android:layout_marginTop="@dimen/y24"
+                            android:text="@string/zhaiyao"
+                            android:textColor="@color/my_text_color"
+                            android:textSize="@dimen/x30" />
+
+                        <TextView
+                            android:id="@+id/zhenliaozhaiyao1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/y30"
+                            android:layout_marginLeft="@dimen/x50"
+                            android:layout_marginRight="@dimen/x30"
+                            android:layout_marginTop="@dimen/y20"
+                            android:minHeight="@dimen/y90"
+                            android:textColor="@color/add_to_contacts"
+                            android:textSize="@dimen/x30" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y44"
+                android:background="@color/main_head_bg"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:text="转出信息"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x24" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="转出医院"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/qiuzhenyiyuan1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/x692"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="转出科室"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/qiuzhenyishengkeshi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/x692"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="申请医生"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/qiuzhenyisheng1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/x692"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="申请时间"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/zhuanzhenshijian1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/x692"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/y90"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:layout_marginTop="@dimen/y24"
+                    android:text="@string/daijiewenti"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/daijiewenti_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y30"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:layout_marginRight="@dimen/x30"
+                    android:layout_marginTop="@dimen/y25"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y44"
+                android:background="@color/main_head_bg"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:text="转诊审核"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x24" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="转诊类型"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <CheckBox
+                    android:clickable="false"
+                   android:layout_gravity="center_vertical"
+                    android:id="@+id/local_treat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:button="@drawable/checkbox_selector" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/tv_check_local"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x14"
+                    android:text="直接转诊"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/x32" />
+
+                <CheckBox
+                    android:clickable="false"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/transfer_treat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x44"
+                    android:button="@drawable/checkbox_selector" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/tv_exchange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x14"
+                    android:text="远程咨询后转诊"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/x692"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="审核医生"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/shenheyisheng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/x692"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/y90"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:layout_marginTop="@dimen/y24"
+                    android:text="审核建议"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/zhenliaozhaiyao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y30"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:layout_marginRight="@dimen/x30"
+                    android:layout_marginTop="@dimen/y25"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y44"
+                android:background="@color/main_head_bg"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:text="转入信息"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x24" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="@string/zhuanzhenhos"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/zhuanzhenyiyuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/x692"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="@string/zhuanzhendep"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/zhuanzhenkeshi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/x692"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:id="@+id/zhuanzhenyisheng_ll"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="转入医生"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/zhuanzhenyisheng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/zhuanzhenyisheng_view"
+                android:layout_width="@dimen/x692"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="门诊类型"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/menzhenleixing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/x692"
+                android:layout_height="@dimen/y1"
+                android:layout_marginLeft="@dimen/x28"
+                android:background="#d9d9d9"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y96"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="@string/zhuanzhentime"
+                    android:textColor="@color/my_text_color"
+                    android:textSize="@dimen/x32" />
+
+                <TextView
+                    android:id="@+id/zhuanzhenshijian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:textColor="@color/add_to_contacts"
+                    android:textSize="@dimen/x32" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="#d9d9d9" />
+
+            <LinearLayout
+                android:id="@+id/my_fuzhu"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y44"
+                android:background="@color/main_head_bg"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:textSize="@dimen/x26"
+                    android:textColor="@color/btn_color_gray"
+                    android:text="@string/patient_condition_supported_check"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/my_view"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/y1"
+                android:background="#e3e4e5" />
+
+            <LinearLayout
+                android:id="@+id/ll_patient_condition_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y210"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:visibility="visible"
+                android:background="@color/white">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/patient_condition_check_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="0dp"
+                    android:layout_gravity="center"
+                    android:background="@color/transparent"
+                    android:layout_marginLeft="@dimen/x25"
+                    android:layout_marginRight="@dimen/x15"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_head_bg"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/y26"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="@dimen/x470"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:layout_marginTop="@dimen/y26"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wenxintishi"
+                        android:textColor="@color/btn_color_gray"
+                        android:textSize="@dimen/x24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y24"
+                        android:text="@string/diyitiao"
+                        android:textColor="@color/btn_color_gray"
+                        android:textSize="@dimen/x24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y10"
+                        android:text="@string/diertiao"
+                        android:textColor="@color/btn_color_gray"
+                        android:textSize="@dimen/x24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y10"
+                        android:text="@string/disantiao"
+                        android:textColor="@color/btn_color_gray"
+                        android:textSize="@dimen/x24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y10"
+                        android:text="@string/disitiao"
+                        android:textColor="@color/btn_color_gray"
+                        android:textSize="@dimen/x24" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/erweima"
+                    android:layout_width="@dimen/x180"
+                    android:layout_height="@dimen/y180"
+                    android:layout_marginLeft="@dimen/x20"
+                    android:layout_marginRight="@dimen/x28"
+                    android:layout_marginTop="@dimen/y90" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Gå til startsiden"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s – %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s – %2$s – %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Gå opp"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Flere alternativer"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Ferdig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Se alle"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Velg en app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"AV"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"PÅ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Søk …"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Slett søket"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Søkeord"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Søk"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Utfør søket"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Talesøk"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Del med"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Del med %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Skjul"</string>
+    <string name="hms_abort">"Stopp"</string>
+    <string name="hms_abort_message">"Stoppe nedlastigen?"</string>
+    <string name="hms_bindfaildlg_message">"%1$s kan ikke bruke Huawei mobiltjenester. Start Telefon Administrator eller gå til Innstillinger, aktiver alle tillatelser for %2$s (inkludert automatisk-start og sekundær-start), og prøv igjen."</string>
+    <string name="hms_cancel">"Avbryt"</string>
+    <string name="hms_check_failure">"Kunne ikke se etter oppdateringer."</string>
+    <string name="hms_check_no_update">"Du bruker allerede den nyeste versjonen."</string>
+    <string name="hms_checking">"Ser etter oppdateringer..."</string>
+    <string name="hms_confirm">"OK"</string>
+    <string name="hms_download_failure">"Kunne ikke laste ned Huawei Mobile Services-pakken."</string>
+    <string name="hms_download_no_space">"Ikke nok ledig plass. Nedlastingen kan ikke fullføres."</string>
+    <string name="hms_download_retry">"Nedlastingen mislyktes. Prøve på nytt?"</string>
+    <string name="hms_downloading">"Laster ned Huawei Mobile Services | fremdrift: %d%%"</string>
+    <string name="hms_downloading_new">"Laster ned HMS"</string>
+    <string name="hms_install">"Installer"</string>
+    <string name="hms_install_message">"Huawei-mobiltjenester må være installert for å bruke denne tjenesten. Vil du installere?"</string>
+    <string name="hms_retry">"Prøv igjen"</string>
+    <string name="hms_update">"Oppdater"</string>
+    <string name="hms_update_message">"Du må oppdatere til nyeste versjon av Huawei Mobile Services for å kunne bruke denne funksjonen. Oppdatere nå?"</string>
+    <string name="hms_update_message_new">"Denne tjenesten krever den nyeste versjonen av følgende apper:\n\n%1$s"</string>
+    <string name="hms_update_title">"Huawei Mobile Services"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Søk"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

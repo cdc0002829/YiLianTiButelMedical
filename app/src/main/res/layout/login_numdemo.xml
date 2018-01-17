@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y100"
+    android:background="#ffffff"
+    android:gravity="center"
+    >
+    <ImageView
+        android:id="@+id/Login_numdemo_imageView"
+        android:layout_width="@dimen/x50"
+        android:layout_height="@dimen/y50"
+        android:layout_marginLeft="@dimen/x38"
+        android:src="@drawable/login_user" />
+    <ImageView
+        android:layout_marginLeft="@dimen/x36"
+        android:layout_width="@dimen/x1"
+        android:layout_height="@dimen/y60"
+        android:background="#d9d9d9"
+        />
+
+    <EditText
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        android:id="@+id/Login_numdemo_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x44"
+        android:hint="@string/login_inputnum"
+        android:background="@null"
+        android:textColor="#2d2d2d"
+        android:textColorHint="#8d8d8d"
+        android:textSize="@dimen/x32" />
+
+</LinearLayout>

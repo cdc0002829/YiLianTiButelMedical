@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/image_thumbnail_size"
+    android:layout_height="@dimen/image_thumbnail_size" >
+
+    <RelativeLayout
+        android:id="@+id/thumbnail_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="3dp" >
+
+        <ImageView
+            android:id="@+id/thumbnail_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null"
+            android:focusable="false"
+            android:scaleType="fitXY"
+            android:background="@color/share_pic_bg" />
+
+        <ImageView
+            android:id="@+id/thumbnail_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/video_icon"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/thumbnail_image_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@null"
+        android:focusable="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/close"
+        android:visibility="invisible" />
+
+</RelativeLayout>

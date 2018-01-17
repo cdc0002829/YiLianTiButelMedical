@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/linkman_item_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_marginLeft="@dimen/x28"
+        android:background="@color/common_line_color" />
+
+    <RelativeLayout
+        android:id="@+id/catalog_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y44"
+        android:background="@color/contact_catalog_txt_bg_color"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/catalog"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/line"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x28"
+            android:textColor="@color/contact_catalog_txt_color"
+            android:textSize="@dimen/x24" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#e1e0e5"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y110"
+        android:background="@drawable/contact_list_item_bg" >
+
+        <CheckBox
+            android:id="@+id/linkman_select"
+            android:layout_width="@dimen/x46"
+            android:layout_height="@dimen/y46"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x28"
+            android:background="@drawable/checkbox_selected"
+            android:button="@null"
+            android:clickable="false"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/linkman_img"
+            android:layout_width="@dimen/x72"
+            android:layout_height="@dimen/y72"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x28"
+            android:layout_toRightOf="@id/linkman_select"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/contact_head_default_man" />
+
+        <LinearLayout
+            android:id="@+id/select_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/rb_linkman_select"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/btn_radio_selected"
+                android:button="@null"
+                android:clickable="false"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/describe_text"
+                android:layout_width="55dp"
+                android:layout_height="33dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/newfriend_has_passed_status"
+                android:textColor="@color/local_decrible_txt_color"
+                android:textSize="@dimen/x16"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/accept_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/common_btn_seletor"
+                android:gravity="center"
+                android:textColor="@color/big_btn_text_color"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <!-- 在同一个页面select_line和 lt_device_type不会同时出现 -->
+
+        <cn.redcdn.hvs.im.view.DeviceLinearLayout
+            android:id="@+id/lt_device_type"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@id/select_line"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/device_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:contentDescription="@null"
+                android:focusable="false" />
+        </cn.redcdn.hvs.im.view.DeviceLinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_toLeftOf="@id/lt_device_type"
+            android:layout_toRightOf="@id/linkman_img"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/linkman_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/contact_name_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/linkman_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/local_name_color"
+                android:textSize="14sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+    <!-- 极会议版本：要求最后一条线顶头 -->
+
+    <View
+        android:id="@+id/linkman_line_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/linkman_last_line_color"
+        android:visibility="gone" />
+
+</LinearLayout>

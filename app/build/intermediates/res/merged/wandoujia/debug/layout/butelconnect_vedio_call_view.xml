@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" 
+    android:id="@+id/rt_remote_video">
+  
+    <SurfaceView
+        android:id="@+id/remote_video_surfaceview"
+        android:layout_width="480px"
+        android:layout_height="640px"
+        android:keepScreenOn="true"
+        android:visibility="visible"
+        android:layout_centerInParent="true" 
+         />
+    <com.butel.connectevent.test.dm.DanmakuView
+        android:id="@+id/danmakuView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                app:start_Y_offset="0.2"
+                app:end_Y_offset="0.8"
+                app:max_row="5"
+                app:max_running_per_row="2"
+                app:pick_interval="100"
+                app:show_debug="false"
+       />
+    <ImageView
+        android:id="@+id/init_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        android:contentDescription="@null"
+        android:src="@drawable/butelconnect_vedio_init_bg" />
+        
+     <SurfaceView
+        android:id="@+id/local_video_surfaceview"
+        android:layout_width="250px"
+        android:layout_height="188px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:keepScreenOn="true"
+        android:visibility="visible"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+          />   
+           <Button
+        android:id="@+id/pop_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="popADV"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"></Button>
+    <RelativeLayout
+        android:id="@+id/ipcall_button_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal" 
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        >
+
+<!--  
+       
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        
+          style="?android:attr/buttonBarButtonStyle"
+        -->
+   
+    <Button
+            android:id="@+id/switch_camera"
+            android:layout_width="wrap_content"
+             android:layout_marginRight="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:text="前后切换"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+   
+    <Button
+            android:id="@+id/end_vediocall_btn"
+             android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf  ="@id/switch_camera"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:text="挂断"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+ <Button
+            android:id="@+id/open_camera_btn"
+             android:layout_marginRight="5dp"
+            android:layout_toRightOf ="@id/end_vediocall_btn"
+            android:text="开关摄像头"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+ <RadioGroup 
+        android:id="@+id/radio_group_local_remote"
+        android:layout_width="wrap_content"
+         android:layout_marginRight="5dp"
+       android:layout_below ="@id/open_camera_btn"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:contentDescription="@null"
+        android:layout_weight="1">
+        <RadioButton 
+            android:id="@+id/radio_local"
+            android:checked="true"
+            android:textColor="#FF0000"
+            android:text="远端"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <RadioButton 
+            android:id="@+id/radio_remote"
+            android:textColor="#FF0000"
+            android:text="本端"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </RadioGroup>
+    
+ 
+   <Button
+            android:id="@+id/takepicture"
+             android:layout_below ="@id/open_camera_btn"
+            android:layout_toRightOf="@id/radio_group_local_remote"
+             android:layout_marginRight="5dp"
+            android:text="拍照"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:textStyle="bold"  />
+   <Button
+            android:id="@+id/mute"
+             android:layout_below ="@id/open_camera_btn"
+            android:layout_toRightOf="@id/takepicture"
+             android:layout_marginRight="5dp"
+            android:text="静音"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:textStyle="bold"  />
+    <RadioGroup                 
+        android:id="@+id/radio_group_sound"
+         android:layout_width="wrap_content"
+        android:layout_below="@id/takepicture"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:contentDescription="@null"
+        android:layout_weight="1">
+        <RadioButton 
+            android:textColor="#FF0000"
+            android:id="@+id/radio_sound"
+            android:checked="true"
+            android:text="打开音频"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <RadioButton 
+            android:textColor="#FF0000"
+            android:id="@+id/radio_no_sound"
+            android:text="静音"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </RadioGroup>
+     <Button
+            android:id="@+id/record"
+             android:layout_toRightOf="@id/radio_group_sound"
+             android:layout_below="@id/takepicture"
+             android:layout_marginRight="5dp"
+            android:text="录制"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:textStyle="bold"  />
+       <Button
+            android:id="@+id/mixrecord"
+             android:layout_toRightOf="@id/record"
+             android:layout_below="@id/takepicture"
+             android:layout_marginRight="5dp"
+            android:text="混录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:textStyle="bold"  />
+       <EditText android:id="@+id/edt_danmu"
+           android:layout_below="@id/end_vediocall_btn"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+           android:maxLines="1"
+           android:textColor="#FF0000"
+           android:visibility="gone"/>
+       <Button android:id="@+id/btn_danmu"
+          android:layout_alignParentRight="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="发 送"
+           android:visibility="gone"/>
+    <Button android:id="@+id/btn_danmu_yincang"
+          android:layout_toLeftOf="@id/btn_danmu"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="隐藏"
+           android:visibility="gone"/>
+    
+    <!--  
+ <LinearLayout 
+    android:id="@+id/ll_record"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/ipcall_button_group"
+     android:layout_alignParentBottom="true"
+    android:orientation="horizontal">
+    
+  
+   
+     
+    
+</LinearLayout>
+ -->
+    </RelativeLayout>
+
+
+</RelativeLayout>

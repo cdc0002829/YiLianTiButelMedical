@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="90dp"
+    android:background="@drawable/jmeetingsdk_camera_menu_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_change_camera"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <ImageView
+            android:id="@+id/image_change_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/jmeetingsdk_change_camera_nl" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/change_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:text="@string/switchingCamera"
+            android:textColor="#4b4d4e"
+            android:textSize="15sp" />
+    </LinearLayout>
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:background="#373a41" />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_operation_camera"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <ImageView
+            android:id="@+id/close_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/jmeetingsdk_open_camera" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/operation_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:text="@string/openCamera"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

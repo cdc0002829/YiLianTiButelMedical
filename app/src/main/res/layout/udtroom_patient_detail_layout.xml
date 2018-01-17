@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y44"
+            android:background="@color/contact_catalog_txt_bg_color">
+
+            <TextView
+                android:textColor="#8e8e93"
+                android:textSize="@dimen/x24"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/udt_patient_details"/>
+
+            <Button
+                android:id="@+id/edit_patient_detail_btn"
+                android:layout_width="@dimen/x29"
+                android:layout_height="@dimen/x29"
+                android:layout_marginRight="@dimen/x28"
+                android:layout_centerVertical="true"
+                android:background="@drawable/hpu_edit"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#E8E8E8"/>
+        <RelativeLayout
+            android:background="@color/white"
+            android:id="@+id/Re_patientDetail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y90">
+
+            <TextView
+                android:textColor="#2d2d2d"
+                android:textSize="@dimen/x32"
+                android:layout_marginLeft="@dimen/x28"
+                android:id="@+id/patient_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="5 岁"/>
+
+            <TextView
+                android:textColor="#2d2d2d"
+                android:textSize="@dimen/x32"
+                android:id="@+id/patient_sex_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/y150"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/patient_age"
+                android:text="男"/>
+
+            <TextView
+                android:textColor="#2d2d2d"
+                android:textSize="@dimen/x32"
+                android:id="@+id/patient_height_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x100"
+                android:layout_marginRight="@dimen/x120"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/patient_weight_txt"
+                android:text="90 cm"/>
+
+            <TextView
+                android:layout_marginRight="@dimen/x28"
+                android:textColor="#2d2d2d"
+                android:textSize="@dimen/x32"
+                android:id="@+id/patient_weight_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="22 kg"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d9d9d9"/>
+
+        <RelativeLayout
+            android:minHeight="@dimen/x170"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#999999"
+                android:textSize="@dimen/x30"
+                android:layout_marginLeft="@dimen/x28"
+                android:layout_marginTop="@dimen/x26"
+                android:id="@+id/main_appeal_label_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/udt_action_in_cheif"/>
+
+            <TextView
+                android:textSize="@dimen/x30"
+                android:textColor="#2d2d2d"
+                android:layout_marginBottom="@dimen/x30"
+                android:layout_marginRight="@dimen/x28"
+                android:layout_marginTop="@dimen/x20"
+                android:layout_marginLeft="@dimen/x28"
+                android:id="@+id/main_appeal_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="无主诉信息"
+                android:layout_below="@+id/main_appeal_label_txt"/>
+
+
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#E8E8E8"/>
+        <RelativeLayout
+            android:background="@color/white"
+            android:minHeight="@dimen/x170"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="@dimen/x26"
+                android:textColor="#999999"
+                android:layout_marginLeft="@dimen/x28"
+                android:id="@+id/body_check_label_txt"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/x30"
+                android:layout_height="wrap_content"
+                android:text="@string/udt_examniation"/>
+
+            <TextView
+                android:textSize="@dimen/x30"
+                android:textColor="#2d2d2d"
+                android:layout_marginBottom="@dimen/x30"
+                android:layout_marginRight="@dimen/x28"
+                android:layout_marginLeft="@dimen/x28"
+                android:layout_marginTop="@dimen/x20"
+                android:id="@+id/body_check_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="无查体信息"
+                android:layout_below="@+id/body_check_label_txt"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#E8E8E8"/>
+    </LinearLayout>
+
+</LinearLayout>

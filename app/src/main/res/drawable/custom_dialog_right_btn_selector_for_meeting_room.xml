@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/custom_dialog_right_btn_f_for_meeting_room" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/custom_dialog_right_btn_n_for_meeting_room"></item>
+
+</selector>

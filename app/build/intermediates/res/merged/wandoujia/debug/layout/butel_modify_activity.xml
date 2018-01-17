@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#edf2fa"
+    android:orientation="vertical"
+    android:id="@+id/butel_modify_linearlayout">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/titlebar" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#dfe4e9" />
+
+    <EditText
+        android:id="@+id/butel_modify_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:paddingLeft="21dp"
+        android:text="任总"
+        android:textColor="#34363e"
+        android:textColorHint="#c7c9cc"
+        android:textSize="@dimen/word_size_16sp"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#dfe4e9" />
+
+    <TextView
+        android:id="@+id/butel_modify_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/im_modify"
+        android:textColor="#4b4b4c"
+        android:textSize="12sp" />
+
+</LinearLayout>

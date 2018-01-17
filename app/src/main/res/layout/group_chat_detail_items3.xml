@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/save_to_conteact_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/Group_Chat_Detail_Item">
+
+        <TextView
+            style="@style/Group_Chat_Detail_Item.Left_TextView"
+            android:text="@string/save_to_contact"/>
+
+        <cn.redcdn.hvs.im.view.SwitchButton
+            android:id="@+id/save_conteact_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x28"
+            android:background="@drawable/switch_off"/>
+    </RelativeLayout>
+
+</LinearLayout>

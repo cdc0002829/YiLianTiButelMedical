@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/ll_message">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="在线消息内容 : " />
+
+            <EditText
+                android:id="@+id/edt_online_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="在线消息内容" >
+            </EditText>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_online_send"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="发送在线消息onlinesend" />
+
+        <Button
+            android:id="@+id/btn_short_send"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="发送sendShortMsg" />
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="check-Msg" />
+        <!-- 在/离线消息 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消息类型  : " />
+
+            <Spinner
+                android:id="@+id/spinner_im_msgtype"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="im_msgtype" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消息标题: " />
+
+            <EditText
+                android:id="@+id/edt_im_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="消息标题" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="接收者: " />
+
+            <EditText
+                android:id="@+id/edt_im_receivers"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="接收者以英文分号分割" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消息内容: " />
+
+            <EditText
+                android:id="@+id/edt_im_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="消息内容" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="url: " />
+
+            <EditText
+                android:id="@+id/edt_im_url"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="位置连接url" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="audioDuration: " />
+
+            <EditText
+                android:id="@+id/edt_im_media_duration"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="音频时长" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="extends: " />
+
+            <EditText
+                android:id="@+id/edt_im_extend_json"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="扩展" >
+            </EditText>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_im_send"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="发送在/离线消息 imsend" />
+        <!-- 文件上传 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上传路径 : " />
+
+            <EditText
+                android:id="@+id/edt_im_uploadpath"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="上传路径" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上传超时: " />
+
+            <EditText
+                android:id="@+id/edt_im_uploadtimer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="上传超时"
+                android:numeric="integer" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上传音视频长度: " />
+
+            <EditText
+                android:id="@+id/edt_im_uploadlength"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="上传长度"
+                android:numeric="integer" >
+            </EditText>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_im_upload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="上   传" />
+
+
+        <Button
+            android:id="@+id/btn_im_upload_com"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="上      传       发     送        混        合" />
+    </LinearLayout>
+
+</LinearLayout>

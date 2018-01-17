@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/title"
+        layout="@layout/titlebar" />
+    <EditText
+        android:id="@+id/group_announcement_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/y40"
+        android:background="@null"
+        android:gravity="top|left"
+        android:paddingLeft="@dimen/x28"
+        android:paddingRight="@dimen/x28"
+        android:textColor="#8d8d8d"
+        android:textSize="@dimen/x32"
+        />
+
+</LinearLayout>

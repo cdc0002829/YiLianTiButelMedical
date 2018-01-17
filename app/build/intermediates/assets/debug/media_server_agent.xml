@@ -1,0 +1,50 @@
+<Config>
+
+	<localFecDecode>true</localFecDecode>
+	
+	<startVedioRate>300</startVedioRate>
+	<maxVedioRate>300</maxVedioRate>
+	<minVedioRate>20</minVedioRate>
+	
+	<cpuTotalCount>10</cpuTotalCount>
+	<cpuThreshold>75</cpuThreshold>
+	<cpuMaxVedioRate>200</cpuMaxVedioRate>
+	
+	<deffec1>bw_up=100,bw_down=0,ADataCount=4,ACheckCount=1,VDataCount=6,VCheckCount=0</deffec1>
+	<deffec2>bw_up=700,bw_down=100,ADataCount=4,ACheckCount=2,VDataCount=6,VCheckCount=0</deffec2>
+	<deffec3>bw_up=800,bw_down=700,ADataCount=4,ACheckCount=3,VDataCount=6,VCheckCount=0</deffec3>
+	<deffec4>bw_up=1500,bw_down=800,ADataCount=4,ACheckCount=3,VDataCount=6,VCheckCount=2</deffec4>
+	
+ 	<video_fec_packet_loss_adjusting_array_maxlen>10</video_fec_packet_loss_adjusting_array_maxlen>
+ 	<video_fec_packet_loss_adjusting_threshold_count>2</video_fec_packet_loss_adjusting_threshold_count>
+ 	<video_fec_packet_loss_adjusting_threshold_lossrate>100</video_fec_packet_loss_adjusting_threshold_lossrate>
+ 	<video_fec_packet_loss_adjusting_threshold_level0>500</video_fec_packet_loss_adjusting_threshold_level0>
+ 	<video_fec_packet_loss_adjusting_threshold_level1>300</video_fec_packet_loss_adjusting_threshold_level1>
+ 	<video_fec_packet_loss_adjusting_threshold_level2>100</video_fec_packet_loss_adjusting_threshold_level2>
+
+ 	<audio_fec_packet_loss_adjusting_array_maxlen>10</audio_fec_packet_loss_adjusting_array_maxlen>
+ 	<audio_fec_packet_loss_adjusting_threshold_count>2</audio_fec_packet_loss_adjusting_threshold_count>
+ 	<audio_fec_packet_loss_adjusting_threshold_lossrate>100</audio_fec_packet_loss_adjusting_threshold_lossrate>
+ 	<audio_fec_packet_loss_adjusting_threshold_level0>500</audio_fec_packet_loss_adjusting_threshold_level0>
+ 	<audio_fec_packet_loss_adjusting_threshold_level1>300</audio_fec_packet_loss_adjusting_threshold_level1>
+ 	<audio_fec_packet_loss_adjusting_threshold_level2>150</audio_fec_packet_loss_adjusting_threshold_level2>
+	
+	<netBandWidth_10086_3g_up>110</netBandWidth_10086_3g_up>
+	<netBandWidth_10086_3g_down>1200</netBandWidth_10086_3g_down>
+	<netBandWidth_10010_3g_up>300</netBandWidth_10010_3g_up>
+	<netBandWidth_10010_3g_down>2000</netBandWidth_10010_3g_down>
+	<netBandWidth_189_3g_up>200</netBandWidth_189_3g_up>
+	<netBandWidth_189_3g_down>1500</netBandWidth_189_3g_down>
+	<netBandWidth_unknow_up>-1</netBandWidth_unknow_up>
+	<netBandWidth_unknow_down>-1</netBandWidth_unknow_down>
+	<netBandWidth_wired_up>-1</netBandWidth_wired_up>
+	<netBandWidth_wired_down>-1</netBandWidth_wired_down>
+	<netBandWidth_wifi_up>-1</netBandWidth_wifi_up>
+	<netBandWidth_wifi_down>-1</netBandWidth_wifi_down>
+	<netBandWidth_10086_4g_up>-1</netBandWidth_10086_4g_up>
+	<netBandWidth_10086_4g_down>-1</netBandWidth_10086_4g_down>
+	<netBandWidth_10010_4g_up>-1</netBandWidth_10010_4g_up>
+	<netBandWidth_10010_4g_down>-1</netBandWidth_10010_4g_down>
+	<netBandWidth_189_4g_up>-1</netBandWidth_189_4g_up>
+	<netBandWidth_189_4g_down>-1</netBandWidth_189_4g_down>
+</Config>

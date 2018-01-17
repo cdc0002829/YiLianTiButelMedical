@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="chooseBackground"/>
+    <attr format="color" name="chooseColor"/>
+    <attr format="reference" name="normalBackground"/>
+    <attr format="color" name="normalColor"/>
+    <attr format="dimension" name="sideTextSize"/>
+    <color name="barrage_control_btn_close">#999999</color>
+    <color name="barrage_control_btn_open">#1c8dad</color>
+    <color name="color_black">#000000</color>
+    <color name="gray_five">#dfdfe1</color>
+    <color name="gray_four">#888B95</color>
+    <color name="jmeetingsdk_qn_dialog_bottom_bg_color">#eeeeee</color>
+    <color name="jmeetingsdk_qn_dialog_bottom_bg_press_color">#b5b5b5</color>
+    <color name="jmeetingsdk_qn_dialog_title_color">#33B5E5</color>
+    <color name="meeting_room_barrage">#11000000</color>
+    <color name="meeting_room_bg_color">#19212b</color>
+    <color name="meeting_room_bg_transparent">#00000000</color>
+    <color name="meeting_room_invite_text_color">#878F95</color>
+    <color name="meeting_room_minimum">#000000</color>
+    <color name="qos_adapter_color_blue">#3aabcb</color>
+    <color name="qos_adapter_color_gray">#999999</color>
+    <declare-styleable name="Emojicon"><attr format="dimension" name="emojiconSize"/><attr format="enum" name="emojiconAlignment">
+            <enum name="bottom" value="0"/>
+            <enum name="baseline" value="1"/>
+        </attr><attr format="integer" name="emojiconTextStart"/><attr format="integer" name="emojiconTextLength"/><attr format="boolean" name="emojiconUseSystemDefault"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="reference" name="pstsCheckedTextColor"/><attr format="reference" name="pstsUncheckedTextColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/></declare-styleable>
+    <declare-styleable name="PullToZoomView"><attr format="reference" name="headerView"/><attr format="reference" name="contentView"/><attr format="reference" name="zoomView"/><attr format="boolean" name="isHeaderParallax"/></declare-styleable>
+    <declare-styleable name="RingProgressBar"><attr format="color" name="roundColor"/><attr format="color" name="roundProgressColor"/><attr format="dimension" name="roundWidth"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="integer" name="max"/><attr format="boolean" name="textIsDisplayable"/><attr name="mystyle">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="RoundImageView"><attr format="dimension" name="corner_radius"/><attr format="color" name="pressed_color"/><attr name="type">
+            <enum name="circle" value="0"/>
+            <enum name="round" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="SideBar"><attr name="normalColor"/><attr name="chooseColor"/><attr name="normalBackground"/><attr name="chooseBackground"/><attr name="sideTextSize"/></declare-styleable>
+    <declare-styleable name="SlidingUpPanelLayout"><attr format="dimension" name="umanoPanelHeight"/><attr format="dimension" name="umanoShadowHeight"/><attr format="dimension" name="umanoParallaxOffset"/><attr format="color" name="umanoFadeColor"/><attr format="integer" name="umanoFlingVelocity"/><attr format="reference" name="umanoDragView"/><attr format="reference" name="umanoScrollableView"/><attr format="boolean" name="umanoOverlay"/><attr format="boolean" name="umanoClipPanel"/><attr format="float" name="umanoAnchorPoint"/><attr format="enum" name="umanoInitialState">
+            <enum name="expanded" value="0"/>
+            <enum name="collapsed" value="1"/>
+            <enum name="anchored" value="2"/>
+            <enum name="hidden" value="3"/>
+        </attr><attr format="reference" name="umanoScrollInterpolator"/></declare-styleable>
+    <declare-styleable name="TwoTextView"><attr format="string|reference" name="ttLeftText"/><attr format="string|reference" name="ttRightText"/><attr format="dimension" name="ttLeftTextSize"/><attr format="dimension" name="ttRightTextSize"/><attr format="reference" name="ttLeftTextColor"/><attr format="reference" name="ttRightTextColor"/></declare-styleable>
+    <dimen name="chat_input_icon_size">30.5dp</dimen>
+    <dimen name="chat_press_btn_height">30.5dp</dimen>
+    <dimen name="emoji_item_size">46dp</dimen>
+    <dimen name="evaculate_dialog_default_height">27dp</dimen>
+    <dimen name="evaculate_dialog_height">92dp</dimen>
+    <dimen name="jmeetingsdk_menu_qos_view_item_margin_top">6sp</dimen>
+    <dimen name="jmeetingsdk_menu_qos_view_text_size">16sp</dimen>
+    <dimen name="meeting_room_bg_tip_textview_margin_top">20dp</dimen>
+    <dimen name="meeting_room_bg_tip_textview_text_size">14sp</dimen>
+    <dimen name="meeting_room_menu_ask_for_speak_view_textview_text_size">14sp</dimen>
+    <dimen name="meeting_room_menu_ask_for_stop_speak_view_button_and_textview_bg_width">300dp</dimen>
+    <dimen name="meeting_room_menu_ask_for_stop_speak_view_button_margin_top">30dp</dimen>
+    <dimen name="meeting_room_menu_ask_for_stop_speak_view_height">220dp</dimen>
+    <dimen name="meeting_room_menu_ask_for_stop_speak_view_textview_margin_top">12dp</dimen>
+    <dimen name="meeting_room_menu_ask_for_stop_speak_view_title_textview_margin_top">15dp</dimen>
+    <dimen name="meeting_room_menu_ask_for_stop_speak_view_title_textview_text_size">15sp</dimen>
+    <dimen name="meeting_room_menu_ask_for_stop_speak_view_width">365dp</dimen>
+    <dimen name="meeting_room_menu_h_line_height">1dp</dimen>
+    <dimen name="meeting_room_menu_invite_person_edittext_height">36dp</dimen>
+    <dimen name="meeting_room_menu_invite_person_edittext_margin_left">15dp</dimen>
+    <dimen name="meeting_room_menu_invite_person_edittext_text_size">14sp</dimen>
+    <dimen name="meeting_room_menu_invite_person_edittext_width">247dp</dimen>
+    <dimen name="meeting_room_menu_invite_person_invite_person_btn_height">36dp</dimen>
+    <dimen name="meeting_room_menu_invite_person_invite_person_btn_margin_left">9dp</dimen>
+    <dimen name="meeting_room_menu_invite_person_invite_person_btn_width">57dp</dimen>
+    <dimen name="meeting_room_menu_main_view_account_id_textview_margin_left">20dp</dimen>
+    <dimen name="meeting_room_menu_main_view_account_id_textview_text_size">12sp</dimen>
+    <dimen name="meeting_room_menu_main_view_bottom_button_padding">5dp</dimen>
+    <dimen name="meeting_room_menu_main_view_bottom_margin_bottom">17dp</dimen>
+    <dimen name="meeting_room_menu_main_view_bottom_textview_text_size">14dp</dimen>
+    <dimen name="meeting_room_menu_main_view_invite_person_btn_margin_right">17dp</dimen>
+    <dimen name="meeting_room_menu_main_view_lock_icon_imageview_margin_left">10dp</dimen>
+    <dimen name="meeting_room_menu_main_view_meeting_id_textview_text_size">17sp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_imageview_margin_left">20dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_imageview_margin_right">20dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_view_bg_height">100dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_view_bg_margin_right">15dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_view_bg_width">125dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_view_btn_icon_padding_left">20dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_view_text_size">14dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_view_triangle_icon_margin_right">15dp</dimen>
+    <dimen name="meeting_room_menu_main_view_more_view_triangle_icon_margin_top">5dp</dimen>
+    <dimen name="meeting_room_menu_main_view_participator_btn_margin_left">17dp</dimen>
+    <dimen name="meeting_room_menu_main_view_title_height">50dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_bg_width">343dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_list_item_account_name_textview_text_size">14sp</dimen>
+    <dimen name="meeting_room_menu_participators_view_list_item_height">59dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_list_item_imageview_width">33dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_title_height">50dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_title_icon_margin_left">20dp</dimen>
+    <dimen name="meeting_room_menu_participators_view_title_textview_margin_left">12dp</dimen>
+    <dimen name="meeting_room_menu_title_textview_text_size">17dp</dimen>
+    <dimen name="meetingadd_btn_size">14sp</dimen>
+    <dimen name="notice_input_emoji_size">21dp</dimen>
+    <dimen name="notice_item_emoji_size">21dp</dimen>
+    <dimen name="side_bar_text_size">12sp</dimen>
+    <dimen name="smile_board_height">180dp</dimen>
+    <item name="scrollview" type="id"/>
+    <string name="accesslink">开启直播后，您可以分享直播链接给小伙伴，访问链接即可实时听会。</string>
+    <string name="add">添加</string>
+    <string name="app_name">JMeetingSDK</string>
+    <string name="ask_speak">" 发言"</string>
+    <string name="attendingparties">参会方</string>
+    <string name="baidutieba">百度贴吧</string>
+    <string name="baidutieba_client_inavailable">目前您的百度贴吧版本过低或未安装，需要安装百度贴吧才能使用</string>
+    <string name="basis_info">**********基本信息**********</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="callingameeting">会诊直播已开启，马上分享出去，召集小伙伴来听会！</string>
+    <string name="callonthespeaker">指定发言</string>
+    <string name="camera_open_fail">摄像头打开失败</string>
+    <string name="cancel">取消</string>
+    <string name="cancelSpeak">取消发言</string>
+    <string name="cancel_speak">" 取消发言"</string>
+    <string name="cancel_speak_fail">取消发言失败</string>
+    <string name="circleOfFriends">朋友圈</string>
+    <string name="command_speak">指定发言</string>
+    <string name="command_speak_fail">指定发言失败</string>
+    <string name="consultation_name">会诊名称</string>
+    <string name="consultation_name_no_null">会诊名称不能为空</string>
+    <string name="consultation_room">"会诊室 "</string>
+    <string name="copylink">复制链接</string>
+    <string name="default_no_floating_window_permission_hint">您的手机没有授予红云医疗获得浮窗权限，会诊聊天最小化不能正常使用, 请前往设置界面进行设置</string>
+    <string name="douban">豆瓣</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">邮件</string>
+    <string name="end_screen_share">结束屏幕分享</string>
+    <string name="evernote">印象笔记</string>
+    <string name="exitMenu">退出菜单</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebookmessenger">Facebook Messenger</string>
+    <string name="finish">完成</string>
+    <string name="flickr">Flickr</string>
+    <string name="flow_info">条流信息**********</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="freedom_model">(自由模式)</string>
+    <string name="freemode">自由模式</string>
+    <string name="get_nubinfo_error">获取帐号信息失败！</string>
+    <string name="getting_in_word">"正在插话... "</string>
+    <string name="give_mic">传麦</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="googleplus">Google+</string>
+    <string name="have_add">已添加</string>
+    <string name="have_invite">已邀请</string>
+    <string name="hint">提示</string>
+    <string name="host_model">(主持模式)</string>
+    <string name="host_order_speak">主持人已指定您发言</string>
+    <string name="hostmode">主持模式</string>
+    <string name="iknow">知道了</string>
+    <string name="initialization">初始化</string>
+    <string name="initiatethewheat">发起传麦</string>
+    <string name="input_num_no_exit">您输入的帐号不存在</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="instapager_email_or_password_incorrect">Email或密码不正确</string>
+    <string name="instapaper">Instapaper</string>
+    <string name="instapaper_email">邮箱</string>
+    <string name="instapaper_login">登录</string>
+    <string name="instapaper_logining">登录中…</string>
+    <string name="instapaper_pwd">密码</string>
+    <string name="invitation">邀请</string>
+    <string name="invite">邀请</string>
+    <string name="invite_fail">邀请失败</string>
+    <string name="invitedtoattend">邀请参会</string>
+    <string name="invitedtoattendtheconsultation">" 邀请您参加会诊"</string>
+    <string name="invitedtoattendthemeeting">" 邀请您参加会议"</string>
+    <string name="isCutin">正在插话...</string>
+    <string name="is_open_video">,占用流量较大,可能会出现画面卡顿,确认是否打开视频画面</string>
+    <string name="join_meetting_people">"参会方  "</string>
+    <string name="kaixin">开心网</string>
+    <string name="kakaostory">KakaoStory</string>
+    <string name="kakaostory_client_inavailable">目前您的KakaoStory版本过低或未安装，需要安装KakaoStory才能使用</string>
+    <string name="kakaotalk">KakaoTalk</string>
+    <string name="kakaotalk_client_inavailable">目前您的KakaoTalk版本过低或未安装，需要安装KakaoTalk才能使用</string>
+    <string name="laiwang">来往</string>
+    <string name="laiwang_client_inavailable">目前您的来往版本过低或未安装，需要安装来往才能使用</string>
+    <string name="laiwangmoments">来往动态</string>
+    <string name="letmesayafewwords">我来说几句</string>
+    <string name="line">Line</string>
+    <string name="line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
+    <string name="linkedin">领英</string>
+    <string name="list_friends">%s的朋友</string>
+    <string name="livebroadcast">直播</string>
+    <string name="lock">加锁</string>
+    <string name="makesure">确定</string>
+    <string name="me">我</string>
+    <string name="meeting_name">会议名称</string>
+    <string name="meeting_name_not_null">会议名称不能为空</string>
+    <string name="meeting_room">"会议室 "</string>
+    <string name="meeting_room_bg_tip">暂无人发言,快快发言吧！</string>
+    <string name="meeting_room_menu_main_view_meeting_information">信息</string>
+    <string name="mic_open_fail">麦克风打开失败</string>
+    <string name="mingdao">明道</string>
+    <string name="mingdao_share_content">网页分享</string>
+    <string name="multi_share">图文分享</string>
+    <string name="net_error_wait_try">网络不给力，请重试！</string>
+    <string name="net_state_bad_close_video">"  网络极差，已关闭视频"</string>
+    <string name="net_state_normal">"  网络状态正常"</string>
+    <string name="neteasemicroblog">网易微博</string>
+    <string name="no_camera_permission">没有相机权限</string>
+    <string name="no_floating_window_permission">您的手机没有授予红云医疗获得浮窗权限，会诊聊天最小化不能正常使用</string>
+    <string name="no_give_mic_people">暂无可传麦者</string>
+    <string name="no_internet_check_internet">网络不给力，请检查网络！</string>
+    <string name="no_mic">没有麦克风权限</string>
+    <string name="no_people_speak">没有人发言了</string>
+    <string name="not_invite_myself_join_meeting">请不要邀请自己参会!</string>
+    <string name="notification_message">会诊聊天中，轻触以继续</string>
+    <string name="notification_title">红云医疗</string>
+    <string name="nube_error">视讯号无效！</string>
+    <string name="openCamera">打开摄像头</string>
+    <string name="open_now">立即打开</string>
+    <string name="openalive">开启直播</string>
+    <string name="openthevideo">开启视频</string>
+    <string name="other_close_camera">对方已关闭摄像头</string>
+    <string name="password">密码</string>
+    <string name="permission_cancel">取消</string>
+    <string name="permission_handsetting">去手动授权</string>
+    <string name="permission_setting">,请到 “应用信息 -> 权限” 中授予！</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="pit_service_notifaction_content">会诊聊天中，轻击以继续</string>
+    <string name="pit_service_notifaction_title">红云医疗</string>
+    <string name="please_open_camera_mic_permission">没有麦克风和相机权限</string>
+    <string name="please_open_storage_camera_mic_permission">没有存储，麦克风和相机权限</string>
+    <string name="please_open_storage_camera_permission">没有存储和相机权限</string>
+    <string name="please_open_storage_mic_permission">没有存储和麦克风权限</string>
+    <string name="please_open_storage_permission">没有存储权限</string>
+    <string name="please_turn_on_camera_permissions">请开启相机权限</string>
+    <string name="pocket">Pocket</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="quit">退出</string>
+    <string name="qzone">QQ空间</string>
+    <string name="raise_hand">举手</string>
+    <string name="refreshing">刷新中…</string>
+    <string name="release_to_refresh">松开刷新</string>
+    <string name="renren">人人网</string>
+    <string name="request_much_wait_try">请求太频繁，请稍后再试</string>
+    <string name="resolution_more_vga">的分辨率大于VGA</string>
+    <string name="screen_share">屏幕分享</string>
+    <string name="screensharing">屏幕分享</string>
+    <string name="second">秒</string>
+    <string name="seeConsultation">参加会诊</string>
+    <string name="select_a_friend">请选择一个朋友</string>
+    <string name="select_one_plat_at_least">请选择一个目标平台</string>
+    <string name="selecttheSpeechwindow">选择发言窗口</string>
+    <string name="sequence">**********第</string>
+    <string name="shake2share">摇晃手机！</string>
+    <string name="share">会诊直播已开启，马上分享出去，召集小伙伴来听会！</string>
+    <string name="share_canceled">分享已取消</string>
+    <string name="share_completed">分享成功</string>
+    <string name="share_failed">分享失败</string>
+    <string name="share_to">分享到</string>
+    <string name="share_to_baidutieba">分享到百度贴吧</string>
+    <string name="share_to_mingdao">分享到明道</string>
+    <string name="share_to_qq">分享到QQ</string>
+    <string name="share_to_qzone">分享到QQ空间</string>
+    <string name="share_to_qzone_default">来自%s的分享</string>
+    <string name="sharing">分享操作正在后台进行…</string>
+    <string name="shortmessage">信息</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="sms">短信</string>
+    <string name="smsinvitation">短信邀请</string>
+    <string name="sohumicroblog">搜狐微博</string>
+    <string name="sohusuishenkan">搜狐随身看</string>
+    <string name="speak">发言</string>
+    <string name="speak_fail">发言失败</string>
+    <string name="speak_manager">发言管理</string>
+    <string name="start_screen_share">开始屏幕分享</string>
+    <string name="startmeeting">开始会议</string>
+    <string name="starttheconsultation">启动会诊</string>
+    <string name="sure">确定</string>
+    <string name="switchingCamera">切换摄像头</string>
+    <string name="tellaFriend">分享给好友</string>
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="thenameoftheconsultation">会诊名称</string>
+    <string name="thewheat">传麦</string>
+    <string name="touch_return_meeting">轻触此处返回会议室</string>
+    <string name="touch_return_meeting_room_activity">轻触此处返回会诊室</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="unnamed">未命名</string>
+    <string name="unnormalStateofMeeting">会议状态异常</string>
+    <string name="use_login_button">请改用“登录”按钮</string>
+    <string name="user_have_join">该用户已参会</string>
+    <string name="videoCall">视频客服</string>
+    <string name="videoMeeting">正在视频会议</string>
+    <string name="videoformat">视频格式</string>
+    <string name="vkontakte">VK</string>
+    <string name="website">http://www.mob.com</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="wechatfavorite">微信收藏</string>
+    <string name="wechatfriends">微信好友</string>
+    <string name="wechatinvited">微信邀请</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="week">周</string>
+    <string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
+    <string name="xingqi">星期</string>
+    <string name="yixin">易信</string>
+    <string name="yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
+    <string name="yixinmoments">易信朋友圈</string>
+    <string name="youdao">有道云笔记</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="jmetingsdk_CustomDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="jmetingsdk_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="jmetingsdk_loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

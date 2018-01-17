@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/loadText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="400dp"
+            android:textColor="@color/white"
+            android:text="@string/init_time"
+           android:visibility="invisible"
+             />
+          <TextView
+            android:id="@+id/errorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+           android:visibility="invisible"
+             />
+<!--  android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true" -->
+</LinearLayout >

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/rl_udt_arrangement_diagram"
+        android:layout_width="@dimen/x620"
+        android:layout_height="@dimen/y580"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/white">
+
+        <RelativeLayout
+            android:id="@+id/rl_udt_top"
+            android:layout_width="@dimen/x600"
+            android:layout_height="@dimen/y50"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/y20"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/tv_udt_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="加载中" />
+
+        <View
+            android:id="@+id/udt_title_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y1"
+            android:layout_below="@+id/rl_title"
+            android:background="#e6eaf0" />
+
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/x4"
+            android:id="@+id/rl_udt_content"
+            android:layout_width="@dimen/x620"
+            android:layout_height="@dimen/y540"
+            android:layout_below="@+id/udt_title_line"
+            android:background="@android:color/white"
+            android:visibility="visible">
+            <View
+                android:layout_alignTop="@+id/udt_pickerscrlllview_time"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="@dimen/x15"
+                android:background="#d9d9d9"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y70"
+                android:layout_marginTop="@dimen/y240"
+                android:background="@color/btn_color_blue" />
+
+            <cn.redcdn.hvs.requesttreatment.loopview.LoopView
+                android:id="@+id/udt_pickerscrlllview_time"
+                android:layout_width="@dimen/x195"
+                android:layout_height="@dimen/y350"
+                app:awv_textsize="18"
+                app:awv_isLoop="false"
+                app:awv_centerTextColor="@color/white"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/y100"/>
+
+            <cn.redcdn.hvs.requesttreatment.loopview.LoopView
+                android:id="@+id/udt_pickerscrlllview_department"
+                android:layout_width="@dimen/x230"
+                android:layout_height="@dimen/y350"
+                app:awv_textsize="18"
+                app:awv_isLoop="false"
+                app:awv_centerTextColor="@color/white"
+                android:layout_alignTop="@+id/udt_pickerscrlllview_time"
+                android:layout_toEndOf="@+id/udt_pickerscrlllview_time"
+                android:layout_toRightOf="@+id/udt_pickerscrlllview_time"/>
+
+            <cn.redcdn.hvs.requesttreatment.loopview.LoopView
+                android:id="@+id/udt_pickerscrlllview_name"
+                android:layout_width="@dimen/x195"
+                android:layout_height="@dimen/y350"
+                android:layout_alignParentEnd="true"
+                app:awv_textsize="18"
+                app:awv_isLoop="false"
+                app:awv_centerTextColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/udt_pickerscrlllview_department"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_udt_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y60"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rl_top"
+            android:layout_marginBottom="@dimen/y50"
+            android:layout_marginTop="@dimen/y20"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_udt_decrease_date"
+                android:layout_width="@dimen/x100"
+                android:layout_height="@dimen/y60"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp">
+
+                <ImageView
+                    android:id="@+id/iv_udt_decrease_date"
+                    android:layout_width="@dimen/x18"
+                    android:layout_height="@dimen/y28"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/arrangement_left_btn" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_udt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/y60"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/x10"
+                android:text="title"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_udt_increase_date"
+                android:layout_width="@dimen/x100"
+                android:layout_height="@dimen/y60"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:id="@+id/iv_udt_increase_date"
+                    android:layout_width="@dimen/x18"
+                    android:layout_height="@dimen/y28"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/arrangement_right_btn" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_udt_cancel"
+            android:layout_width="@dimen/x310"
+            android:layout_height="@dimen/y90"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/custom_dialog_right_btn_selector"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/btn_color_black"
+            android:textSize="@dimen/x32"
+            android:visibility="visible">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_udt_confirm"
+            android:layout_width="@dimen/x310"
+            android:layout_height="@dimen/y90"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/custom_dialog_right_btn_selector"
+            android:gravity="center"
+            android:text="@string/btn_ok"
+            android:textColor="@color/btn_color_blue"
+            android:textSize="@dimen/x32"
+            android:visibility="visible">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

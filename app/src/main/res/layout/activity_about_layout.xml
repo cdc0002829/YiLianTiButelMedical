@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/systembg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include layout="@layout/titlebar"></include>
+
+
+        <TextView
+            android:id="@+id/app_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/y80"
+            android:drawablePadding="@dimen/y22"
+            android:drawableTop="@drawable/about_app_logo"
+            android:gravity="center"
+            android:text="V1.1.0"
+            android:textColor="@color/contents_text"
+            android:textSize="@dimen/x24" />
+
+        <TextView
+            android:lineSpacingExtra="@dimen/x13"
+            android:id="@+id/tv_introduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/x40"
+            android:layout_marginRight="@dimen/x40"
+            android:layout_marginTop="@dimen/y110"
+            android:text="@string/about_app_introduce"
+            android:textColor="@color/contents_text"
+            android:textSize="@dimen/x26" />
+
+        <RelativeLayout
+            android:id="@+id/check_app"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y96"
+            android:layout_marginTop="@dimen/y80"
+            android:background="@drawable/about_app_btn_selector"
+            android:gravity="center_vertical"
+
+            android:onClick="onButton">
+
+            <TextView
+                android:layout_marginLeft="@dimen/x28"
+                android:id="@+id/check_app_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_btn"
+                android:textColor="@color/contents_text"
+                android:textSize="@dimen/x32" />
+
+            <ImageView
+                android:id="@+id/check_app_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:layout_toRightOf="@+id/check_app_btn"
+                android:background="@drawable/about_app_new"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/app_webview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y100"
+            android:layout_marginTop="@dimen/y50"
+            android:background="@drawable/about_app_btn_selector"
+            android:gravity="center"
+            android:onClick="onButton"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/app_webview_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/app_webview_txt"
+                android:textColor="@color/contents_text"
+                android:textSize="@dimen/x32" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

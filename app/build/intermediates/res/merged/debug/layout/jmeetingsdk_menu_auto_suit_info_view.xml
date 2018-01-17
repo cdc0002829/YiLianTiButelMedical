@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.redcdn.jmeetingsdk.cn.redcdn.sdkjmeeting.MeetingRoomActivity" >
+
+    <Button
+        android:id="@+id/hide_view_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+    <FrameLayout
+        android:layout_width="@dimen/meeting_room_menu_participators_view_bg_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@drawable/meeting_room_menu_main_view_title_bg" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+
+        <ListView
+            android:id="@+id/meeting_room_menu_auto_suit_info_view_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+    </FrameLayout>
+
+</FrameLayout>

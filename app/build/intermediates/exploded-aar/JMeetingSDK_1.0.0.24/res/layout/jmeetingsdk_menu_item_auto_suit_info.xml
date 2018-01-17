@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="332dp"
+    android:layout_height="30dp"
+    android:background="@drawable/meeting_room_menu_main_view_title_bg"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    tools:context="cn.redcdn.jmeetingsdk.cn.redcdn.sdkjmeeting.MeetingRoomActivity" >
+
+    <FrameLayout
+        android:id="@+id/itemParent"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center" >
+
+        <Button
+            android:id="@+id/itemBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            android:focusableInTouchMode="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/participatorName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingLeft="3dp"
+                android:text="彪哥办公室"
+                android:textColor="#666666"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#ffffff" />
+
+            <TextView
+                android:id="@+id/participatorAccountId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingLeft="3dp"
+                android:text="77771234"
+                android:textColor="#666666"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

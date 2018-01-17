@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y50"
+    android:background="@color/contact_catalog_txt_bg_color">
+
+
+    <!--<View-->
+    <!--android:layout_gravity="bottom"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/y1"-->
+    <!--android:background="@color/color_butel_selfinfo_darkline_color" />-->
+
+    <!--<View-->
+    <!--android:layout_gravity="top"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/y1"-->
+    <!--android:background="@color/color_butel_selfinfo_darkline_color" />-->
+
+    <TextView
+        android:id="@+id/list_item_genre_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/x28"
+        android:textColor="@color/local_decrible_txt_color"
+        android:textSize="@dimen/x24" />
+
+    <ImageView
+        android:layout_gravity="right|center_vertical"
+        android:id="@+id/iv_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/x32"
+        android:src="@drawable/arrow_blue_down"
+      />
+
+</FrameLayout>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hms_abort">"Detener"</string>
+    <string name="hms_abort_message">"¿Detener la descarga?"</string>
+    <string name="hms_bindfaildlg_message">"%1$s no puede usar los servicios móviles de Huawei. Abra el Gestor o acceda a Ajustes, habilite todos los permisos para %2$s (incluso el acceso automático y el secundario) y vuelva a intentarlo."</string>
+    <string name="hms_cancel">"Cancelar"</string>
+    <string name="hms_check_failure">"Error al buscar actualizaciones."</string>
+    <string name="hms_check_no_update">"Ya está usando la última versión."</string>
+    <string name="hms_checking">"Buscando actualizaciones..."</string>
+    <string name="hms_confirm">"Aceptar"</string>
+    <string name="hms_download_failure">"Error al descargar el paquete de Servicios móviles de Huawei."</string>
+    <string name="hms_download_no_space">"Espacio insuficiente. No se puede completar la descarga."</string>
+    <string name="hms_download_retry">"Error al descargar. ¿Reintentar?"</string>
+    <string name="hms_downloading">"Descargando Servicios móviles de Huawei | Progreso: %d %%"</string>
+    <string name="hms_downloading_new">"Descargando HMS"</string>
+    <string name="hms_install">"Instalar"</string>
+    <string name="hms_install_message">"Para utilizar esta función, es necesario instalar los Servicios móviles de Huawei. ¿Instalar?"</string>
+    <string name="hms_retry">"Reintentar"</string>
+    <string name="hms_update">"Actualizar"</string>
+    <string name="hms_update_message">"Actualice la versión de Servicios móviles de Huawei para utilizar esta función. ¿Actualizar ahora?"</string>
+    <string name="hms_update_message_new">"Este servicio requiere la instalación de la última versión de la siguiente aplicación:\n\n%1$s"</string>
+    <string name="hms_update_title">"Servicios móviles de Huawei"</string>
+</resources>

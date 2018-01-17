@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9eaee"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/layout_head">
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/back_btn" />
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/x500"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvtitle"
+            android:layout_width="wrap_content"
+            android:maxLines="2"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_setting_text"
+            android:text="公众号名字"
+            android:textSize="@dimen/x39"
+            android:ellipsize="end"
+            android:singleLine="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y2"
+        android:background="#c3c8cd" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/content_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </com.jcodecraeer.xrecyclerview.XRecyclerView>
+       <LinearLayout
+           android:id="@+id/no_content"
+           android:layout_marginTop="@dimen/y206"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:visibility="invisible">
+           <ImageView
+               android:layout_gravity="center"
+               android:layout_width="@dimen/x200"
+               android:layout_height="@dimen/y200"
+               android:src="@drawable/no_order"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="@dimen/x28"
+               android:textColor="#8d8d8d"
+               android:layout_gravity="center_horizontal"
+               android:text="@string/noArticleofOfficalAccount"/>
+       </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

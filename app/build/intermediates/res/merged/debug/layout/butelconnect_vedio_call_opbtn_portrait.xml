@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget31"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"  
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <CheckBox 
+            android:id="@+id/ch_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本"
+             android:textColor="@android:color/holo_red_dark"
+            android:checked="true"/>
+        <CheckBox 
+            android:id="@+id/ch_type_remote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="远"
+             android:textColor="@android:color/holo_red_dark"
+            android:checked="true"/>
+        <CheckBox 
+            android:id="@+id/ch_hasaudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="有声音" 
+            android:textColor="@android:color/holo_red_dark"/>
+        <Button android:id="@+id/btn_startrecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="录制"
+           />
+        <Button android:id="@+id/btn_starttakepic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拍"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" >
+        <ImageButton
+            android:id="@+id/end_vediocall_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"          
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@drawable/butelconnect_connected_op_end"
+            android:text="@string/ipcall_huangup"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" >
+        </ImageButton>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/widget34"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal" >
+        
+        <ImageButton
+            android:id="@+id/switch_camera"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@drawable/butelconnect_vedio_camera_btn_selector"
+            android:text="@string/ipcall_switch_camera"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/open_camera_btn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@drawable/butelconnect_connected_op_camera_pressed"
+            android:text="@string/ipcall_close_camera"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/mute_btn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@drawable/butelconnect_connected_op_mac"
+            android:text="@string/ipcall_mute_voice"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/speaker_btn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@drawable/butelconnect_connected_op_beauty"
+            android:text="@string/ipcall_open_speaker"
+            android:visibility="gone"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

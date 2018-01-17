@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/meeting_room_media_view_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <FrameLayout
+        android:id="@+id/meeting_room_media_view_surface_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/meeting_room_media_view_mic_1_name_bg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/meeting_room_media_view_account_name_bg_height"
+            android:layout_centerInParent="true"
+            android:background="@drawable/meeting_room_media_view_account_name_bg"
+            android:minWidth="@dimen/meeting_room_media_view_account_name_bg_min_width"
+            android:padding="0dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <ImageView
+                    android:id="@+id/meeting_room_media_view_mic_1_account_name_pre_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/meeting_room_media_view_account_name_pre_icon"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/meeting_room_media_view_mic_1_name_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text=""
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/meeting_room_media_view_account_name_text_size" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/meeting_room_media_view_mic_2_name_bg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/meeting_room_media_view_account_name_bg_height"
+            android:layout_centerInParent="true"
+            android:background="@drawable/meeting_room_media_view_account_name_bg"
+            android:minWidth="@dimen/meeting_room_media_view_account_name_bg_min_width"
+            android:padding="0dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <ImageView
+                    android:id="@+id/meeting_room_media_view_mic_2_account_name_pre_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/meeting_room_media_view_account_name_pre_icon"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/meeting_room_media_view_mic_2_name_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text=""
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/meeting_room_media_view_account_name_text_size" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xlhRatingBar="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/udt_opinion_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="#E8E8E8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y44"
+                android:background="@color/contact_catalog_txt_bg_color">
+
+                <TextView
+                    android:textColor="#8e8e93"
+                    android:textSize="@dimen/x24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:text="@string/udt_waitResolve_problem" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1px"
+                android:background="#E8E8E8" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:minHeight="@dimen/x170">
+
+                <TextView
+                    android:id="@+id/tv_waitResproblems"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/x30"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:layout_marginRight="@dimen/x28"
+                    android:layout_marginTop="@dimen/x28"
+                    android:text="无待解决问题"
+                    android:textColor="#2d2d2d"
+                    android:textSize="@dimen/x30" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1px"
+                android:background="#E8E8E8" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y44"
+            android:background="@color/contact_catalog_txt_bg_color">
+
+            <TextView
+                android:textColor="#8e8e93"
+                android:textSize="@dimen/x24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x28"
+                android:text="@string/udt_treatment_advice" />
+
+            <Button
+                android:id="@+id/opinion_refresh_btn"
+                android:layout_width="@dimen/x28"
+                android:layout_height="@dimen/x28"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/x28"
+                android:background="@drawable/udt_refresh_selector" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#E8E8E8" />
+        <!--选择按钮-->
+        <LinearLayout
+            android:id="@+id/ll_checkboxGroup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x90"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/local_treat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x28"
+                android:button="@drawable/checkbox_selector" />
+
+            <TextView
+                android:id="@+id/tv_check_local"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x14"
+                android:text="@string/udt_local_treat"
+                android:textColor="#999999"
+                android:textSize="@dimen/x30" />
+
+            <CheckBox
+
+                android:id="@+id/transfer_treat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x44"
+                android:button="@drawable/checkbox_selector" />
+
+            <TextView
+                android:id="@+id/tv_exchange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x14"
+                android:text="@string/udt_transfer_treatment"
+                android:textColor="#999999"
+                android:textSize="@dimen/x30" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#E8E8E8" />
+        <!--本地治疗/转诊-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+            <!--本地治疗-->
+            <FrameLayout
+                android:id="@+id/Re_localTreat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:minHeight="@dimen/x210"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <EditText
+                    android:id="@+id/udt_room_edit_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/x30"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:layout_marginRight="@dimen/x28"
+                    android:layout_marginTop="@dimen/x26"
+                    android:background="@null"
+                    android:gravity="top"
+                    android:hint="@string/udt_pleasehit_localAdvice"
+                    android:scrollbars="vertical"
+                    android:textColor="#2d2d2d"
+                    android:textSize="@dimen/x30" />
+
+                <TextView
+                    android:id="@+id/tv_local_advice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:layout_marginRight="@dimen/x28"
+                    android:layout_marginTop="@dimen/x26"
+                    android:hint="暂无本地会诊建议"
+                    android:textColor="#2d2d2d"
+                    android:textSize="@dimen/x30"
+                    android:visibility="invisible" />
+            </FrameLayout>
+            <!--转诊-->
+            <LinearLayout
+                android:id="@+id/ll_transfer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <RelativeLayout
+                    android:id="@+id/Re_tranDep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_office"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/x28"
+                        android:text="@string/udt_transfer_office"
+                        android:textColor="#8d8d8d"
+                        android:textSize="@dimen/x32" />
+
+                    <RelativeLayout
+                        android:id="@+id/btn_select_office"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y90"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/x20"
+                        android:layout_toRightOf="@id/tv_office"
+                        android:orientation="horizontal">
+
+                        <TextView
+
+                            android:id="@+id/tv_appointment_office"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/x36"
+                            android:gravity="center_vertical"
+                            android:textColor="#2d2d2d"
+                            android:textSize="@dimen/x32" />
+
+                        <ImageView
+                            android:id="@+id/im_trDep"
+                            android:layout_width="@dimen/x17"
+                            android:layout_height="@dimen/y26"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="@dimen/x28"
+                            android:background="@drawable/reserve_dt_next" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_below="@+id/btn_select_office"
+                        android:background="#E8E8E8" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Re_tranSchedul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x14">
+
+                    <TextView
+                        android:id="@+id/tv_transfer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/x28"
+                        android:text="@string/udt_transfer_appointment"
+                        android:textColor="#8d8d8d"
+                        android:textSize="@dimen/x32" />
+
+                    <RelativeLayout
+                        android:id="@+id/btn_transfer_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y80"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/x20"
+                        android:layout_toRightOf="@id/tv_transfer"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_appointment_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/x36"
+                            android:gravity="center_vertical"
+                            android:textColor="#2d2d2d"
+                            android:textSize="@dimen/x32" />
+
+                        <TextView
+                            android:id="@+id/tv_transfer_moment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/x20"
+                            android:layout_toRightOf="@+id/tv_appointment_date"
+                            android:gravity="center_vertical"
+                            android:textColor="#2d2d2d"
+                            android:textSize="@dimen/x32" />
+
+                        <TextView
+                            android:id="@+id/tv_transfer_doctor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/x20"
+                            android:layout_toRightOf="@+id/tv_transfer_moment"
+                            android:gravity="center_vertical"
+                            android:textColor="#2d2d2d"
+                            android:textSize="@dimen/x32" />
+
+                        <ImageView
+                            android:id="@+id/imag_TraSched"
+                            android:layout_width="@dimen/x17"
+                            android:layout_height="@dimen/x26"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="@dimen/x28"
+                            android:background="@drawable/reserve_dt_next" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_below="@+id/btn_transfer_date"
+                        android:background="#E8E8E8" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/x230">
+
+                    <TextView
+                        android:id="@+id/content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/x28"
+                        android:layout_marginTop="@dimen/x30"
+                        android:text="@string/udt_transfer_content"
+                        android:textColor="#8d8d8d"
+                        android:textSize="@dimen/x30" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/content">
+
+                        <EditText
+
+                            android:id="@+id/transfer_advices"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="@dimen/x30"
+                            android:layout_marginLeft="@dimen/x28"
+                            android:layout_marginRight="@dimen/x28"
+                            android:layout_marginTop="@dimen/x26"
+                            android:background="@null"
+                            android:gravity="top"
+                            android:hint="@string/udt_pleasehint_transferAdvice"
+                            android:scrollbars="vertical"
+                            android:textColor="#2d2d2d"
+                            android:textSize="@dimen/x30" />
+
+                        <TextView
+                            android:id="@+id/tv_transfer_advices"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/x28"
+                            android:layout_marginRight="@dimen/x28"
+                            android:layout_marginTop="@dimen/x26"
+                            android:text="暂无转诊建议"
+                            android:textColor="#2d2d2d"
+                            android:textSize="@dimen/x30"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <Button
+                android:id="@+id/dt_opinion_submit"
+                android:layout_width="@dimen/x144"
+                android:layout_height="@dimen/x60"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="bottom|right"
+                android:layout_marginBottom="@dimen/x14"
+                android:layout_marginRight="@dimen/x28"
+                android:layout_marginTop="@dimen/x10"
+                android:background="@drawable/button_selector"
+                android:text="@string/udt_advces_submit"
+                android:textColor="#fff" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

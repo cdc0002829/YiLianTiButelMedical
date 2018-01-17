@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/x10">
+
+    <RelativeLayout
+        android:id="@+id/item_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y270"
+        android:background="@drawable/shape_border_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/collection_operator"
+                layout="@layout/collection_operator_layout"></include>
+
+
+            <cn.redcdn.hvs.profiles.collection.EmojiconTextView
+                android:id="@+id/collection_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginRight="@dimen/x30"
+                android:layout_marginTop="@dimen/y30"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:textColor="#313233"
+                android:textSize="@dimen/x32" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

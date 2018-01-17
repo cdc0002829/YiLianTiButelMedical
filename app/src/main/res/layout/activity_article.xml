@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/layout_head">
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/back_btn" />
+
+        <TextView
+            android:id="@+id/tvtitle"
+            style="@style/middle_text"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="正文" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <WebView
+            android:id="@+id/articleWeb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </WebView>
+        <RelativeLayout
+            android:id="@+id/article_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/webLoading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/loading" />
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/no_content"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/x75"
+                android:layout_height="@dimen/x75"
+                android:layout_marginBottom="@dimen/y30"
+                android:src="@drawable/article_delate" />
+
+            <TextView
+                android:id="@+id/article_delate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/artical_delate"
+                android:textColor="#8d8d8d"
+                android:textSize="@dimen/x28" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

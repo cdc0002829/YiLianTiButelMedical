@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:clipChildren="false" >
+
+    <Button
+        android:id="@+id/hide_view_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipChildren="false" >
+
+        <Button
+            android:id="@+id/view_btn_hide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="110dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/meeting_room_main_button_bg"
+            android:clipChildren="false"
+            android:gravity="fill_vertical" >
+
+            <RelativeLayout
+                android:id="@+id/meeting_room_menu_rl_first"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/meeting_room_menu_main_view_meeting_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="111"
+                    android:textColor="#7c7d80"
+                    android:textSize="@dimen/meeting_room_menu_main_view_meeting_id_textview_text_size" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="25dp"
+                android:clipChildren="false" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:clipChildren="false"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:clipChildren="false"
+                        android:gravity="center" >
+
+                        <Button
+                            android:id="@+id/meeting_room_menu_main_view_participator_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@android:color/transparent"
+                            android:clipChildren="false"
+                            android:drawableTop="@drawable/meeting_room_menu_main_view_participator_btn_drawable_selector"
+                            android:gravity="center"
+                            android:text="@string/attendingparties"
+                            
+                            android:textColor="#969799"
+                            android:textSize="@dimen/meeting_room_menu_main_view_bottom_textview_text_size" />
+
+                        <TextView
+                            android:id="@+id/meeting_room_participatorcount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|top"
+                            android:layout_marginLeft="25dp"
+                            android:background="@drawable/home_number_mark"
+                            android:clipChildren="false"
+                            android:gravity="center"
+                            android:text="20"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/main_count_size"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+
+                    <Button
+                        android:id="@+id/meeting_room_menu_main_view_meeting_info_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:drawableTop="@drawable/meeting_room_menu_main_view_more_view_meeting_info_btn_selector"
+                        android:padding="@dimen/meeting_room_menu_main_view_bottom_button_padding"
+                        android:text="@string/meeting_room_menu_main_view_meeting_information"
+                        android:textColor="#969799"
+                        android:textSize="@dimen/meeting_room_menu_main_view_more_view_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/meeting_room_menu_main_view_ask_for_speak_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:drawableTop="@drawable/meeting_room_menu_main_view_ask_for_speak_btn_drawable_selector"
+                        android:gravity="center"
+                         android:visibility="visible"
+                        android:text="@string/speak"
+                        android:textColor="#969799"
+                        android:textSize="@dimen/meeting_room_menu_main_view_bottom_textview_text_size" />
+
+                    <Button
+                        android:id="@+id/meeting_room_menu_main_view_lock_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:drawableTop="@drawable/meeting_room_menu_main_view_more_view_lock_btn_selector"
+                        android:gravity="center"
+                        android:padding="@dimen/meeting_room_menu_main_view_bottom_button_padding"
+                        android:text="@string/lock"
+                        android:textColor="#969799"
+                        android:textSize="@dimen/meeting_room_menu_main_view_bottom_textview_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/meeting_room_menu_main_view_invite_person_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:drawableTop="@drawable/meeting_room_menu_main_view_invite_person_btn_drawable_selector"
+                        android:gravity="center"
+                        android:text="@string/invitation"
+                        android:textColor="#969799"
+                        android:textSize="@dimen/meeting_room_menu_main_view_bottom_textview_text_size" />
+
+                    <Button
+                        android:id="@+id/meeting_room_menu_main_view_exit_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:drawableTop="@drawable/meeting_room_menu_main_view_more_view_exit_btn_selector"
+                        android:gravity="center"
+                        android:padding="@dimen/meeting_room_menu_main_view_bottom_button_padding"
+                        android:text="@string/quit"
+                        android:textColor="#969799"
+                        android:textSize="@dimen/meeting_room_menu_main_view_bottom_textview_text_size" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</FrameLayout>

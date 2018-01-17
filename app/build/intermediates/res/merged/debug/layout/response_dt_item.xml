@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/response_dt_item_lay"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y110"
+    android:background="@drawable/response_dt_item_select"
+    android:gravity="center_vertical">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/x28">
+
+        <ImageView
+            android:id="@+id/response_dt_item_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/response_dt_item_round_blue" />
+
+        <TextView
+            android:id="@+id/reservation_number_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x24" />
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/x28"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/response_dt_btn"
+            android:layout_width="@dimen/x92"
+            android:layout_height="@dimen/y60"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/response_dt_btn_drawable"
+            android:text="@string/receive_doctor"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/response_doctor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y45"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/y10"
+            android:gravity="center"
+            android:text="张一三"
+            android:textColor="@color/response_doctor_name_text_color"
+            android:textSize="@dimen/x20"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/state_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/y69"
+            android:gravity="center_vertical"
+            android:text="已结束"
+            android:textColor="@color/response_doctor_name_text_color"
+            android:textSize="@dimen/x20"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_alignParentBottom="true"
+
+        android:background="@color/response_dt_item_divider_color" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/x138"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y45"
+            android:layout_marginTop="@dimen/y10"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/patient_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxEms="9"
+                android:singleLine="true"
+                android:text="张三李四王五赵六"
+                android:textColor="#2d2d2d"
+                android:textSize="@dimen/x32" />
+
+
+            <TextView
+                android:id="@+id/ill_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxEms="9"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#aaabad"
+                android:textSize="@dimen/x24" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y10"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/response_dt_item_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="From:"
+                android:textColor="@color/response_dt_item_from_text_color"
+                android:textSize="@dimen/x24" />
+
+            <TextView
+                android:id="@+id/request_doctor_hospital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxEms="14"
+                android:singleLine="true"
+                android:textColor="@color/response_dt_item_from_text_color"
+                android:textSize="@dimen/x24" />
+
+            <TextView
+                android:id="@+id/request_doctor_department"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x5"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxEms="6"
+                android:singleLine="true"
+                android:text="心内科"
+                android:textColor="#aaabad"
+                android:textSize="@dimen/x24"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/request_doctor_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x5"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxEms="4"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#aaabad"
+                android:textSize="@dimen/x24"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

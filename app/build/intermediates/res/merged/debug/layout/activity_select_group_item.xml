@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y110"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y110"
+        android:orientation="horizontal">
+
+        <cn.redcdn.hvs.im.view.RoundImageView
+            android:id="@+id/group_headurl_iv"
+            android:layout_width="@dimen/x72"
+            android:layout_height="@dimen/x72"
+            android:layout_marginLeft="@dimen/x28"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/group_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x22"
+            android:textSize="@dimen/x32"
+            android:textColor="#2d2d2d"
+            android:text="红云 "
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/group_memeber_size_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/x32"
+            android:textColor="#2d2d2d"
+            android:text="（3人） "
+            android:layout_marginLeft="@dimen/x24"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/x28"
+        android:background="#d9d9d9"></View>
+
+</RelativeLayout>

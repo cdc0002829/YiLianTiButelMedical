@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/systembg"
+    android:orientation="vertical">
+    <include layout="@layout/titlebar"/>
+    <include layout="@layout/login_numdemo" />
+
+    <ImageView
+        android:layout_width="@dimen/x692"
+        android:layout_height="@dimen/y1"
+        android:layout_marginLeft="@dimen/x28"
+        android:background="#d9d9d9" />
+
+    <include layout="@layout/login_pwddemo" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="#d9d9d9" />
+
+    <Button
+        android:id="@+id/login_forgetpwd_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@null"
+        android:text="@string/login_forgetpwd"
+        android:textColor="@color/forgetpwd"
+        android:textSize="@dimen/x24" />
+
+    <Button
+        android:id="@+id/login_login_btn"
+        android:layout_width="@dimen/x670"
+        android:layout_height="@dimen/y80"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/y96"
+        android:background="@drawable/button_selector"
+        android:text="@string/login"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/x34" />
+
+    <Button
+        android:id="@+id/login_see_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@null"
+        android:text="@string/just_looking"
+        android:textColor="@color/forgetpwd"
+        android:textSize="@dimen/x24" />
+
+</LinearLayout>

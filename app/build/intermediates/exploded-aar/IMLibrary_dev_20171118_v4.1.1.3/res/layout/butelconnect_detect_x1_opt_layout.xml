@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mySwitch="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mute_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="66dp"
+    android:background="#7F000000" >
+    
+<com.channelsoft.netphone.component.QnSwitch
+    android:id="@+id/mute_sw"
+    style="@style/mySwitchStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="9dp"
+    mySwitch:pushStyle="false"
+    mySwitch:textOff="@string/off_audio_str"
+    mySwitch:textOn="@string/on_audio_str"
+    mySwitch:textOnThumb="false"
+    mySwitch:switchTextAppearanceAttrib="@style/x1MonitorSwitchTextAppearance"
+    mySwitch:thumb="@drawable/butelconnect_switch_audio_thumb_seletor"
+    mySwitch:thumbExtraMovement="0dp"
+    mySwitch:track="@drawable/butelconnect_switch_audio_bg_seletor"
+    mySwitch:trackTextPadding="2dp" />
+
+    <!--  
+    <View
+        android:id="@+id/split_view"
+        android:layout_width="2dp"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <ImageButton
+        android:id="@+id/end_vediocall_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/split_view"
+        android:background="@android:color/transparent"
+        android:contentDescription="@null"
+        android:src="@drawable/monitor_vedio_camera_normal"
+        android:text="@string/ipcall_huangup"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/mute_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/split_view"
+        android:background="@android:color/transparent"
+        android:contentDescription="@null"
+        android:src="@drawable/monitor_vedio_mute_normal"
+        android:text="@string/ipcall_mute_voice"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+     -->
+</RelativeLayout>

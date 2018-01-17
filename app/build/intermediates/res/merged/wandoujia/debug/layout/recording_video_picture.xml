@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true" />
+    <RelativeLayout
+        android:id="@+id/preview_ll"
+        android:visibility="gone"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/preview_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/recording_video_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:layout_alignParentTop="true"
+        android:background="#000000">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/xsp_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginTop="@dimen/y44"
+            android:background="@null"
+            android:text="@string/btn_cancle"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x28" />
+
+        <TextView
+            android:id="@+id/xsp_title_middle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/recording_video_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x28"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/change_camera"
+            android:layout_width="@dimen/x52"
+            android:layout_height="@dimen/y41"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x10"
+            android:background="@drawable/vedio_camera_select" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y248"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/color_black" />
+
+    <Button
+        android:id="@+id/record_btn"
+        android:layout_width="@dimen/x132"
+        android:layout_height="@dimen/y132"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/y31"
+        android:background="@drawable/takepicture" />
+
+    <RelativeLayout
+        android:id="@+id/layout_switch"
+        android:layout_width="@dimen/x198"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/record_btn"
+        android:layout_alignLeft="@id/record_btn"
+        android:layout_marginBottom="@dimen/y26"
+        android:background="@null">
+
+        <TextView
+            android:id="@+id/picture_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/recording_picture"
+            android:textColor="#FFFF00"
+            android:textSize="@dimen/x28" />
+
+        <TextView
+            android:id="@+id/video_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/smallVideo"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x28" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/re_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/reTake"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x28"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/send_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/recording_send"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x28"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+    <dimen name="setting_icon">92dp</dimen>
+    <dimen name="setting_icon_half">46dp</dimen>
+</resources>

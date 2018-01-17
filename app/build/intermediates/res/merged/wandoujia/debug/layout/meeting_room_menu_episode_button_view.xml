@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent" 
+    android:layout_gravity="bottom|left">
+
+    <Button
+        android:id="@+id/menu_episode_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="26dp"
+        android:layout_marginLeft="26dp"
+        android:background="@drawable/meeting_room_episode_button_selector"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+
+</FrameLayout>

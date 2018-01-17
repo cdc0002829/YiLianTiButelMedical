@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/bottom_menu_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:duplicateParentState="false"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/bottom_menu_layout_marginTop">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/y100"
+                android:paddingTop="@dimen/bottom_menu_layout_button1_paddingTop"
+                android:background="@drawable/bg_bottom_menu_common_btn"
+                android:tag="1"
+                android:text="@string/bottom_menu_take_photo"
+                android:textColor="@color/botton_cancelbtn"
+                android:textSize="@dimen/x36"
+                android:textStyle="normal"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginLeft="@dimen/bottom_menu_layout_view_margin_left_right"
+                android:layout_marginRight="@dimen/bottom_menu_layout_view_margin_left_right"
+                android:background="#eeedf2"
+                android:tag="line1"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/y100"
+                android:layout_marginTop="-1dp"
+                android:paddingTop="@dimen/bottom_menu_layout_button1_paddingTop"
+                android:background="@drawable/bg_bottom_menu_common_btn"
+                android:tag="2"
+                android:text="@string/bottom_menu_pick_photo"
+                android:textColor="@color/botton_cancelbtn"
+                android:textSize="@dimen/x36"
+                android:textStyle="normal"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginLeft="@dimen/bottom_menu_layout_view_margin_left_right"
+                android:layout_marginRight="@dimen/bottom_menu_layout_view_margin_left_right"
+                android:background="#eeedf2"
+                android:tag="line2"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/y100"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/bg_bottom_menu_common_btn"
+                android:tag="3"
+                android:text="@string/bottom_menu_pick_photo"
+                android:textColor="@color/botton_cancelbtn"
+                android:textSize="@dimen/x36"
+                android:textStyle="normal"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/line3"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginLeft="@dimen/bottom_menu_layout_view_margin_left_right"
+                android:layout_marginRight="@dimen/bottom_menu_layout_view_margin_left_right"
+                android:background="#eeedf2"
+                android:tag="line3"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/y100"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/bg_bottom_menu_common_btn"
+                android:tag="4"
+                android:text="@string/bottom_menu_pick_photo"
+                android:textColor="@color/botton_cancelbtn"
+                android:textSize="@dimen/x36"
+                android:textStyle="normal"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/line4"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginLeft="@dimen/bottom_menu_layout_view_margin_left_right"
+                android:layout_marginRight="@dimen/bottom_menu_layout_view_margin_left_right"
+                android:background="#eeedf2"
+                android:tag="line4"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_exit"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/y100"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/bg_bottom_menu_common_btn"
+                android:tag="5"
+                android:textColor="@color/botton_cancelbtn"
+                android:textSize="@dimen/x36"
+                android:textStyle="normal"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/line5"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginLeft="@dimen/bottom_menu_layout_view_margin_left_right"
+                android:layout_marginRight="@dimen/bottom_menu_layout_view_margin_left_right"
+                android:background="#eeedf2"
+                android:tag="line5"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y10"
+        android:background="#d7d9db"/>
+
+    <LinearLayout
+        android:id="@+id/cancel_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y100"
+        android:duplicateParentState="false"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_bottom_menu_common_btn"
+            android:text="@string/btn_cancle"
+            android:textColor="@color/botton_cancelbtn"
+            android:textSize="@dimen/x36"
+            android:textStyle="normal"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

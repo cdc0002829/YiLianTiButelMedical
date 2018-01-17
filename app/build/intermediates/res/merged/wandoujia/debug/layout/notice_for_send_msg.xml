@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_custom_button"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#333">
+
+    <ImageView
+        android:id="@+id/butel_notification_icon"
+        android:layout_width="@dimen/butel_notification_icon_width_height"
+        android:layout_height="@dimen/butel_notification_icon_width_height"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/butel_notification_icon_margin"
+        android:layout_marginTop="@dimen/butel_notification_icon_margin"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/butel_notification_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/butel_notification_icon"
+        android:layout_marginLeft="@dimen/butel_notification_title_margin_left"
+        android:layout_toRightOf="@id/butel_notification_icon"
+        android:text="@string/theNameOftheSender"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/butel_notification_title_size" />
+
+    <TextView
+        android:id="@+id/butel_notification_time_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/butel_notification_title"
+        android:layout_marginLeft="@dimen/butel_notification_title_margin_left"
+        android:layout_marginRight="@dimen/butel_notification_icon_margin"
+        android:gravity="center"
+        android:text="@string/im_time"
+        android:textColor="#666"
+        android:textSize="@dimen/butel_notification_time_size" />
+
+    <TextView
+        android:id="@+id/butel_notification_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/butel_notification_icon"
+        android:layout_alignLeft="@id/butel_notification_title"
+        android:layout_below="@id/butel_notification_title"
+        android:layout_toRightOf="@id/butel_notification_icon"
+        android:paddingRight="@dimen/butel_notification_title_margin_left"
+        android:gravity="left"
+        android:text="@string/im_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="@dimen/tv_nubenumber_size"
+        android:textColor="#999"/>
+
+</RelativeLayout>

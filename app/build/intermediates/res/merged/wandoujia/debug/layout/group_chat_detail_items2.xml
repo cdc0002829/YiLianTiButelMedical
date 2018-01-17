@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/group_chat_details2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/Group_Chat_Detail_Item">
+        <TextView
+            style="@style/Group_Chat_Detail_Item.Left_TextView"
+            android:text="@string/set_top_chat"/>
+
+        <cn.redcdn.hvs.im.view.SwitchButton
+            android:id="@+id/msg_set_top_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x28"
+            android:background="@drawable/switch_off"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/left_line"
+            android:layout_width="@dimen/x28"
+            android:layout_height="@dimen/y1"
+            android:background="@color/color_white"/>
+
+        <View
+            android:layout_width="@dimen/x692"
+            android:layout_height="@dimen/y1"
+            android:layout_toRightOf="@+id/left_line"
+            android:background="@color/diver_line_dark"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/Group_Chat_Detail_Item">
+
+        <TextView
+            style="@style/Group_Chat_Detail_Item.Left_TextView"
+            android:text="@string/msg_no_disturb"/>
+
+        <cn.redcdn.hvs.im.view.SwitchButton
+            android:id="@+id/dont_disturb_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x28"
+            android:background="@drawable/switch_on"/>
+    </RelativeLayout>
+</LinearLayout>

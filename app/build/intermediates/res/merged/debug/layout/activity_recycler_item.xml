@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/official_accounts_relative_rl"
+    android:layout_width="@dimen/x142"
+    android:layout_height="@dimen/y160">
+
+    <RelativeLayout
+        android:id="@+id/aa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <cn.redcdn.hvs.im.view.XCRoundImageViewByXfermode
+            android:id="@+id/id_index_gallery_item_image"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/x100"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/x100"
+            android:background="@drawable/shape_gray_square_bg" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/id_index_gallery_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aa"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/y20"
+        android:maxLength="5"
+        android:textColor="#666666"
+        android:textSize="@dimen/x22" />
+
+
+
+
+</RelativeLayout>

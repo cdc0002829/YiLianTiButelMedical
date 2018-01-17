@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/meeting_room_barrage"
+    android:clipChildren="false">
+
+    <Button
+        android:id="@+id/hide_view_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/barrage_content_fl"
+            android:layout_width="match_parent"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="26dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="26dp"
+            android:background="@drawable/drawable_color">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/x36"
+                    android:layout_weight="1.0"
+                    android:divider="@null"
+                    android:listSelector="@color/meeting_room_bg_transparent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y94"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/edit_backgroud"
+                    android:orientation="horizontal"
+                    android:stackFromBottom="true"
+                    android:transcriptMode="alwaysScroll">
+
+                    <Button
+                        android:id="@+id/barrage_control_btn"
+                        android:layout_width="@dimen/x72"
+                        android:layout_height="@dimen/y64"
+                        android:layout_marginLeft="@dimen/x30"
+                        android:layout_marginTop="@dimen/y20"
+                        android:background="@drawable/barrage_on"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="@dimen/x26" />
+
+                    <cn.redcdn.util.smileUtil.EmojiconEditText
+                        android:id="@+id/et_content"
+                        android:layout_width="@dimen/y781"
+                        android:layout_height="@dimen/y64"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/x20"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/textbox"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:hint="@string/letmesayafewwords"
+                        android:imeOptions="actionDone"
+                        android:inputType="textCapSentences|textAutoCorrect|textMultiLine|textShortMessage"
+                        android:lineSpacingExtra="@dimen/x6"
+                        android:maxLines="4"
+                        android:paddingLeft="@dimen/x18"
+                        android:singleLine="true"
+                        android:textColor="#cccccc"
+                        android:textColorHint="#999999"
+                        android:textSize="@dimen/x32"
+                        android:windowSoftInputMode="stateVisible" />
+
+                    <Button
+                        android:id="@+id/notice_send_btn"
+                        android:layout_width="@dimen/x64"
+                        android:layout_height="@dimen/y64"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/x30"
+                        android:layout_marginRight="@dimen/x30"
+                        android:background="@drawable/send_selector"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="@dimen/x26" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>
