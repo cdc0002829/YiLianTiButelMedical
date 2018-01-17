@@ -1,4 +1,4 @@
-#Tue Jan 16 16:28:40 CST 2018
+#Wed Jan 17 15:39:53 CST 2018
 base.0=E\:\\Perforce\\005_Medical\\android\\src\\YLTButelMedical\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.1=classes.dex
 renamed.0=classes2.dex

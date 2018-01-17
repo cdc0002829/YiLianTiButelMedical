@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"נווט לדף הבית"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"‏%1$s‏, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"‏%1$s‏, %2$s‏, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"נווט למעלה"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"עוד אפשרויות"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"בוצע"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ראה הכל"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"בחר אפליקציה"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"כבוי"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"פועל"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"חפש…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"מחק שאילתה"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"שאילתת חיפוש"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"חפש"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"שלח שאילתה"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"חיפוש קולי"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"שתף עם"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏שתף עם %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"כווץ"</string>
+    <string name="hms_abort">"עצור"</string>
+    <string name="hms_abort_message">"להפסיק את ההורדה?"</string>
+    <string name="hms_bindfaildlg_message">"%1$s לא יכול להשתמש בשירותים הניידים של Huawei. הפעל את מנהל הטלפון או עבור אל \'הגדרות\', הפעל את כל ההרשאות עבור %2$s (כולל הפעלה אוטומטית והפעלה משנית), ונסה שוב."</string>
+    <string name="hms_cancel">"ביטול"</string>
+    <string name="hms_check_failure">"חיפוש העדכונים נכשל."</string>
+    <string name="hms_check_no_update">"אתה כבר משתמש בגרסה העדכנית ביותר."</string>
+    <string name="hms_checking">"מחפש עדכונים…"</string>
+    <string name="hms_confirm">"אישור"</string>
+    <string name="hms_download_failure">"נכשלה ההורדה של חבילת Huawei Mobile Services."</string>
+    <string name="hms_download_no_space">"אין מספיק מקום פנוי. אין אפשרות להשלים את ההורדה."</string>
+    <string name="hms_download_retry">"ההורדה נכשלה. האם לנסות שנית?"</string>
+    <string name="hms_downloading">"מוריד את Huawei Mobile Services | התקדמות: ‪‎%d%%‬"</string>
+    <string name="hms_downloading_new">"הורדת HMS"</string>
+    <string name="hms_install">"התקן"</string>
+    <string name="hms_install_message">"יש להתקין את השירותים הניידים של Huawei כדי להשתמש בתכונה זו. להתקין?"</string>
+    <string name="hms_retry">"נסה שוב"</string>
+    <string name="hms_update">"עדכון"</string>
+    <string name="hms_update_message">"עדכן לגרסה העדכנית ביותר של Huawei Mobile Services כדי להשתמש בתכונה זו. לעדכן עכשיו?"</string>
+    <string name="hms_update_message_new">"לשירות זה דרושה הגרסה האחרונה של היישום:\n\n%1$s"</string>
+    <string name="hms_update_title">"Huawei Mobile Services"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"חפש"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"‎999+‎"</string>
+</resources>
