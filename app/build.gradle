@@ -33,8 +33,10 @@ android {
         applicationId "cn.redcdn.hvs"
         minSdkVersion 16
         targetSdkVersion 23
-        versionCode APP_CODE.toInteger() 
+        versionCode APP_CODE 
         versionName APP_VERSION
+        resValue("string", 'app_version', APP_VERSION)
+        resValue("int", 'app_code', APP_CODE)
         generatedDensities = []
         signingConfig signingConfigs.signingConfig
         multiDexEnabled true
