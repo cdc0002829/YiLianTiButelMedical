@@ -29,6 +29,7 @@ import cn.redcdn.crash.Crash;
 import cn.redcdn.datacenter.config.ConstConfig;
 import cn.redcdn.datacenter.meetingmanage.AcquireParameter;
 import cn.redcdn.hvs.AccountManager;
+import cn.redcdn.hvs.BuildConfig;
 import cn.redcdn.hvs.appinstall.InstallCallBackListerner;
 import cn.redcdn.hvs.appinstall.MeetingVersionManager;
 import cn.redcdn.hvs.config.NpsParamConfig;
@@ -65,8 +66,8 @@ public abstract class BootManager {
     public static final int MSG_BOOT_FAILED = 0x00000012; // 启动失败
 
     //测试网
-    private  static  String logAppkey = "0fc3b5c43f8d44fdbbad7f7e233f6e9e";
-    private  static  String logUrl = "http://testmedical.butel.com:8189/MedicalLogMonitor/external/";
+    private  static  String logAppkey = BuildConfig.APPKEY;
+    private  static  String logUrl = BuildConfig.API_SERVER_URL_MALL;
 
     //现网
 //    private  static  String logAppkey = "0ea8689329a446a5b67fc360ef195fc4";

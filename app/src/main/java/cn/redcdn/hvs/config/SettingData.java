@@ -20,6 +20,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 import cn.redcdn.datacenter.config.ConstConfig;
+import cn.redcdn.hvs.BuildConfig;
 import cn.redcdn.hvs.MedicalApplication;
 import cn.redcdn.log.CustomLog;
 
@@ -40,9 +41,9 @@ public class SettingData {
     public String SLAVE_MS_URL = "103.25.23.103:20001"; // 从后台接口服务器地址
 
     //nps地址
-    public String NPS_URL = "http://175.102.132.82:8018/nps_x1/";//"http://175.102.132.82:8018/nps_x1/";//"http://xmeeting.butel.com/nps_x1/";
+    public String NPS_URL = BuildConfig.API_SERVER_URL;
     //双服务器第二个nps地址
-    public String SLAVE_NPS_URL = "http://175.102.132.82:8018/nps_x1/";//http://103.25.23.83:8018/nps_x1
+    public String SLAVE_NPS_URL = BuildConfig.API_SERVER_URL;
 ////    nps地址
 //    public String NPS_URL = "http://xmeeting.butel.com/nps_x1/";
 //    //双服务器第二个nps地址
