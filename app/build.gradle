@@ -33,8 +33,8 @@ android {
         applicationId "cn.redcdn.hvs"
         minSdkVersion 16
         targetSdkVersion 23
-        versionCode APP_CODE.toInteger() 
-        versionName APP_VERSION
+        versionCode app_code.toInteger() 
+        versionName app_version
         resValue("string", 'app_version', APP_VERSION)
         resValue("string", 'app_code', APP_CODE)
         generatedDensities = []
