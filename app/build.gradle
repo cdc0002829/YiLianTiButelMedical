@@ -22,7 +22,7 @@ android {
         signingConfig {
             keyAlias 'x1app'
             keyPassword 'shanghaidev'
-            storeFile file('./shanghaidev')
+            storeFile file('./x1app_shanghaidev')
             storePassword 'shanghaidev'
         }
     }
