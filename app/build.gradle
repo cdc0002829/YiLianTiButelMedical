@@ -153,7 +153,7 @@ android {
                 if (variant.buildType.name.equals('debug')) {
                     newName = "${APP_VERSION}-debug.apk"
                 } else {
-                    newName = APP_VERSION + '-' + variant.productFlavors[0].name + timeNow + '-' + variant.buildType.name + '.apk'
+                    newName = "${APP_VERSION}-release.apk"
                 }
             output.outputFile = new File(outDirectory, newName)
     }
