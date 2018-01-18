@@ -74,7 +74,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             applicationVariants.all { variant ->
                 variant.outputs.each { output ->
-                    def newName= APP_VERSION+ '-' + variant.productFlavors[0].name + timeNow + '-debug.apk'
+                    def newName= APP_VERSION+'-debug.apk'
                     def timeNow=getDate()
                     def outDirectory = 'C:\\Users\\Administrator\\Desktop'
                     output.outputFile = new File(
@@ -89,7 +89,7 @@ android {
             buildConfigField 'String', 'APPKEY', DEBUG_APPKEY
             applicationVariants.all { variant ->
                 variant.outputs.each { output ->
-                    def newName=APP_VERSION+ '-' + variant.productFlavors[0].name + timeNow + '-release.apk'
+                    def newName=APP_VERSION+'-release.apk'
                     def timeNow=getDate()
                     def oldFile = output.outputFile
                     def outDirectory = 'C:\\Users\\Administrator\\Desktop'
