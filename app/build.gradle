@@ -12,7 +12,7 @@ def getDate() {
     return formattedDate
 }
 
-def verCode = 450
+def verCode = APP_CODE.toInteger()
 
 
 android {
