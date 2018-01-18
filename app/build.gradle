@@ -71,32 +71,11 @@ android {
             buildConfigField 'String', 'APPKEY', RELEASE_APPKEY
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            applicationVariants.all { variant ->
-                variant.outputs.each { output ->
-                    def newName= APP_VERSION+'-release.apk'
-                    def timeNow=getDate()
-                    def outDirectory = 'C:\\Users\\Administrator\\Desktop'
-                    output.outputFile = new File(
-                            outDirectory,
-                            newName)
-                }
-            }
         }
         debug {
             buildConfigField 'String', 'API_SERVER_URL', DEBUG_API_SERVER_URL
             buildConfigField 'String', 'API_SERVER_URL_MALL', DEBUG_API_SERVER_URL_MALL
             buildConfigField 'String', 'APPKEY', DEBUG_APPKEY
-            applicationVariants.all { variant ->
-                variant.outputs.each { output ->
-                    def newName=APP_VERSION+'-debug.apk'
-                    def timeNow=getDate()
-                    def oldFile = output.outputFile
-                    def outDirectory = 'C:\\Users\\Administrator\\Desktop'
-                    output.outputFile = new File(
-                            output.outputFile.parent,
-                            newName)
-                }
-            }
         }
     }
 
@@ -164,6 +143,21 @@ android {
         }
     }
 
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def newName
+            def timeNow=getDate()
+            def oldFile = output.outputFile
+            def outDirectory = 'C:\\Users\\Administrator\\Desktop'
+
+                if (variant.buildType.name.equals('debug')) {
+                    newName = "${APP_VERSION}-debug.apk"
+                } else {
+                    newName = APP_VERSION + '-' + variant.productFlavors[0].name + timeNow + '-' + variant.buildType.name + '.apk'
+                }
+            output.outputFile = new File(outDirectory, newName)
+    }
+  } 
 }
 
 
