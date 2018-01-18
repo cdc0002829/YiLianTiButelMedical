@@ -36,7 +36,6 @@ android {
         targetSdkVersion 23
         versionCode verCode
         versionName APP_VERSION
-        resValue("string", 'app_version', APP_VERSION)
         generatedDensities = []
         signingConfig signingConfigs.signingConfig
         multiDexEnabled true
