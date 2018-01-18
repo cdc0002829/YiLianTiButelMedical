@@ -33,7 +33,7 @@ android {
         applicationId "cn.redcdn.hvs"
         minSdkVersion 16
         targetSdkVersion 23
-        versionCode APP_CODE
+        versionCode APP_CODE.toInteger() 
         versionName APP_VERSION
         generatedDensities = []
         signingConfig signingConfigs.signingConfig
